@@ -607,7 +607,7 @@
         <form id="ld-auth-form" novalidate>
           <div class="ld-auth-field">
             <label class="ld-auth-label" for="ld-auth-user">Username</label>
-            <input id="ld-auth-user" class="ld-auth-input" type="text" placeholder="njordadev" autocomplete="username" required />
+            <input id="ld-auth-user" class="ld-auth-input" type="text" placeholder="Username" autocomplete="username" required />
           </div>
           <div class="ld-auth-field">
             <label class="ld-auth-label" for="ld-auth-pass">Password</label>
