@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LD Studio — Lumendelve Character &amp; LiveOps Suite</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23f59e0b'/%3E%3Ctext x='16' y='21' text-anchor='middle' font-family='sans-serif' font-weight='800' font-size='14' fill='%230a0f1a'%3ELD%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="studio-shell">
+    <!-- Top Bar (~48px) -->
+    <header class="studio-header">
+      <div class="brand-group">
+        <div class="brand-mark">LD</div>
+        <div class="brand-text">
+          <h1>LD Studio</h1>
+          <div class="suite-switcher" id="studio-suite-switcher" role="tablist" aria-label="LD Studio Suite">
+            <button type="button" class="suite-btn active" data-suite="character-lab" role="tab" aria-selected="true">3D Lab</button>
+            <button type="button" class="suite-btn" data-suite="liveops" role="tab" aria-selected="false">LiveOps</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4 Base Class Pills -->
+      <div class="top-class-pills" id="top-class-pills" role="group" aria-label="Base Classes">
+        <button class="class-pill" data-class="squire">Squire</button>
+        <button class="class-pill" data-class="scout">Scout</button>
+        <button class="class-pill" data-class="arcanist">Arcanist</button>
+        <button class="class-pill active" data-class="acolyte">Acolyte</button>
+      </div>
+
+      <!-- Male / Female Gender Toggle -->
+      <div class="top-gender-pills" id="top-gender-pills" role="group" aria-label="Character Gender">
+        <button class="gender-pill" data-gender="male">♂ Male</button>
+        <button class="gender-pill active" data-gender="female">♀ Female</button>
+      </div>
+
+      <!-- 5 Mode Pills -->
+      <nav class="mode-tabs" id="mode-tabs" role="tablist" aria-label="Cockpit Modes">
+        <button class="mode-tab active" data-mode="character-select" role="tab" aria-selected="true">Character Select</button>
+        <button class="mode-tab" data-mode="armor-page" role="tab" aria-selected="false">Armor Page</button>
+        <button class="mode-tab" data-mode="walking" role="tab" aria-selected="false">Walk / Run</button>
+        <button class="mode-tab" data-mode="battle-mode" role="tab" aria-selected="false">Battle Mode</button>
+        <button class="mode-tab" data-mode="character-sheet" role="tab" aria-selected="false">Character Sheet</button>
+      </nav>
+
+      <span id="liveops-header-pill" class="liveops-header-pill hidden">GM &amp; Game Data Console • Live Sync</span>
+
+      <div class="header-actions">
+        <span id="staging-header-pill" class="badge badge-amber staging-header-pill" title="Stage 1 Modular Weapons, FlyFF Animations & VFX Preview">STAGING · VFX</span>
+        <span id="catalog-status-pill" class="status-pill">Loading…</span>
+        <button id="open-import-modal-btn" class="btn btn-sm btn-amber" title="Import and render a 3D model via Blender">
+          + Import 3D
+        </button>
+      </div>
+    </header>
+
+    <!-- 3-Column 100vh Zero-Scroll Bento Workspace (3D Character & Asset Lab) -->
+    <main id="character-lab-workspace" class="bento-workspace">
+      <!-- LEFT RAIL: Class Armor & Level Requirements -->
+      <aside class="bento-card left-rail" aria-label="Class Armor and Level Requirements">
+        <div class="rail-head">
+          <div class="rail-title-row">
+            <h2 class="rail-title">Class Armor &amp; Lv. Req</h2>
+            <span id="left-class-badge" class="badge badge-cyan">Acolyte</span>
+          </div>
+          <div class="slot-filter-row" id="slot-filter-pills" role="group" aria-label="Filter items by slot">
+            <button class="filter-pill active" data-slot-filter="all">All</button>
+            <button class="filter-pill" data-slot-filter="armor">Armor</button>
+            <button class="filter-pill" data-slot-filter="weapons">Weapons</button>
+            <span id="item-count-badge" class="count-chip">0</span>
+          </div>
+          <div class="pool-filter-row" id="pool-filter-pills" role="group" aria-label="Filter items by pool">
+            <button class="filter-pill active" data-pool-filter="all">All Pools</button>
+            <button class="filter-pill" data-pool-filter="sets">Class Sets</button>
+            <button class="filter-pill rarity-text-common" data-pool-filter="common">Common</button>
+            <button class="filter-pill rarity-text-uncommon" data-pool-filter="uncommon">Uncommon</button>
+          </div>
+          <div class="pool-filter-row hidden" id="weapon-rarity-pills" role="group" aria-label="Filter weapons by rarity">
+            <button class="filter-pill active" data-weapon-rarity="all">All</button>
+            <button class="filter-pill rarity-text-common" data-weapon-rarity="common">Common</button>
+            <button class="filter-pill rarity-text-uncommon" data-weapon-rarity="uncommon">Uncommon</button>
+            <button class="filter-pill rarity-text-epic" data-weapon-rarity="epic">Unique</button>
+            <button class="filter-pill rarity-text-mythic" data-weapon-rarity="mythic">Ultimate</button>
+          </div>
+          <div class="band-filter-row" id="level-band-pills" role="group" aria-label="Filter items by city level band">
+            <button class="tier-chip active" data-band-filter="all">All Lv</button>
+            <button class="tier-chip" data-band-filter="1-20">1-20</button>
+            <button class="tier-chip" data-band-filter="21-40">21-40</button>
+            <button class="tier-chip" data-band-filter="41-64">41-64</button>
+            <button class="tier-chip" data-band-filter="65-84">65-84</button>
+            <button class="tier-chip" data-band-filter="85-100">85-100</button>
+          </div>
+          <div class="tier-search-row">
+            <input id="item-search-input" type="search" class="compact-input" placeholder="Search gear or Lv…" aria-label="Search class gear" />
+            <div class="tier-mini-pills" id="tier-filter-pills" title="Filter by 3D armor tier">
+              <button class="tier-chip active" data-tier-filter="all">All</button>
+              <button class="tier-chip" data-tier-filter="Tier_Lv1">1</button>
+              <button class="tier-chip" data-tier-filter="Tier_Lv15">15</button>
+              <button class="tier-chip" data-tier-filter="Tier_Lv30">30</button>
+              <button class="tier-chip" data-tier-filter="Tier_Lv50">50</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Internal scroll only inside this list -->
+        <div id="catalog-items-list" class="catalog-items-list" role="listbox" aria-label="Compatible Gear"></div>
+
+        <!-- Pinned Active Loadout Summary -->
+        <div class="loadout-summary-card" id="loadout-summary-card">
+          <div class="loadout-head">
+            <span class="loadout-label">Active 3D Loadout</span>
+            <span id="active-tier-pill" class="lv-badge lv-tier-50">Tier_Lv50</span>
+          </div>
+          <div id="loadout-active-item" class="loadout-active-item">Starter Gear • Click any item above</div>
+          <div id="loadout-armor-slots" class="loadout-armor-slots" aria-label="Equipped Armor Slots"></div>
+          <div id="loadout-weapon-slots" class="loadout-weapon-slots" aria-label="Equipped Weapon Slots"></div>
+          <div id="loadout-stats-strip" class="loadout-stats-strip"></div>
+          <div class="loadout-tier-quick">
+            <button class="mini-tier-btn" data-equip-tier="Tier_Lv1">Lv.1</button>
+            <button class="mini-tier-btn" data-equip-tier="Tier_Lv15">Lv.15</button>
+            <button class="mini-tier-btn" data-equip-tier="Tier_Lv30">Lv.30</button>
+            <button class="mini-tier-btn active" data-equip-tier="Tier_Lv50">Lv.50</button>
+            <button id="clear-loadout-btn" class="mini-tier-btn ghost" title="Strip equipped armor to base undergarment">Reset</button>
+          </div>
+        </div>
+      </aside>
+
+      <!-- CENTER STAGE: Live 60fps Three.js Viewport + Mode Overlays -->
+      <section class="bento-card center-stage" id="center-stage">
+        <canvas id="three-stage-canvas"></canvas>
+
+        <!-- Dynamic Projected Markers (Mob HP Bars & Floating Damage Popups) -->
+        <div id="stage-world-markers" class="stage-world-markers" aria-hidden="true"></div>
+        <div id="stage-damage-layer" class="stage-damage-layer" aria-hidden="true"></div>
+
+        <!-- Top Stage Meta Pill -->
+        <div class="stage-top-meta">
+          <div class="stage-chip" id="stage-hero-chip">
+            <span class="dot-live"></span>
+            <strong id="stage-class-label">Acolyte</strong>
+            <span id="stage-gender-label" class="stage-gender-tag">♀</span>
+            <span>•</span>
+            <span id="stage-tier-label">Lv.50</span>
+            <span>•</span>
+            <span id="stage-style-label">Flyff Universe</span>
+          </div>
+          <div class="stage-meta-right">
+            <div class="stage-weapon-pill" id="stage-weapon-switcher" role="group" aria-label="Class Weapon">
+              <span class="stage-weapon-kicker">Weapon</span>
+              <button type="button" class="seg-btn active" data-weapon-variant="A">2H Stick</button>
+              <button type="button" class="seg-btn" data-weapon-variant="B">Gauntlets</button>
+            </div>
+            <span id="stage-weapon-scaling-badge" class="badge badge-cyan stage-scaling-badge" title="Active weapon primary scaling stat">Magic Attack</span>
+            <div class="stage-weapon-pill stage-sub-pill hidden" id="stage-reaver-pill" role="group" aria-label="Reaver Dual Pairing">
+              <span class="stage-weapon-kicker">Reaver</span>
+              <button type="button" class="seg-btn" data-reaver-pair="swd_swd">Swd+Swd</button>
+              <button type="button" class="seg-btn active" data-reaver-pair="swd_axe">Swd+Axe</button>
+              <button type="button" class="seg-btn" data-reaver-pair="axe_axe">Axe+Axe</button>
+            </div>
+            <div class="stage-weapon-pill stage-sub-pill hidden" id="stage-staff-elem-pill" role="group" aria-label="Staff Majority Element Attunement">
+              <span class="stage-weapon-kicker" title="Staff auto-attacks deal 1.0x neutral damage and visually attune to your majority equipped spell element">Attune ⓘ</span>
+              <button type="button" class="seg-btn active" data-staff-elem="fire">Fire</button>
+              <button type="button" class="seg-btn" data-staff-elem="water">Water</button>
+              <button type="button" class="seg-btn" data-staff-elem="ice">Ice</button>
+              <button type="button" class="seg-btn" data-staff-elem="lightning">Bolt</button>
+              <button type="button" class="seg-btn" data-staff-elem="wind">Wind</button>
+              <button type="button" class="seg-btn" data-staff-elem="arcane">Arcane</button>
+            </div>
+            <div id="stage-loading-pill" class="stage-chip hidden">Loading 3D Rig…</div>
+          </div>
+        </div>
+
+        <!-- MODE 1: Character Select Overlay (Bottom 4-Class Bento Cards) -->
+        <div id="overlay-character-select" class="mode-overlay overlay-char-select">
+          <div class="cs-banner">
+            <span class="cs-kicker">4 Rigged Base Classes • 17-Bone GLB</span>
+            <span class="cs-hint">Drag to Orbit 3D Hero • Click a class card to deploy</span>
+          </div>
+          <div id="cs-class-cards" class="cs-class-cards"></div>
+        </div>
+
+        <!-- MODE 2: Armor Page Overlay -->
+        <div id="overlay-armor-page" class="mode-overlay overlay-armor hidden">
+          <div class="floating-toolbar top-center armor-top-toolbar">
+            <span class="tb-label">Tier</span>
+            <div class="seg-group" id="armor-tier-switcher">
+              <button class="seg-btn" data-tier="Tier_Lv1">Lv1</button>
+              <button class="seg-btn" data-tier="Tier_Lv15">Lv15</button>
+              <button class="seg-btn" data-tier="Tier_Lv30">Lv30</button>
+              <button class="seg-btn active" data-tier="Tier_Lv50">Lv50</button>
+            </div>
+            <div class="tb-divider"></div>
+            <span class="tb-label">Weapon</span>
+            <div class="seg-group" id="armor-weapon-switcher" role="group" aria-label="Armor Page Weapon">
+              <button type="button" class="seg-btn active" data-weapon-variant="A">Dual Stick</button>
+              <button type="button" class="seg-btn" data-weapon-variant="B">Gauntlets</button>
+            </div>
+            <div class="tb-divider"></div>
+            <button id="stance-mode-btn" type="button" class="tb-toggle-btn" data-stance-toggle title="Toggle Peace vs Combat Stance">Peace</button>
+            <div class="tb-divider"></div>
+            <button id="armor-wireframe-btn" class="tb-toggle-btn">Wireframe</button>
+            <button id="armor-outline-btn" class="tb-toggle-btn active">Outline</button>
+            <span id="armor-mesh-stats" class="tb-stat-badge">17 Bones</span>
+          </div>
+
+          <div class="floating-toolbar bottom-center">
+            <button class="cam-preset-btn" data-cam-preset="face" data-cam="face">Face</button>
+            <button class="cam-preset-btn" data-cam-preset="front">Front</button>
+            <button class="cam-preset-btn" data-cam-preset="hero">3/4 Hero</button>
+            <button class="cam-preset-btn" data-cam-preset="side">Profile</button>
+            <button class="cam-preset-btn" data-cam-preset="back">Battle-Back</button>
+            <span class="tb-hint">Orbit: Left Drag • Zoom: Wheel • Pan: Right Drag</span>
+          </div>
+        </div>
+
+        <!-- MODE 3: Walk / Run Overlay -->
+        <div id="overlay-walking" class="mode-overlay overlay-walking hidden">
+          <div class="floating-toolbar top-center walking-top-toolbar">
+            <span class="tb-label">Clip</span>
+            <div class="seg-group" id="walk-clip-switcher">
+              <button class="seg-btn" data-clip="Idle">Idle</button>
+              <button class="seg-btn active" data-clip="Walk">Walk</button>
+              <button class="seg-btn" data-clip="Run">Run</button>
+              <button class="seg-btn" data-clip="AutoChain">3-Hit Auto</button>
+            </div>
+            <select id="walk-skill-select" class="tb-select" title="Preview Weapon-Locked Glyphs & Stages" style="background:#161b26;color:#e6edf7;border:1px solid #2d384f;border-radius:6px;padding:4px 8px;font-size:12px;">
+              <option value="">Weapon Glyphs...</option>
+            </select>
+            <select id="walk-tier-select" class="tb-tier-select" title="Glyph VFX Tier">
+              <option value="1">T1</option>
+              <option value="2">T2</option>
+              <option value="3">T3</option>
+              <option value="4">T4</option>
+              <option value="5" selected>T5</option>
+            </select>
+            <button id="walk-skill-play-btn" type="button" class="btn btn-sm">Play</button>
+            <div class="tb-divider"></div>
+            <button id="walk-stance-btn" type="button" class="tb-toggle-btn" data-stance-toggle title="Toggle Peace vs Combat Stance">Peace</button>
+            <button id="walk-jump-btn" class="tb-toggle-btn" title="Trigger Flyff Bunny-Hop Jump (Space)">Jump [Space]</button>
+            <div class="tb-divider"></div>
+            <label class="tb-slider-wrap" for="walk-speed-slider">
+              <span class="tb-label">Speed</span>
+              <input id="walk-speed-slider" type="range" min="0.25" max="2.5" step="0.05" value="1" />
+              <span id="walk-speed-val" class="tb-mono">1.00×</span>
+            </label>
+            <div class="tb-divider"></div>
+            <button id="walk-grid-toggle" class="tb-toggle-btn active">Floor Grid</button>
+          </div>
+          <div class="floating-toolbar bottom-center">
+            <span id="walk-status-badge" class="tb-stat-badge">Click-to-Move • WASD / Arrows • Space Bunny-Hop</span>
+          </div>
+        </div>
+
+        <!-- MODE 4: Battle Mode Overlay (2 Sub-Modes) -->
+        <div id="overlay-battle-mode" class="mode-overlay overlay-battle hidden">
+          <!-- Sub-Mode Toggle at top of Battle Mode -->
+          <div class="battle-submode-bar">
+            <div class="seg-group" id="battle-submode-switcher">
+              <button class="seg-btn active" data-battle-sub="grinding">Live Grinding</button>
+              <button class="seg-btn" data-battle-sub="boss">Turn-Based Boss</button>
+            </div>
+            <div style="display:flex;align-items:center;gap:6px;margin-left:10px;">
+              <button id="battle-auto-preview-btn" type="button" class="btn btn-sm btn-amber" title="Preview 3-Hit Weapon Auto Attack Chain">3-Hit Auto</button>
+              <select id="battle-skill-select" class="tb-select" title="Preview Weapon-Locked Glyphs in Battle" style="background:#161b26;color:#e6edf7;border:1px solid #2d384f;border-radius:6px;padding:4px 8px;font-size:12px;">
+                <option value="">Weapon Glyphs...</option>
+              </select>
+              <select id="battle-tier-select" class="tb-tier-select" title="Glyph VFX Tier">
+                <option value="1">T1</option>
+                <option value="2">T2</option>
+                <option value="3">T3</option>
+                <option value="4">T4</option>
+                <option value="5" selected>T5</option>
+              </select>
+              <button id="battle-skill-play-btn" type="button" class="btn btn-sm">Play</button>
+            </div>
+          </div>
+
+          <!-- Sub-Mode 4A: Tap-to-Target Grinding HUD -->
+          <div id="battle-grinding-hud" class="battle-grinding-hud">
+            <div class="grind-top-pill">
+              <span class="grind-tip">Click / Tap any 3D mob in the arena to run &amp; attack!</span>
+              <div class="grind-quick-targets">
+                <button class="grind-target-chip" data-target-mob="slime">[1] Slime</button>
+                <button class="grind-target-chip" data-target-mob="wisp">[2] Wisp</button>
+                <button class="grind-target-chip" data-target-mob="golem">[3] Golem</button>
+              </div>
+            </div>
+            <div class="grind-bottom-bar">
+              <div class="grind-stat"><span>Target</span><strong id="grind-target-name">None (Tap a Mob)</strong></div>
+              <div class="grind-stat"><span>Hero State</span><strong id="grind-hero-state">Idle</strong></div>
+              <div class="grind-stat"><span>Defeated</span><strong id="grind-kill-count">0</strong></div>
+              <div class="grind-stat"><span>Total DMG</span><strong id="grind-dmg-total">0</strong></div>
+              <button id="grind-reset-btn" class="btn btn-sm">Respawn All</button>
+            </div>
+          </div>
+
+          <!-- Sub-Mode 4B: Turn-Based Boss HUD -->
+          <div id="battle-boss-hud" class="battle-boss-hud hidden">
+            <div class="boss-top-deck">
+              <div class="turn-order-card">
+                <div class="turn-head">
+                  <span class="tb-label">Turn Order Speed</span>
+                  <span id="boss-turn-badge" class="badge badge-cyan">Turn 1</span>
+                </div>
+                <div id="boss-turn-tokens" class="turn-tokens-row"></div>
+              </div>
+
+              <div class="boss-hp-card">
+                <div class="hp-head">
+                  <strong>Archon of the Rift</strong>
+                  <span id="boss-intent-badge" class="badge badge-rose">CHARGING</span>
+                </div>
+                <div class="hp-track">
+                  <div id="boss-hp-fill" class="hp-fill boss" style="width: 100%"></div>
+                </div>
+                <div class="hp-meta">
+                  <span id="boss-hp-text">1200 / 1200 HP</span>
+                  <span>Lv.50 Rift Boss</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="boss-bottom-deck">
+              <div class="hero-hp-card">
+                <div class="hp-head">
+                  <strong id="boss-hero-name">Squire</strong>
+                  <span id="boss-hero-ward-badge" class="badge badge-amber hidden">Ward +0</span>
+                </div>
+                <div class="hp-track">
+                  <div id="boss-hero-hp-fill" class="hp-fill hero" style="width: 100%"></div>
+                  <div id="boss-hero-ward-fill" class="hp-ward-fill" style="width: 0%"></div>
+                </div>
+                <div class="hp-meta">
+                  <span id="boss-hero-hp-text">520 / 520 HP</span>
+                  <span id="boss-phase-text">Hero Ready</span>
+                </div>
+              </div>
+
+              <!-- 6-Slot Action Bar -->
+              <div class="boss-action-bar" id="boss-action-bar">
+                <button class="boss-slot-btn" data-boss-action="slash">
+                  <span class="slot-key">1</span>
+                  <strong id="boss-auto-atk-name">Weapon Auto</strong>
+                  <span id="boss-auto-atk-sub">3-Hit Chain</span>
+                </button>
+                <button class="boss-slot-btn skill" data-boss-action="skill">
+                  <span class="slot-key">2</span>
+                  <strong id="boss-class-skill-name">Class Skill</strong>
+                  <span>Signature</span>
+                </button>
+                <button class="boss-slot-btn guard" data-boss-action="guard">
+                  <span class="slot-key">3</span>
+                  <strong>Guard</strong>
+                  <span>+Ward &amp; 60% DR</span>
+                </button>
+                <button class="boss-slot-btn burst" data-boss-action="burst">
+                  <span class="slot-key">4</span>
+                  <strong>Burst</strong>
+                  <span id="boss-burst-sub">Ultimate</span>
+                </button>
+                <button id="boss-auto-btn" class="boss-slot-btn toggle" data-boss-action="auto">
+                  <span class="slot-key">5</span>
+                  <strong>Auto</strong>
+                  <span id="boss-auto-state">OFF</span>
+                </button>
+                <button class="boss-slot-btn reset" data-boss-action="reset">
+                  <span class="slot-key">6</span>
+                  <strong>Reset</strong>
+                  <span>New Fight</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Ground Loot & Beams Dock (Bottom-docked cleanly so arena & mob HP stay clear) -->
+          <div id="battle-loot-dock" class="battle-loot-dock interactive-card">
+            <div class="loot-dock-head">
+              <div class="loot-dock-title-wrap">
+                <strong class="loot-dock-title">Ground Loot &amp; Beams</strong>
+                <span id="loot-dock-count" class="badge badge-cyan">0 drops</span>
+              </div>
+              <div class="loot-dock-head-actions">
+                <div class="seg-group" id="loot-backdrop-switcher" title="Arena contrast backdrop">
+                  <button type="button" class="seg-btn active" data-arena-light="day">Day</button>
+                  <button type="button" class="seg-btn" data-arena-light="dusk">Dusk</button>
+                  <button type="button" class="seg-btn" data-arena-light="night">Night</button>
+                </div>
+                <button type="button" id="loot-dock-toggle" class="mini-link-btn">Hide</button>
+              </div>
+            </div>
+            <div id="loot-dock-body" class="loot-dock-body">
+              <div class="loot-dock-spawns">
+                <button type="button" class="loot-pill rarity-common" data-spawn-rarity="common">Common</button>
+                <button type="button" class="loot-pill rarity-uncommon" data-spawn-rarity="uncommon">Uncommon</button>
+                <button type="button" class="loot-pill rarity-rare" data-spawn-rarity="rare">Rare</button>
+                <button type="button" class="loot-pill rarity-epic" data-spawn-rarity="epic">Unique</button>
+                <button type="button" class="loot-pill rarity-mythic" data-spawn-rarity="mythic">Ultimate</button>
+                <button type="button" id="loot-spawn-burst-btn" class="btn btn-sm btn-amber">Boss Burst</button>
+                <button type="button" id="loot-spawn-12-btn" class="btn btn-sm">12 Meshes</button>
+                <button type="button" id="loot-all-btn" class="btn btn-sm">Loot All</button>
+                <button type="button" id="loot-clear-btn" class="btn btn-sm">Clear</button>
+              </div>
+              <div class="loot-dock-controls">
+                <label class="loot-slider"><span>Beam H</span><input id="loot-beam-height" type="range" min="0.4" max="1.5" step="0.05" value="1.0" /><code id="loot-beam-height-val">1.00×</code></label>
+                <label class="loot-slider"><span>Glow</span><input id="loot-beam-glow" type="range" min="0.3" max="1.8" step="0.05" value="1.0" /><code id="loot-beam-glow-val">1.00×</code></label>
+                <label class="loot-check"><input id="loot-auto-pickup" type="checkbox" checked /><span>Auto-Pick</span></label>
+                <label class="loot-slider"><span>SFX</span><input id="loot-sfx-vol" type="range" min="0" max="1" step="0.05" value="0.8" /></label>
+                <button type="button" id="loot-sfx-mute" class="tier-chip" title="Toggle loot chime SFX">Sound On</button>
+                <div class="loot-chime-auditions" title="Audition synthesized .wav chimes">
+                  <button type="button" class="tier-chip" data-audition-sfx="drop_coin">Coin</button>
+                  <button type="button" class="tier-chip" data-audition-sfx="drop_common">C</button>
+                  <button type="button" class="tier-chip" data-audition-sfx="drop_uncommon">U</button>
+                  <button type="button" class="tier-chip" data-audition-sfx="drop_rare">R</button>
+                  <button type="button" class="tier-chip" data-audition-sfx="drop_epic">E</button>
+                  <button type="button" class="tier-chip" data-audition-sfx="drop_mythic">M</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="battle-loot-toasts" class="battle-loot-toasts"></div>
+        </div>
+
+        <!-- MODE 5: Character Sheet Overlay (Single-Screen Summary alongside Live 3D Model) -->
+        <div id="overlay-character-sheet" class="mode-overlay overlay-sheet hidden">
+          <div class="sheet-card">
+            <div class="sheet-header">
+              <div>
+                <h3 id="sheet-class-title">Squire</h3>
+                <div id="sheet-class-sub" class="sheet-sub">Frontline Melee • Heavy Armor • Tier_Lv1</div>
+              </div>
+              <button id="sheet-export-png-btn" class="btn btn-sm btn-amber">Snapshot PNG</button>
+            </div>
+
+            <div class="sheet-section">
+              <div class="sheet-section-title">Combat Stats (engine formulas)</div>
+              <div id="sheet-stats-grid" class="sheet-stats-grid"></div>
+            </div>
+
+            <div class="sheet-section">
+              <div class="sheet-section-title">Set Balance</div>
+              <div id="sheet-balance" class="sheet-balance"></div>
+            </div>
+
+            <div class="sheet-section">
+              <div class="sheet-section-title">Equipped Gear &amp; Lv. Req</div>
+              <div id="sheet-equipped-list" class="sheet-equipped-list"></div>
+            </div>
+
+            <div class="sheet-footer-row">
+              <div>
+                <div class="sheet-section-title">Active Flyff Style</div>
+                <div id="sheet-style-name" class="sheet-style-pill">Flyff Universe</div>
+              </div>
+              <div class="sheet-swatches-wrap">
+                <div class="sheet-section-title">6 Material Dyes</div>
+                <div id="sheet-dye-swatches" class="sheet-dye-swatches"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- RIGHT RAIL: Face, Color & Camera Options -->
+      <aside id="right-rail" class="bento-card right-rail" aria-label="Face, Color, and Camera Options">
+
+        <section class="rail-section">
+          <div class="rail-title-row">
+            <h2 class="rail-title">10 Faces (5M / 5F)</h2>
+            <span id="right-face-label" class="badge badge-cyan">F1 · Madrigal</span>
+          </div>
+          <div id="right-face-grid" class="face-pill-grid"></div>
+        </section>
+
+        <section class="rail-section">
+          <div class="rail-title-row">
+            <h2 class="rail-title">Color &amp; Dye</h2>
+            <button id="reset-class-colors-btn" type="button" class="mini-link-btn" title="Restore class default GLB colors">Class Default</button>
+          </div>
+          <div id="dye-target-pills" class="dye-target-pills" role="group" aria-label="Dye Target Slot">
+            <button type="button" class="dye-target-btn active" data-dye-target="all">All</button>
+            <button type="button" class="dye-target-btn" data-dye-target="helmet">Helm</button>
+            <button type="button" class="dye-target-btn" data-dye-target="shoulders">Shldr</button>
+            <button type="button" class="dye-target-btn" data-dye-target="chest">Chest</button>
+            <button type="button" class="dye-target-btn" data-dye-target="gloves">Gloves</button>
+            <button type="button" class="dye-target-btn" data-dye-target="legs">Legs</button>
+            <button type="button" class="dye-target-btn" data-dye-target="boots">Boots</button>
+          </div>
+          <div class="dye-actions-row">
+            <button id="apply-dye-all-btn" type="button" class="dye-action-btn" title="Apply current colors uniformly to body and all 6 armor slots">Apply to All</button>
+            <button id="reset-armor-colors-btn" type="button" class="dye-action-btn" title="Restore each equipped armor piece to its native palette">Reset Armor</button>
+          </div>
+          <div id="color-pickers-grid" class="color-pickers-grid"></div>
+          <div id="palette-presets-grid" class="palette-presets-grid"></div>
+          <p class="dye-armor-only-note">Free dyes customize armor only — weapons keep their locked iconic finishes.</p>
+        </section>
+
+        <section class="rail-section rail-camera-section">
+          <div class="rail-title-row">
+            <h2 class="rail-title">Camera &amp; Outline</h2>
+          </div>
+          <div class="toggle-grid">
+            <button id="right-outline-toggle" class="rail-toggle active">
+              <span>Outline (#1A1512)</span>
+              <span class="pill-state" id="right-outline-state">ON</span>
+            </button>
+            <button id="right-autorotate-toggle" class="rail-toggle">
+              <span>Auto-Rotate</span>
+              <span class="pill-state" id="right-autorotate-state">OFF</span>
+            </button>
+          </div>
+          <div class="cam-action-row">
+            <button id="right-face-camera-btn" class="btn btn-sm" data-cam-preset="face" data-cam="face">Face Close-Up</button>
+            <button id="right-reset-camera-btn" class="btn btn-sm">Reset Camera</button>
+          </div>
+        </section>
+      </aside>
+    </main>
+
+    <!-- 3-Column 100vh Zero-Scroll Bento Workspace (LD Studio LiveOps Suite) -->
+    <main id="ld-ops-workspace" class="bento-workspace ld-ops-workspace hidden" aria-label="LD Studio LiveOps Console"></main>
+  </div>
+
+  <!-- + Import 3D Modal (Wired to POST /api/import-render) -->
+  <div id="import-modal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="import-modal-title">
+    <div class="modal-card">
+      <div class="modal-header-row">
+        <div>
+          <h3 id="import-modal-title" class="modal-title">Import &amp; Render 3D Model</h3>
+          <div class="modal-subtitle">
+            Renders <code>.blend</code>, <code>.glb</code>, <code>.gltf</code>, <code>.fbx</code>, or <code>.obj</code> via Blender + QC validation.
+          </div>
+        </div>
+        <button id="import-close-x-btn" class="btn btn-sm" aria-label="Close modal">✕</button>
+      </div>
+
+      <form id="import-render-form" class="import-form">
+        <div class="seg-group" id="import-source-tabs">
+          <button type="button" class="seg-btn active" data-import-source="file">Upload File (Base64)</button>
+          <button type="button" class="seg-btn" data-import-source="local">Local File Path</button>
+        </div>
+
+        <div id="import-file-panel" class="import-source-panel">
+          <label for="import-file-input" class="file-dropzone" id="import-dropzone">
+            <input id="import-file-input" type="file" accept=".blend,.glb,.gltf,.fbx,.obj" class="file-input-hidden" />
+            <strong id="import-file-title">Choose or drop a 3D model file</strong>
+            <span id="import-file-meta">Supports .blend, .glb, .gltf, .fbx, .obj (max 50 MB)</span>
+          </label>
+        </div>
+
+        <div id="import-local-panel" class="import-source-panel hidden">
+          <label class="field-label" for="import-local-path">Local Model Path (repo-relative or absolute)</label>
+          <input id="import-local-path" type="text" class="studio-input" placeholder="e.g. scripts/blender-workshop/imports/paladin_shield.glb" />
+        </div>
+
+        <div class="import-fields-grid">
+          <div class="field-group">
+            <label class="field-label" for="import-asset-id">Asset ID</label>
+            <input id="import-asset-id" type="text" class="studio-input" placeholder="e.g. paladin-aegis-shield" pattern="[a-zA-Z0-9._-]+" required />
+          </div>
+
+          <div class="field-group">
+            <label class="field-label" for="import-slot">Target Slot</label>
+            <select id="import-slot" class="studio-select">
+              <option value="head">head (Helm / Hat)</option>
+              <option value="chest">chest (Cuirass / Robe)</option>
+              <option value="shoulders">shoulders (Pauldrons)</option>
+              <option value="hands">hands (Gauntlets / Gloves)</option>
+              <option value="legs">legs (Greaves / Trousers)</option>
+              <option value="feet">feet (Sabatons / Boots)</option>
+              <option value="mainhand" selected>mainhand (Primary Weapon)</option>
+              <option value="offhand">offhand (Shield / Tome)</option>
+              <option value="backpiece">backpiece (Cape / Wings)</option>
+              <option value="aura">aura (Aura Effect)</option>
+              <option value="hair">hair (Hair Style)</option>
+            </select>
+          </div>
+
+          <div class="field-group">
+            <label class="field-label" for="import-angle">Render Angle</label>
+            <select id="import-angle" class="studio-select">
+              <option value="both" selected>both (Front + Battle-Back)</option>
+              <option value="front">front</option>
+              <option value="battle-back">battle-back</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="import-checkboxes">
+          <label class="check-row">
+            <input id="import-holdout" type="checkbox" />
+            <span><strong>Holdout Mannequin</strong> — Occlude armor behind body silhouette</span>
+          </label>
+          <label class="check-row">
+            <input id="import-autofit" type="checkbox" checked />
+            <span><strong>Auto-Fit</strong> — Scale &amp; align prop to Lumendelve slot bounds</span>
+          </label>
+        </div>
+
+        <div id="import-result-box" class="import-result-box hidden">
+          <div class="import-result-header">
+            <span id="import-status-badge" class="badge badge-amber">RUNNING</span>
+            <span id="import-status-text">Invoking Blender render &amp; QC…</span>
+          </div>
+          <div class="import-logs-grid">
+            <div class="log-pane">
+              <div class="log-pane-title">Blender Render Log</div>
+              <pre id="import-render-log" class="log-pre"></pre>
+            </div>
+            <div class="log-pane">
+              <div class="log-pane-title">QC Validation Output</div>
+              <pre id="import-qc-log" class="log-pre"></pre>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-actions">
+          <button type="button" id="import-cancel-btn" class="btn">Close</button>
+          <button type="submit" id="import-submit-btn" class="btn btn-amber">Import &amp; Render</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast Banner -->
+  <div id="toast-banner" class="toast-banner hidden"></div>
+
+  <script src="./studio-bridge.js"></script>
+  <script type="module" src="./app.js?v=3"></script>
+</body>
+</html>

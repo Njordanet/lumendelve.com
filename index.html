@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lumendelve — Coming Soon | 3D Co-op Fantasy Action RPG</title>
+  <meta
+    name="description"
+    content="Lumendelve is a dark-fantasy cel-shaded 3D co-op action RPG for iOS and Desktop. Delve into radiant subterranean ruins, master elemental affinity, and fight together from Steel Watch to Solstice."
+  />
+  <meta name="theme-color" content="#0e0b0a" />
+  <meta property="og:title" content="Lumendelve — Coming Soon" />
+  <meta
+    property="og:description"
+    content="Descend into radiant subterranean ruins, master elemental affinity, and forge your oath across 4 hero classes, 5 cities, and 7 4m-grid delve biomes."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://lumendelve.com/" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=JetBrains+Mono:wght@500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body id="top">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Lumendelve home">
+        <span class="brand-mark" aria-hidden="true">
+          <img src="favicon.svg" alt="" width="30" height="30" />
+        </span>
+        <span class="brand-text">LUMENDELVE</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="nav-link" href="#classes">Classes</a>
+        <a class="nav-link" href="#world">World</a>
+        <a class="nav-link" href="#combat">Combat</a>
+        <span class="nav-status" aria-label="Release status: Coming Soon">Coming Soon</span>
+        <a class="studio-link" href="/studio/" title="Open LD Studio Portal">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 2L14.8 9.2L22 12L14.8 14.8L12 22L9.2 14.8L2 12L9.2 9.2Z" />
+          </svg>
+          <span>LD Studio</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section class="hero" aria-labelledby="hero-title">
+      <canvas id="lumen-embers" class="hero-canvas" aria-hidden="true"></canvas>
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-grid-overlay" aria-hidden="true"></div>
+
+      <div class="container hero-content">
+        <div class="hero-crest" aria-hidden="true">
+          <svg viewBox="0 0 96 96" width="84" height="84" fill="none">
+            <circle cx="48" cy="48" r="42" stroke="#f59e0b" stroke-opacity="0.28" stroke-width="1.5" stroke-dasharray="4 6" />
+            <circle cx="48" cy="48" r="32" fill="#1A1512" stroke="#f59e0b" stroke-width="2.5" />
+            <path d="M48 18 L53 31 L48 34 L43 31 Z" fill="#f59e0b" stroke="#1A1512" stroke-width="1.6" stroke-linejoin="round" />
+            <polygon points="48,26 65,48 48,70 31,48" fill="#fbbf24" stroke="#1A1512" stroke-width="2.5" stroke-linejoin="round" />
+            <polygon points="48,26 48,70 31,48" fill="#d97706" />
+            <polygon points="48,26 65,48 48,48" fill="#fde68a" />
+            <path d="M48 36 L50.6 45.4 L60 48 L50.6 50.6 L48 60 L45.4 50.6 L36 48 L45.4 45.4 Z" fill="#fffbeb" stroke="#1A1512" stroke-width="1.4" stroke-linejoin="round" />
+            <circle cx="24" cy="48" r="2.2" fill="#2dd4bf" />
+            <circle cx="72" cy="48" r="2.2" fill="#a78bfa" />
+          </svg>
+        </div>
+
+        <div class="status-pill" role="status">
+          <span class="status-main">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span>Coming Soon</span>
+          </span>
+          <span class="pill-divider" aria-hidden="true">•</span>
+          <span>iOS &amp; Desktop • In Active Development</span>
+        </div>
+
+        <h1 id="hero-title" class="hero-title">LUMENDELVE</h1>
+
+        <p class="hero-tagline">
+          Descend into radiant subterranean ruins, master elemental affinity, and brave seamless
+          1–4 player co-op expeditions from ironclad strongholds to shattered astral depths.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#world">
+            <span>Explore the Realms</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 12h14" />
+              <path d="m12 5 7 7-7 7" />
+            </svg>
+          </a>
+          <a class="btn btn-secondary" href="#classes">
+            <span>Meet the 4 Classes</span>
+          </a>
+        </div>
+
+        <dl class="hero-metrics" aria-label="Core game pillars">
+          <div class="metric-chip">
+            <dt>Hero Classes</dt>
+            <dd>4 Classes <span class="metric-sub">8 Specializations</span></dd>
+          </div>
+          <div class="metric-chip">
+            <dt>Living World</dt>
+            <dd>7 Biomes <span class="metric-sub">5 Walkable Cities</span></dd>
+          </div>
+          <div class="metric-chip">
+            <dt>Action Loop</dt>
+            <dd>20Hz Combat <span class="metric-sub">Perfect Parry</span></dd>
+          </div>
+          <div class="metric-chip">
+            <dt>Expeditions</dt>
+            <dd>1–4 Co-op <span class="metric-sub">Cross-Platform</span></dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- 4 Hero Classes Section -->
+    <section id="classes" class="section" aria-labelledby="classes-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-eyebrow">Champions of the Rift</span>
+          <h2 id="classes-heading" class="section-title">Four Hero Classes, Eight Paths</h2>
+          <p class="section-lead">
+            Every delver begins in a signature stronghold before branching into specialized tactical
+            disciplines through city trainers and 52 unlockable Glyphs.
+          </p>
+        </header>
+
+        <div class="classes-grid">
+          <article class="ink-card class-card" data-class="squire">
+            <div class="card-top-accent" aria-hidden="true"></div>
+            <div class="class-header">
+              <div class="class-icon" aria-hidden="true">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                  <path d="M12 7v9" />
+                  <path d="M9 11h6" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="class-name">Squire</h3>
+                <p class="class-role">Frontline Melee</p>
+              </div>
+              <span class="city-tag">Steel Watch</span>
+            </div>
+            <p class="class-desc">
+              Stalwart vanguard forged beneath the Ironspire smelters, anchoring expeditions with
+              heavy armor, disciplined guard stances, and armor-rending cleaves.
+            </p>
+            <div class="branch-list" aria-label="Squire specializations">
+              <span class="branch-pill">Aegis • Shield &amp; Barrier</span>
+              <span class="branch-pill">Reaver • Heavy Cleave</span>
+            </div>
+          </article>
+
+          <article class="ink-card class-card" data-class="scout">
+            <div class="card-top-accent" aria-hidden="true"></div>
+            <div class="class-header">
+              <div class="class-icon" aria-hidden="true">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 4 4 20" />
+                  <path d="M15 4h5v5" />
+                  <path d="M6 10c2-4 6-6 10-6" />
+                  <path d="M14 18c4-2 6-6 6-10" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="class-name">Scout</h3>
+                <p class="class-role">Agility / Speed DPS</p>
+              </div>
+              <span class="city-tag">Vesperwood</span>
+            </div>
+            <p class="class-desc">
+              Swift canopy skirmisher riding Vesperwood gales to accelerate Speed Bar tempo,
+              chain critical strikes, and pierce marked targets from range.
+            </p>
+            <div class="branch-list" aria-label="Scout specializations">
+              <span class="branch-pill">Zephyr • Gale Tempo</span>
+              <span class="branch-pill">Wayfinder • Precision Volley</span>
+            </div>
+          </article>
+
+          <article class="ink-card class-card" data-class="arcanist">
+            <div class="card-top-accent" aria-hidden="true"></div>
+            <div class="class-header">
+              <div class="class-icon" aria-hidden="true">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 19 9 12 22 5 9 12 2" />
+                  <path d="M5 9h14" />
+                  <path d="M12 2v20" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="class-name">Arcanist</h3>
+                <p class="class-role">Magic &amp; Psychic Caster</p>
+              </div>
+              <span class="city-tag">Runewick</span>
+            </div>
+            <p class="class-desc">
+              Scholar of Runewick crystalline spires refracting Fire, Ice, and psionic pressure
+              to shatter barriers and disrupt enemy turn flow.
+            </p>
+            <div class="branch-list" aria-label="Arcanist specializations">
+              <span class="branch-pill">Prismancer • Fire &amp; Ice</span>
+              <span class="branch-pill">Mindweaver • Psionic Control</span>
+            </div>
+          </article>
+
+          <article class="ink-card class-card" data-class="acolyte">
+            <div class="card-top-accent" aria-hidden="true"></div>
+            <div class="class-header">
+              <div class="class-icon" aria-hidden="true">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="4" />
+                  <path d="M12 2v3" />
+                  <path d="M12 19v3" />
+                  <path d="M4.93 4.93l2.12 2.12" />
+                  <path d="M16.95 16.95l2.12 2.12" />
+                  <path d="M2 12h3" />
+                  <path d="M19 12h3" />
+                  <path d="M4.93 19.07l2.12-2.12" />
+                  <path d="M16.95 7.05l2.12-2.12" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="class-name">Acolyte</h3>
+                <p class="class-role">Light &amp; Support</p>
+              </div>
+              <span class="city-tag">Sunhaven</span>
+            </div>
+            <p class="class-desc">
+              Devoted conduit of Sunhaven dawn-choirs weaving radiant healing surges, cleansing
+              wards, and tidal light strikes that keep parties standing in deep rifts.
+            </p>
+            <div class="branch-list" aria-label="Acolyte specializations">
+              <span class="branch-pill">Luminar • Cleansing Choir</span>
+              <span class="branch-pill">Astralyst • Radiant Hybrid</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7 Delve Biomes & 5 Cities Section -->
+    <section id="world" class="section section-alt" aria-labelledby="world-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-eyebrow">From Steel Watch to Solstice</span>
+          <h2 id="world-heading" class="section-title">Five Walkable Cities, Seven Delve Biomes</h2>
+          <p class="section-lead">
+            Meet fellow delvers inside handcrafted 45×45m cel-shaded city plazas—home to the Forge,
+            Merchant, Marketplace, Stylist, and Guild Hall—then cross the Lumen Gate into seamless
+            4m-grid procedural 3D rifts.
+          </p>
+        </header>
+
+        <div class="world-controls" role="group" aria-label="Filter realms by tier">
+          <button class="filter-btn is-active" type="button" data-realm-filter="all" aria-pressed="true">
+            All Realms
+          </button>
+          <button class="filter-btn" type="button" data-realm-filter="starter" aria-pressed="false">
+            4 Starter Strongholds
+          </button>
+          <button class="filter-btn" type="button" data-realm-filter="solstice" aria-pressed="false">
+            Solstice Convergence
+          </button>
+          <span class="controls-hint">Select any city below to spotlight its connected delve biomes</span>
+        </div>
+
+        <div class="world-atlas">
+          <!-- 5 Cities Column -->
+          <div class="cities-column">
+            <div class="panel-head">
+              <h3>5 Walkable Cities</h3>
+              <span class="mono-badge">45×45m Plazas</span>
+            </div>
+            <div class="ink-card cities-panel">
+              <div class="city-list" role="list">
+              <button class="city-row is-selected" type="button" data-city="steel_watch" data-tier="starter" aria-pressed="true">
+                <span class="city-index">01</span>
+                <span class="city-info">
+                  <strong>Steel Watch</strong>
+                  <small>Ironclad forge bastion • Squire stronghold</small>
+                </span>
+                <span class="city-arrow" aria-hidden="true">→</span>
+              </button>
+              <button class="city-row" type="button" data-city="vesperwood" data-tier="starter" aria-pressed="false">
+                <span class="city-index">02</span>
+                <span class="city-info">
+                  <strong>Vesperwood</strong>
+                  <small>High-canopy timber sanctuary • Scout stronghold</small>
+                </span>
+                <span class="city-arrow" aria-hidden="true">→</span>
+              </button>
+              <button class="city-row" type="button" data-city="runewick" data-tier="starter" aria-pressed="false">
+                <span class="city-index">03</span>
+                <span class="city-info">
+                  <strong>Runewick</strong>
+                  <small>Quartz spire library • Arcanist stronghold</small>
+                </span>
+                <span class="city-arrow" aria-hidden="true">→</span>
+              </button>
+              <button class="city-row" type="button" data-city="sunhaven" data-tier="starter" aria-pressed="false">
+                <span class="city-index">04</span>
+                <span class="city-info">
+                  <strong>Sunhaven</strong>
+                  <small>Dawnlit harbor cloister • Acolyte stronghold</small>
+                </span>
+                <span class="city-arrow" aria-hidden="true">→</span>
+              </button>
+              <button class="city-row" type="button" data-city="solstice" data-tier="solstice" aria-pressed="false">
+                <span class="city-index">05</span>
+                <span class="city-info">
+                  <strong>Solstice</strong>
+                  <small>Grand Lumen Gate nexus • Shared Lv 6–100 convergence</small>
+                </span>
+                <span class="city-arrow" aria-hidden="true">→</span>
+              </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 7 Biomes Grid -->
+          <div class="biomes-panel">
+            <div class="panel-head">
+              <h3>7 Seamless 3D Delve Biomes</h3>
+              <span class="mono-badge">4m-Grid • 9×9 Chambers</span>
+            </div>
+            <div class="biomes-grid">
+              <article class="ink-card biome-card is-highlighted" data-city="steel_watch" data-tier="starter">
+                <div class="biome-top">
+                  <span class="biome-level">Lv 1–5</span>
+                  <span class="biome-origin">Steel Watch</span>
+                </div>
+                <h4>Ironspire Vaults</h4>
+                <p>Smelting halls and riveted slag tunnels testing Physical, Earth, and Fire counters.</p>
+                <div class="elem-tags">
+                  <span class="elem-chip" data-el="physical">Physical</span>
+                  <span class="elem-chip" data-el="earth">Earth</span>
+                  <span class="elem-chip" data-el="fire">Fire</span>
+                </div>
+              </article>
+
+              <article class="ink-card biome-card" data-city="vesperwood" data-tier="starter">
+                <div class="biome-top">
+                  <span class="biome-level">Lv 1–5</span>
+                  <span class="biome-origin">Vesperwood</span>
+                </div>
+                <h4>Galehollow Canopy</h4>
+                <p>Elevated timber bridges and wind-carved hollows swept by swift aerial ambushes.</p>
+                <div class="elem-tags">
+                  <span class="elem-chip" data-el="wind">Wind</span>
+                  <span class="elem-chip" data-el="earth">Earth</span>
+                </div>
+              </article>
+
+              <article class="ink-card biome-card" data-city="runewick" data-tier="starter">
+                <div class="biome-top">
+                  <span class="biome-level">Lv 1–5</span>
+                  <span class="biome-origin">Runewick</span>
+                </div>
+                <h4>Prism Vaults</h4>
+                <p>Refracted quartz catacombs humming with unstable Fire, Ice, and psychic constructs.</p>
+                <div class="elem-tags">
+                  <span class="elem-chip" data-el="fire">Fire</span>
+                  <span class="elem-chip" data-el="ice">Ice</span>
+                </div>
+              </article>
+
+              <article class="ink-card biome-card" data-city="sunhaven" data-tier="starter">
+                <div class="biome-top">
+                  <span class="biome-level">Lv 1–5</span>
+                  <span class="biome-origin">Sunhaven</span>
+                </div>
+                <h4>Dawnlit Sanctum</h4>
+                <p>Flooded bell-cloisters where radiance clashes with encroaching shadow fissures.</p>
+                <div class="elem-tags">
+                  <span class="elem-chip" data-el="light">Light</span>
+                  <span class="elem-chip" data-el="water">Water</span>
+                  <span class="elem-chip" data-el="dark">Dark</span>
+                </div>
+              </article>
+
+              <article class="ink-card biome-card" data-city="solstice" data-tier="solstice">
+                <div class="biome-top">
+                  <span class="biome-level">Lv 6–10</span>
+                  <span class="biome-origin">Solstice</span>
+                </div>
+                <h4>Sunken Causeway</h4>
+                <p>Breached aqueducts and submerged sluiceways patrolled by tidal bell-guardians.</p>
+                <div class="elem-tags">
+                  <span class="elem-chip" data-el="water">Water</span>
+                  <span class="elem-chip" data-el="earth">Earth</span>
+                </div>
+              </article>
+
+              <article class="ink-card biome-card" data-city="solstice" data-tier="solstice">
+                <div class="biome-top">
+                  <span class="biome-level">Lv 11–15</span>
+                  <span class="biome-origin">Solstice</span>
+                </div>
+                <h4>Emberroot Hollows</h4>
+                <p>Smoldering subterranean root-altars and volcanic vents beneath Solstice Ridge.</p>
+                <div class="elem-tags">
+                  <span class="elem-chip" data-el="fire">Fire</span>
+                  <span class="elem-chip" data-el="earth">Earth</span>
+                  <span class="elem-chip" data-el="dark">Dark</span>
+                </div>
+              </article>
+
+              <article class="ink-card biome-card biome-card-wide" data-city="solstice" data-tier="solstice">
+                <div class="biome-top">
+                  <span class="biome-level">Lv 16–20+</span>
+                  <span class="biome-origin">Solstice Apex</span>
+                </div>
+                <h4>Shattered Lumenworks</h4>
+                <p>
+                  Fractured astral machinery at the heart of the convergence—unlocking high-tier
+                  rifts from Level 21 all the way to 100.
+                </p>
+                <div class="elem-tags">
+                  <span class="elem-chip" data-el="light">Light</span>
+                  <span class="elem-chip" data-el="dark">Dark</span>
+                  <span class="elem-chip" data-el="ice">Ice</span>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Real-Time + Tactical Co-op Section -->
+    <section id="combat" class="section" aria-labelledby="combat-heading">
+      <div class="container">
+        <header class="section-header">
+          <span class="section-eyebrow">20Hz Dual-Flow Combat Engine</span>
+          <h2 id="combat-heading" class="section-title">Live-Action &amp; Tactical Co-op</h2>
+          <p class="section-lead">
+            Fluid manual movement and real-time parries in 20Hz delve combat—seamlessly escalating
+            into coordinated 1–4 player boss encounters when champions breach the sanctum.
+          </p>
+        </header>
+
+        <div class="pillars-grid">
+          <article class="ink-card pillar-card">
+            <div class="pillar-badge">20Hz Simulation</div>
+            <h3>Live-Action &amp; Perfect Parry</h3>
+            <p>
+              Navigate 3D chambers via touch thumbstick, WASD, or gamepad. Read clear windup
+              telegraphs—zero floor vision cones—to time dodges or trigger a high-reward
+              <strong>Perfect Parry</strong> that opens brutal counter windows.
+            </p>
+            <ul class="pillar-specs">
+              <li>Server-authoritative 20Hz delve simulation</li>
+              <li>Clear telegraph barks &amp; windup cues</li>
+              <li>Cross-input parity across iOS &amp; Desktop</li>
+            </ul>
+          </article>
+
+          <article class="ink-card pillar-card">
+            <div class="pillar-badge">1–4 Player Co-op</div>
+            <h3>Tactical Elite &amp; Boss Encounters</h3>
+            <p>
+              Delve solo or form a 4-hero party inside any city plaza. Against elites and bosses,
+              the <strong>Speed Bar</strong> and <strong>6-Slot Glyph Action Bar</strong> unite
+              squad roles around timed shields, pushbacks, and burst windows.
+            </p>
+            <ul class="pillar-specs">
+              <li>Seamless drop-in city channels &amp; party matching</li>
+              <li>Speed Bar initiative &amp; turn manipulation</li>
+              <li>52 Lv 1–20 Glyphs + shared tactical synergies</li>
+            </ul>
+          </article>
+
+          <article class="ink-card pillar-card">
+            <div class="pillar-badge">Elemental Matrix</div>
+            <h3>Affinity Counters &amp; Cel Clarity</h3>
+            <p>
+              Built on the single-pass <strong>North Star</strong> cel-shaded pipeline with crisp
+              <code>#1A1512</code> ink silhouettes so every elemental cast, barrier, and enemy
+              threat reads cleanly in the heat of co-op combat.
+            </p>
+            <ul class="pillar-specs">
+              <li>8 affinities with 1.5× / 1.25× / 0.75× matchups</li>
+              <li>Unified cel-shaded world atlas &amp; hero shaders</li>
+              <li>Authoritative loot, forge, and player marketplace</li>
+            </ul>
+          </article>
+        </div>
+
+        <!-- Interactive Affinity Matrix Preview -->
+        <div class="ink-card affinity-panel" aria-labelledby="affinity-title">
+          <div class="affinity-header">
+            <div>
+              <h3 id="affinity-title">Elemental Affinity Matrix</h3>
+              <p>Inspect any element to preview its live damage multipliers from the engine.</p>
+            </div>
+            <div class="affinity-pills" role="group" aria-label="Select combat element">
+              <button class="affinity-btn is-active" type="button" data-element="fire" aria-pressed="true">Fire</button>
+              <button class="affinity-btn" type="button" data-element="water" aria-pressed="false">Water</button>
+              <button class="affinity-btn" type="button" data-element="ice" aria-pressed="false">Ice</button>
+              <button class="affinity-btn" type="button" data-element="earth" aria-pressed="false">Earth</button>
+              <button class="affinity-btn" type="button" data-element="wind" aria-pressed="false">Wind</button>
+              <button class="affinity-btn" type="button" data-element="light" aria-pressed="false">Light</button>
+              <button class="affinity-btn" type="button" data-element="dark" aria-pressed="false">Dark</button>
+              <button class="affinity-btn" type="button" data-element="physical" aria-pressed="false">Physical</button>
+            </div>
+          </div>
+
+          <div class="affinity-readout" id="affinity-readout" aria-live="polite">
+            <div class="affinity-stat">
+              <span class="affinity-label">Selected Affinity</span>
+              <strong class="affinity-value" id="aff-name" style="color: #f97316;">Fire</strong>
+            </div>
+            <div class="affinity-stat">
+              <span class="affinity-label">Advantage Multiplier</span>
+              <strong class="affinity-value" id="aff-strong">1.5× vs Ice, Wind</strong>
+            </div>
+            <div class="affinity-stat">
+              <span class="affinity-label">Resisted By</span>
+              <strong class="affinity-value" id="aff-weak">0.75× vs Fire, Water</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="favicon.svg" alt="" width="24" height="24" aria-hidden="true" />
+        <div>
+          <p class="footer-title">LUMENDELVE</p>
+          <p class="footer-status">Coming Soon • iOS &amp; Desktop • In Active Development</p>
+        </div>
+      </div>
+
+      <div class="footer-meta">
+        <p class="copyright">© 2026 Lumendelve. All rights reserved.</p>
+        <a class="footer-studio" href="/studio/">LD Studio</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
