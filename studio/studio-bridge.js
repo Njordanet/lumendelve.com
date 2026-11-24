@@ -4,7 +4,12 @@
   const EXPECTED_USER = 'njordadev';
   const EXPECTED_HASH_HEX = 'c3fa8f68c6660dff692dace7f41eb7543f56b0776bbe9b567b5ca42977d046d8';
   const SALT_PREFIX = 'ld-studio-salt-v1:';
-  const DEFAULT_SERVER_URL = 'http://127.0.0.1:4321';
+  const DEFAULT_SERVER_URL = 'https://studio.lumendelve.com';
+  const LOCAL_SERVER_URL = 'http://127.0.0.1:4321';
+  const SERVER_PRESETS = [
+    { label: 'Remote (studio.lumendelve.com)', url: DEFAULT_SERVER_URL },
+    { label: 'Local (127.0.0.1:4321)', url: LOCAL_SERVER_URL },
+  ];
 
   const STORAGE_AUTH_KEY = 'ld_studio_auth_ok';
   const STORAGE_SERVER_KEY = 'ld_studio_server_url';
@@ -340,6 +345,12 @@
         border-color: #f59e0b;
         background: rgba(245, 158, 11, 0.15);
       }
+      .ld-auth-presets {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin-top: 8px;
+      }
       .ld-auth-error {
         min-height: 18px;
         margin: 4px 0 12px;
@@ -470,6 +481,22 @@
     window.location.reload();
   }
 
+  function renderPresetButtonsHtml() {
+    return SERVER_PRESETS.map(
+      (preset) =>
+        `<button type="button" class="ld-auth-quickfill" data-server-url="${preset.url}">${preset.label}</button>`
+    ).join('');
+  }
+
+  function bindPresetButtons(container, input) {
+    container.querySelectorAll('.ld-auth-quickfill[data-server-url]').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        input.value = btn.getAttribute('data-server-url') || DEFAULT_SERVER_URL;
+        input.focus();
+      });
+    });
+  }
+
   function ensureSettingsModal(onSave) {
     let modal = document.getElementById('ld-bridge-settings-modal');
     if (modal) return modal;
@@ -487,11 +514,9 @@
         <p class="ld-auth-subtitle">Configure the LD Studio backend URL used to load 3D assets, audio, and LiveOps APIs.</p>
         <form id="ld-settings-form">
           <div class="ld-auth-field">
-            <div class="ld-auth-label-row">
-              <label class="ld-auth-label" for="ld-settings-server">LD Studio Server URL</label>
-              <button type="button" class="ld-auth-quickfill" id="ld-settings-quickfill">Use http://127.0.0.1:4321</button>
-            </div>
+            <label class="ld-auth-label" for="ld-settings-server">LD Studio Server URL</label>
             <input id="ld-settings-server" class="ld-auth-input ld-auth-input-mono" type="url" required />
+            <div class="ld-auth-presets">${renderPresetButtonsHtml()}</div>
           </div>
           <div class="ld-settings-actions">
             <button type="button" class="ld-bridge-btn" id="ld-settings-cancel" style="padding:8px 14px;">Cancel</button>
@@ -503,14 +528,10 @@
     document.body.appendChild(modal);
 
     const input = modal.querySelector('#ld-settings-server');
-    const quickfill = modal.querySelector('#ld-settings-quickfill');
     const cancelBtn = modal.querySelector('#ld-settings-cancel');
     const form = modal.querySelector('#ld-settings-form');
 
-    quickfill.addEventListener('click', () => {
-      input.value = DEFAULT_SERVER_URL;
-      input.focus();
-    });
+    bindPresetButtons(modal, input);
 
     cancelBtn.addEventListener('click', () => {
       modal.classList.add('hidden');
@@ -614,11 +635,9 @@
             <input id="ld-auth-pass" class="ld-auth-input" type="password" placeholder="Enter password" autocomplete="current-password" required />
           </div>
           <div class="ld-auth-field">
-            <div class="ld-auth-label-row">
-              <label class="ld-auth-label" for="ld-auth-server">LD Studio Server URL</label>
-              <button type="button" class="ld-auth-quickfill" id="ld-auth-quickfill">http://127.0.0.1:4321</button>
-            </div>
+            <label class="ld-auth-label" for="ld-auth-server">LD Studio Server URL</label>
             <input id="ld-auth-server" class="ld-auth-input ld-auth-input-mono" type="url" value="${serverUrl.replace(/"/g, '&quot;')}" required />
+            <div class="ld-auth-presets">${renderPresetButtonsHtml()}</div>
           </div>
           <div id="ld-auth-error" class="ld-auth-error" role="alert"></div>
           <button type="submit" id="ld-auth-submit" class="ld-auth-submit">Unlock LD Studio</button>
@@ -631,14 +650,10 @@
     const userInput = overlay.querySelector('#ld-auth-user');
     const passInput = overlay.querySelector('#ld-auth-pass');
     const serverInput = overlay.querySelector('#ld-auth-server');
-    const quickfillBtn = overlay.querySelector('#ld-auth-quickfill');
     const errorEl = overlay.querySelector('#ld-auth-error');
     const submitBtn = overlay.querySelector('#ld-auth-submit');
 
-    quickfillBtn.addEventListener('click', () => {
-      serverInput.value = DEFAULT_SERVER_URL;
-      serverInput.focus();
-    });
+    bindPresetButtons(overlay, serverInput);
 
     userInput.focus();
 
