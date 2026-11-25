@@ -1,0 +1,1576 @@
+[
+  {
+    "kind": "quest",
+    "id": "quest_emberroot_hollows_1",
+    "name": "Charred Ley-Sap",
+    "wiki": {
+      "wikiDescription": "Charred Ley-Sap: Lv 11-15 Solstice shared-zone quest.",
+      "lore": "Gather volatile Ember Sap from the smoldering caverns of Emberroot Hollows.",
+      "acquisitionSource": "Offered by Lord Chancellor Aurelius Vance in Solstice (Lv 11+).",
+      "tags": [
+        "emberroot_hollows",
+        "lv_11_15",
+        "solstice_quest"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "questId": "quest_emberroot_hollows_1",
+      "act": 1,
+      "stage": 2,
+      "cityId": "solstice",
+      "mayorId": "aurelius_vance",
+      "zoneId": "emberroot_hollows",
+      "title": "Charred Ley-Sap",
+      "minLevel": 11,
+      "maxRecommendedLevel": 15,
+      "objectives": [
+        {
+          "objectiveId": "obj_collect_ember_sap",
+          "type": "collect_rift_drop",
+          "targetId": "ember_sap",
+          "areaNumber": 2,
+          "requiredCount": 6,
+          "description": "Collect 6 Ember Sap vials in Emberroot Hollows"
+        }
+      ],
+      "introDialogueCard": {
+        "cardId": "quest_emberroot_hollows_1_intro",
+        "speakerMayorId": "aurelius_vance",
+        "speakerName": "Lord Chancellor Aurelius Vance",
+        "speakerTitle": "Lord Chancellor",
+        "cityId": "solstice",
+        "lines": [
+          "Geothermal vents beneath Emberroot Hollows are overheating the lantern foundations.",
+          "Harvest Ember Sap from the cinder-beasts so we can insulate the conduits."
+        ]
+      },
+      "completionDialogueCard": {
+        "cardId": "quest_emberroot_hollows_1_comp",
+        "speakerMayorId": "aurelius_vance",
+        "speakerName": "Lord Chancellor Aurelius Vance",
+        "speakerTitle": "Lord Chancellor",
+        "cityId": "solstice",
+        "lines": [
+          "This sap burns hotter than Runewick prism fuel.",
+          "The Hollow-Heart Elder must be behind this magma surge."
+        ]
+      },
+      "reward": {
+        "xp": 1800,
+        "gold": 520,
+        "rewardItems": [],
+        "grantsLetterToSolstice": false
+      },
+      "wiki": {
+        "wikiDescription": "Charred Ley-Sap: Lv 11-15 Solstice shared-zone quest.",
+        "lore": "Gather volatile Ember Sap from the smoldering caverns of Emberroot Hollows.",
+        "acquisitionSource": "Offered by Lord Chancellor Aurelius Vance in Solstice (Lv 11+).",
+        "tags": [
+          "solstice_quest",
+          "emberroot_hollows",
+          "lv_11_15"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "quest",
+    "id": "quest_emberroot_hollows_2",
+    "name": "Crown of Ash",
+    "wiki": {
+      "wikiDescription": "Crown of Ash: Lv 13-15 Solstice shared-zone quest.",
+      "lore": "Defeat Ignivar, Hollow-Heart Elder to unlock the Shattered Lumenworks.",
+      "acquisitionSource": "Offered by Lord Chancellor Aurelius Vance in Solstice (Lv 13+).",
+      "tags": [
+        "boss",
+        "emberroot_hollows",
+        "lv_11_15",
+        "solstice_quest"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "ignivar_hollow_elder",
+        "kind": "enemy",
+        "name": "Ignivar, Hollow-Heart Elder"
+      }
+    ],
+    "data": {
+      "questId": "quest_emberroot_hollows_2",
+      "act": 1,
+      "stage": 3,
+      "cityId": "solstice",
+      "mayorId": "aurelius_vance",
+      "zoneId": "emberroot_hollows",
+      "title": "Crown of Ash",
+      "minLevel": 13,
+      "maxRecommendedLevel": 15,
+      "objectives": [
+        {
+          "objectiveId": "obj_boss_ignivar_hollow_elder",
+          "type": "defeat_area_boss",
+          "targetId": "ignivar_hollow_elder",
+          "areaNumber": 2,
+          "requiredCount": 1,
+          "description": "Defeat Ignivar, Hollow-Heart Elder in Emberroot Hollows"
+        }
+      ],
+      "introDialogueCard": {
+        "cardId": "quest_emberroot_hollows_2_intro",
+        "speakerMayorId": "aurelius_vance",
+        "speakerName": "Lord Chancellor Aurelius Vance",
+        "speakerTitle": "Lord Chancellor",
+        "cityId": "solstice",
+        "lines": [
+          "Ignivar feeds magma directly into the Shattered Lumenworks above.",
+          "Topple the Hollow-Heart Elder before the upper spire cracks."
+        ]
+      },
+      "completionDialogueCard": {
+        "cardId": "quest_emberroot_hollows_2_comp",
+        "speakerMayorId": "aurelius_vance",
+        "speakerName": "Lord Chancellor Aurelius Vance",
+        "speakerTitle": "Lord Chancellor",
+        "cityId": "solstice",
+        "lines": [
+          "The magma tremors have quieted, revealing the entrance to the Shattered Lumenworks.",
+          "One final ascent awaits."
+        ]
+      },
+      "reward": {
+        "xp": 2600,
+        "gold": 750,
+        "rewardItems": [],
+        "grantsLetterToSolstice": false
+      },
+      "wiki": {
+        "wikiDescription": "Crown of Ash: Lv 13-15 Solstice shared-zone quest.",
+        "lore": "Defeat Ignivar, Hollow-Heart Elder to unlock the Shattered Lumenworks.",
+        "acquisitionSource": "Offered by Lord Chancellor Aurelius Vance in Solstice (Lv 13+).",
+        "tags": [
+          "solstice_quest",
+          "emberroot_hollows",
+          "boss",
+          "lv_11_15"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "quest",
+    "id": "quest_road_to_solstice",
+    "name": "The Road to Solstice",
+    "wiki": {
+      "wikiDescription": "The Road to Solstice: Lv 6-10 Solstice shared-zone quest.",
+      "lore": "Unlocks travel to the central hub of Solstice and opens the Sunken Causeway.",
+      "acquisitionSource": "Offered by Lord Chancellor Aurelius Vance in Solstice (Lv 6+).",
+      "tags": [
+        "convergence",
+        "lv_6",
+        "solstice_quest",
+        "sunken_causeway"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "questId": "quest_road_to_solstice",
+      "act": 1,
+      "stage": 1,
+      "cityId": "solstice",
+      "mayorId": "aurelius_vance",
+      "zoneId": "sunken_causeway",
+      "title": "The Road to Solstice",
+      "minLevel": 6,
+      "maxRecommendedLevel": 10,
+      "objectives": [
+        {
+          "objectiveId": "obj_road_to_solstice_crabs",
+          "type": "defeat_enemy",
+          "targetId": "causeway_crab",
+          "areaNumber": 1,
+          "requiredCount": 5,
+          "description": "Clear 5 Causeway Shellbacks along the Sunken Causeway approach"
+        }
+      ],
+      "introDialogueCard": {
+        "cardId": "quest_road_to_solstice_intro",
+        "speakerMayorId": "aurelius_vance",
+        "speakerName": "Lord Chancellor Aurelius Vance",
+        "speakerTitle": "Lord Chancellor",
+        "cityId": "solstice",
+        "lines": [
+          "Welcome to Solstice, traveler. Four mayors sent word you survived your home Rift.",
+          "Prove your mettle on the Sunken Causeway approach so our gates stay open."
+        ]
+      },
+      "completionDialogueCard": {
+        "cardId": "quest_road_to_solstice_comp",
+        "speakerMayorId": "aurelius_vance",
+        "speakerName": "Lord Chancellor Aurelius Vance",
+        "speakerTitle": "Lord Chancellor",
+        "cityId": "solstice",
+        "lines": [
+          "The Causeway road is clear enough for supply wagons once more.",
+          "Stay sharp—deeper shared Rifts beneath Solstice demand everything you have."
+        ]
+      },
+      "reward": {
+        "xp": 600,
+        "gold": 200,
+        "rewardItems": [],
+        "grantsLetterToSolstice": true
+      },
+      "wiki": {
+        "wikiDescription": "The Road to Solstice: Lv 6-10 Solstice shared-zone quest.",
+        "lore": "Unlocks travel to the central hub of Solstice and opens the Sunken Causeway.",
+        "acquisitionSource": "Offered by Lord Chancellor Aurelius Vance in Solstice (Lv 6+).",
+        "tags": [
+          "solstice_quest",
+          "convergence",
+          "lv_6",
+          "sunken_causeway"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "quest",
+    "id": "quest_runewick_1_1",
+    "name": "Quest 1.1 — Anomalous Refraction",
+    "wiki": {
+      "wikiDescription": "Quest 1.1 — Anomalous Refraction: Act I storyline quest in runewick.",
+      "lore": "Investigate shifting harmonic resonance in the Shattered Threshold.",
+      "acquisitionSource": "Offered by Dean Seraphina Voss in runewick.",
+      "tags": [
+        "act_one_quest",
+        "runewick",
+        "stage_1"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "questId": "quest_runewick_1_1",
+      "act": 1,
+      "stage": 1,
+      "cityId": "runewick",
+      "mayorId": "seraphina_voss",
+      "title": "Quest 1.1 — Anomalous Refraction",
+      "minLevel": 1,
+      "maxRecommendedLevel": 8,
+      "objectives": [
+        {
+          "objectiveId": "obj_clear_area_1",
+          "type": "clear_rift_area",
+          "targetId": "area_1",
+          "areaNumber": 1,
+          "requiredCount": 1,
+          "description": "Clear Area 1 (Shattered Threshold)"
+        },
+        {
+          "objectiveId": "obj_defeat_shardling",
+          "type": "defeat_enemy",
+          "targetId": "shardling",
+          "areaNumber": 1,
+          "requiredCount": 10,
+          "description": "Defeat 10 Shardlings"
+        }
+      ],
+      "introDialogueCard": {
+        "cardId": "quest_runewick_1_1_intro",
+        "speakerMayorId": "seraphina_voss",
+        "speakerName": "Dean Seraphina Voss",
+        "speakerTitle": "Dean",
+        "cityId": "runewick",
+        "lines": [
+          "The Lumen Gate's resonance drifted 4% overnight.",
+          "Steel Watch insists it's 'haunted,' which is adorable, but I prefer data—clear the threshold and bring me readings."
+        ]
+      },
+      "completionDialogueCard": {
+        "cardId": "quest_runewick_1_1_comp",
+        "speakerMayorId": "seraphina_voss",
+        "speakerName": "Dean Seraphina Voss",
+        "speakerTitle": "Dean",
+        "cityId": "runewick",
+        "lines": [
+          "The initial resonance readings confirm my hypothesis.",
+          "The crystalline threshold is stabilizing, but the galleries deeper in are fracturing."
+        ]
+      },
+      "reward": {
+        "xp": 350,
+        "gold": 120,
+        "rewardItems": [],
+        "grantsLetterToSolstice": false
+      },
+      "wiki": {
+        "wikiDescription": "Quest 1.1 — Anomalous Refraction: Act I storyline quest in runewick.",
+        "lore": "Investigate shifting harmonic resonance in the Shattered Threshold.",
+        "acquisitionSource": "Offered by Dean Seraphina Voss in runewick.",
+        "tags": [
+          "act_one_quest",
+          "runewick",
+          "stage_1"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "quest",
+    "id": "quest_runewick_1_2",
+    "name": "Quest 1.2 — Light in the Glass",
+    "wiki": {
+      "wikiDescription": "Quest 1.2 — Light in the Glass: Act I storyline quest in runewick.",
+      "lore": "Gather rare Prism Motes from fractured crystal galleries.",
+      "acquisitionSource": "Offered by Dean Seraphina Voss in runewick.",
+      "tags": [
+        "act_one_quest",
+        "runewick",
+        "stage_2"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "questId": "quest_runewick_1_2",
+      "act": 1,
+      "stage": 2,
+      "cityId": "runewick",
+      "mayorId": "seraphina_voss",
+      "title": "Quest 1.2 — Light in the Glass",
+      "minLevel": 9,
+      "maxRecommendedLevel": 15,
+      "objectives": [
+        {
+          "objectiveId": "obj_clear_area_2",
+          "type": "clear_rift_area",
+          "targetId": "area_2",
+          "areaNumber": 2,
+          "requiredCount": 1,
+          "description": "Clear Area 2 (Prism Galleries)"
+        },
+        {
+          "objectiveId": "obj_collect_prism_mote",
+          "type": "collect_rift_drop",
+          "targetId": "prism_mote",
+          "areaNumber": 2,
+          "requiredCount": 6,
+          "description": "Collect 6 Prism Motes"
+        }
+      ],
+      "introDialogueCard": {
+        "cardId": "quest_runewick_1_2_intro",
+        "speakerMayorId": "seraphina_voss",
+        "speakerName": "Dean Seraphina Voss",
+        "speakerTitle": "Dean",
+        "cityId": "runewick",
+        "lines": [
+          "Sunhaven claims the Gates respond to 'pure intentions.'",
+          "If intentions balanced a mana equation, half my apprentices wouldn't have singed eyebrows."
+        ]
+      },
+      "completionDialogueCard": {
+        "cardId": "quest_runewick_1_2_comp",
+        "speakerMayorId": "seraphina_voss",
+        "speakerName": "Dean Seraphina Voss",
+        "speakerTitle": "Dean",
+        "cityId": "runewick",
+        "lines": [
+          "These Prism Motes exhibit fascinating harmonic properties.",
+          "Prepare yourself—the core warden has broken containment."
+        ]
+      },
+      "reward": {
+        "xp": 900,
+        "gold": 250,
+        "rewardItems": [
+          {
+            "definitionId": "minor_healing_elixir",
+            "quantity": 2
+          }
+        ],
+        "grantsLetterToSolstice": false
+      },
+      "wiki": {
+        "wikiDescription": "Quest 1.2 — Light in the Glass: Act I storyline quest in runewick.",
+        "lore": "Gather rare Prism Motes from fractured crystal galleries.",
+        "acquisitionSource": "Offered by Dean Seraphina Voss in runewick.",
+        "tags": [
+          "act_one_quest",
+          "runewick",
+          "stage_2"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "quest",
+    "id": "quest_runewick_1_3",
+    "name": "Quest 1.3 — The Shattered Warden",
+    "wiki": {
+      "wikiDescription": "Quest 1.3 — The Shattered Warden: Act I storyline quest in runewick.",
+      "lore": "Subdue the corrupted Shattered Warden in Runewick Vaults.",
+      "acquisitionSource": "Offered by Dean Seraphina Voss in runewick.",
+      "tags": [
+        "act_one_quest",
+        "runewick",
+        "stage_3"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "vaelkor_shattered_warden",
+        "kind": "enemy",
+        "name": "Vaelkor, Shattered Warden"
+      }
+    ],
+    "data": {
+      "questId": "quest_runewick_1_3",
+      "act": 1,
+      "stage": 3,
+      "cityId": "runewick",
+      "mayorId": "seraphina_voss",
+      "title": "Quest 1.3 — The Shattered Warden",
+      "minLevel": 16,
+      "maxRecommendedLevel": 22,
+      "objectives": [
+        {
+          "objectiveId": "obj_boss_vaelkor_shattered_warden",
+          "type": "defeat_area_boss",
+          "targetId": "vaelkor_shattered_warden",
+          "areaNumber": 3,
+          "requiredCount": 1,
+          "description": "Defeat Vaelkor the Shattered Warden in Area 3 (The Prism Vaults)"
+        }
+      ],
+      "introDialogueCard": {
+        "cardId": "quest_runewick_1_3_intro",
+        "speakerMayorId": "seraphina_voss",
+        "speakerName": "Dean Seraphina Voss",
+        "speakerTitle": "Dean",
+        "cityId": "runewick",
+        "lines": [
+          "The Shattered Warden has locked the vault matrix.",
+          "Dispel its harmonic field before the whole spire shatters."
+        ]
+      },
+      "completionDialogueCard": {
+        "cardId": "quest_runewick_1_3_comp",
+        "speakerMayorId": "seraphina_voss",
+        "speakerName": "Dean Seraphina Voss",
+        "speakerTitle": "Dean",
+        "cityId": "runewick",
+        "lines": [
+          "Vaelkor wasn't a construct—he was guarding a fragment of something ancient and fractured.",
+          "Deliver this seal to Chancellor Vance in Solstice immediately."
+        ]
+      },
+      "reward": {
+        "xp": 2200,
+        "gold": 500,
+        "rewardItems": [
+          {
+            "definitionId": "prism_woven_cape",
+            "quantity": 1
+          }
+        ],
+        "grantsLetterToSolstice": true
+      },
+      "wiki": {
+        "wikiDescription": "Quest 1.3 — The Shattered Warden: Act I storyline quest in runewick.",
+        "lore": "Subdue the corrupted Shattered Warden in Runewick Vaults.",
+        "acquisitionSource": "Offered by Dean Seraphina Voss in runewick.",
+        "tags": [
+          "act_one_quest",
+          "runewick",
+          "stage_3"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "quest",
+    "id": "quest_shattered_lumenworks_1",
+    "name": "Broken Relays",
+    "wiki": {
+      "wikiDescription": "Broken Relays: Lv 16-20 Solstice shared-zone quest.",
+      "lore": "Salvage Astral relay coils from the Shattered Lumenworks.",
+      "acquisitionSource": "Offered by Lord Chancellor Aurelius Vance in Solstice (Lv 16+).",
+      "tags": [
+        "lv_16_20",
+        "shattered_lumenworks",
+        "solstice_quest"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "questId": "quest_shattered_lumenworks_1",
+      "act": 1,
+      "stage": 3,
+      "cityId": "solstice",
+      "mayorId": "aurelius_vance",
+      "zoneId": "shattered_lumenworks",
+      "title": "Broken Relays",
+      "minLevel": 16,
+      "maxRecommendedLevel": 20,
+      "objectives": [
+        {
+          "objectiveId": "obj_collect_lumen_coils",
+          "type": "collect_rift_drop",
+          "targetId": "lumen_coil",
+          "areaNumber": 3,
+          "requiredCount": 6,
+          "description": "Collect 6 Lumen Coils in Shattered Lumenworks"
+        }
+      ],
+      "introDialogueCard": {
+        "cardId": "quest_shattered_lumenworks_1_intro",
+        "speakerMayorId": "aurelius_vance",
+        "speakerName": "Lord Chancellor Aurelius Vance",
+        "speakerTitle": "Lord Chancellor",
+        "cityId": "solstice",
+        "lines": [
+          "The upper conduits flicker between blinding Light and crushing Dark.",
+          "Recover intact Lumen Coils before the Overclocked Archon triggers a full overload."
+        ]
+      },
+      "completionDialogueCard": {
+        "cardId": "quest_shattered_lumenworks_1_comp",
+        "speakerMayorId": "aurelius_vance",
+        "speakerName": "Lord Chancellor Aurelius Vance",
+        "speakerTitle": "Lord Chancellor",
+        "cityId": "solstice",
+        "lines": [
+          "With these coils, we can stabilize Solstice lanterns—if you silence Vesperon.",
+          "Step into the core chamber when ready."
+        ]
+      },
+      "reward": {
+        "xp": 3200,
+        "gold": 900,
+        "rewardItems": [],
+        "grantsLetterToSolstice": false
+      },
+      "wiki": {
+        "wikiDescription": "Broken Relays: Lv 16-20 Solstice shared-zone quest.",
+        "lore": "Salvage Astral relay coils from the Shattered Lumenworks.",
+        "acquisitionSource": "Offered by Lord Chancellor Aurelius Vance in Solstice (Lv 16+).",
+        "tags": [
+          "solstice_quest",
+          "shattered_lumenworks",
+          "lv_16_20"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "quest",
+    "id": "quest_shattered_lumenworks_2",
+    "name": "The Archon of Solstice",
+    "wiki": {
+      "wikiDescription": "The Archon of Solstice: Lv 18-20 Solstice shared-zone quest.",
+      "lore": "Lv 20 capstone quest confronting Vesperon, Overclocked Archon in the Shattered Lumenworks.",
+      "acquisitionSource": "Offered by Lord Chancellor Aurelius Vance in Solstice (Lv 18+).",
+      "tags": [
+        "boss",
+        "capstone",
+        "lv_16_20",
+        "shattered_lumenworks",
+        "solstice_quest"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "vesperon_overclocked_archon",
+        "kind": "enemy",
+        "name": "Vesperon, Overclocked Archon"
+      }
+    ],
+    "data": {
+      "questId": "quest_shattered_lumenworks_2",
+      "act": 1,
+      "stage": 4,
+      "cityId": "solstice",
+      "mayorId": "aurelius_vance",
+      "zoneId": "shattered_lumenworks",
+      "title": "The Archon of Solstice",
+      "minLevel": 18,
+      "maxRecommendedLevel": 20,
+      "objectives": [
+        {
+          "objectiveId": "obj_boss_vesperon_overclocked_archon",
+          "type": "defeat_area_boss",
+          "targetId": "vesperon_overclocked_archon",
+          "areaNumber": 3,
+          "requiredCount": 1,
+          "description": "Defeat Vesperon, Overclocked Archon in Shattered Lumenworks"
+        }
+      ],
+      "introDialogueCard": {
+        "cardId": "quest_shattered_lumenworks_2_intro",
+        "speakerMayorId": "aurelius_vance",
+        "speakerName": "Lord Chancellor Aurelius Vance",
+        "speakerTitle": "Lord Chancellor",
+        "cityId": "solstice",
+        "lines": [
+          "Vesperon, Overclocked Archon fused with the central lantern core during the first Rift.",
+          "End the Astral Overdrive and restore Solstice balance."
+        ]
+      },
+      "completionDialogueCard": {
+        "cardId": "quest_shattered_lumenworks_2_comp",
+        "speakerMayorId": "aurelius_vance",
+        "speakerName": "Lord Chancellor Aurelius Vance",
+        "speakerTitle": "Lord Chancellor",
+        "cityId": "solstice",
+        "lines": [
+          "Solstice shines steady once more, hero. All four mayors owe you their cities.",
+          "Yet deeper Rifts beyond Lv 20 are already stirring on the horizon."
+        ]
+      },
+      "reward": {
+        "xp": 4500,
+        "gold": 1500,
+        "rewardItems": [],
+        "grantsLetterToSolstice": true
+      },
+      "wiki": {
+        "wikiDescription": "The Archon of Solstice: Lv 18-20 Solstice shared-zone quest.",
+        "lore": "Lv 20 capstone quest confronting Vesperon, Overclocked Archon in the Shattered Lumenworks.",
+        "acquisitionSource": "Offered by Lord Chancellor Aurelius Vance in Solstice (Lv 18+).",
+        "tags": [
+          "solstice_quest",
+          "shattered_lumenworks",
+          "boss",
+          "capstone",
+          "lv_16_20"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "quest",
+    "id": "quest_steel_watch_1_1",
+    "name": "Quest 1.1 — Tempered Steel",
+    "wiki": {
+      "wikiDescription": "Quest 1.1 — Tempered Steel: Act I storyline quest in steel_watch.",
+      "lore": "Defend outer iron vaults against rattling constructs.",
+      "acquisitionSource": "Offered by Forge-Mayor Hilda Ironheart in steel_watch.",
+      "tags": [
+        "act_one_quest",
+        "stage_1",
+        "steel_watch"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "questId": "quest_steel_watch_1_1",
+      "act": 1,
+      "stage": 1,
+      "cityId": "steel_watch",
+      "mayorId": "hilda_ironheart",
+      "title": "Quest 1.1 — Tempered Steel",
+      "minLevel": 1,
+      "maxRecommendedLevel": 8,
+      "objectives": [
+        {
+          "objectiveId": "obj_clear_area_1",
+          "type": "clear_rift_area",
+          "targetId": "area_1",
+          "areaNumber": 1,
+          "requiredCount": 1,
+          "description": "Clear Area 1 (Outer Ironspire)"
+        },
+        {
+          "objectiveId": "obj_defeat_rivet_imp",
+          "type": "defeat_enemy",
+          "targetId": "rivet_imp",
+          "areaNumber": 1,
+          "requiredCount": 10,
+          "description": "Defeat 10 Rivet Imps"
+        }
+      ],
+      "introDialogueCard": {
+        "cardId": "quest_steel_watch_1_1_intro",
+        "speakerMayorId": "hilda_ironheart",
+        "speakerName": "Forge-Mayor Hilda Ironheart",
+        "speakerTitle": "Forge-Mayor",
+        "cityId": "steel_watch",
+        "lines": [
+          "Gates are sparking like a bad anvil, and Runewick's robe-nerds blame 'leyline harmonics.'",
+          "Put on real steel and go hit whatever's rattling the outer vault."
+        ]
+      },
+      "completionDialogueCard": {
+        "cardId": "quest_steel_watch_1_1_comp",
+        "speakerMayorId": "hilda_ironheart",
+        "speakerName": "Forge-Mayor Hilda Ironheart",
+        "speakerTitle": "Forge-Mayor",
+        "cityId": "steel_watch",
+        "lines": [
+          "Outer vault's quieted down, but the forge shafts are still rumbling.",
+          "Good swing, recruit. Keep your guard up for what's deeper."
+        ]
+      },
+      "reward": {
+        "xp": 350,
+        "gold": 120,
+        "rewardItems": [],
+        "grantsLetterToSolstice": false
+      },
+      "wiki": {
+        "wikiDescription": "Quest 1.1 — Tempered Steel: Act I storyline quest in steel_watch.",
+        "lore": "Defend outer iron vaults against rattling constructs.",
+        "acquisitionSource": "Offered by Forge-Mayor Hilda Ironheart in steel_watch.",
+        "tags": [
+          "act_one_quest",
+          "steel_watch",
+          "stage_1"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "quest",
+    "id": "quest_steel_watch_1_2",
+    "name": "Quest 1.2 — Slag & Sparks",
+    "wiki": {
+      "wikiDescription": "Quest 1.2 — Slag & Sparks: Act I storyline quest in steel_watch.",
+      "lore": "Gather essential Forge-Cores from the fiery galleries.",
+      "acquisitionSource": "Offered by Forge-Mayor Hilda Ironheart in steel_watch.",
+      "tags": [
+        "act_one_quest",
+        "stage_2",
+        "steel_watch"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "questId": "quest_steel_watch_1_2",
+      "act": 1,
+      "stage": 2,
+      "cityId": "steel_watch",
+      "mayorId": "hilda_ironheart",
+      "title": "Quest 1.2 — Slag & Sparks",
+      "minLevel": 9,
+      "maxRecommendedLevel": 15,
+      "objectives": [
+        {
+          "objectiveId": "obj_clear_area_2",
+          "type": "clear_rift_area",
+          "targetId": "area_2",
+          "areaNumber": 2,
+          "requiredCount": 1,
+          "description": "Clear Area 2 (Rustforge Galleries)"
+        },
+        {
+          "objectiveId": "obj_collect_forge_core",
+          "type": "collect_rift_drop",
+          "targetId": "forge_core",
+          "areaNumber": 2,
+          "requiredCount": 6,
+          "description": "Collect 6 Forge-Cores"
+        }
+      ],
+      "introDialogueCard": {
+        "cardId": "quest_steel_watch_1_2_intro",
+        "speakerMayorId": "hilda_ironheart",
+        "speakerName": "Forge-Mayor Hilda Ironheart",
+        "speakerTitle": "Forge-Mayor",
+        "cityId": "steel_watch",
+        "lines": [
+          "Vesperwood scouts keep bragging they don't need armor if they never get hit.",
+          "Funny—last one who visited here tripped over a cobblestone and asked for a bandage."
+        ]
+      },
+      "completionDialogueCard": {
+        "cardId": "quest_steel_watch_1_2_comp",
+        "speakerMayorId": "hilda_ironheart",
+        "speakerName": "Forge-Mayor Hilda Ironheart",
+        "speakerTitle": "Forge-Mayor",
+        "cityId": "steel_watch",
+        "lines": [
+          "Those Forge-Cores will keep our smelters burning through the month.",
+          "Now drink an elixir and prepare for the lower vault."
+        ]
+      },
+      "reward": {
+        "xp": 900,
+        "gold": 250,
+        "rewardItems": [
+          {
+            "definitionId": "minor_healing_elixir",
+            "quantity": 2
+          }
+        ],
+        "grantsLetterToSolstice": false
+      },
+      "wiki": {
+        "wikiDescription": "Quest 1.2 — Slag & Sparks: Act I storyline quest in steel_watch.",
+        "lore": "Gather essential Forge-Cores from the fiery galleries.",
+        "acquisitionSource": "Offered by Forge-Mayor Hilda Ironheart in steel_watch.",
+        "tags": [
+          "act_one_quest",
+          "steel_watch",
+          "stage_2"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "quest",
+    "id": "quest_steel_watch_1_3",
+    "name": "Quest 1.3 — The Iron Warden",
+    "wiki": {
+      "wikiDescription": "Quest 1.3 — The Iron Warden: Act I storyline quest in steel_watch.",
+      "lore": "Confront Korrath the Iron Warden at the heart of the Ironspire.",
+      "acquisitionSource": "Offered by Forge-Mayor Hilda Ironheart in steel_watch.",
+      "tags": [
+        "act_one_quest",
+        "stage_3",
+        "steel_watch"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "korrath_iron_warden",
+        "kind": "enemy",
+        "name": "Korrath, Iron Warden"
+      }
+    ],
+    "data": {
+      "questId": "quest_steel_watch_1_3",
+      "act": 1,
+      "stage": 3,
+      "cityId": "steel_watch",
+      "mayorId": "hilda_ironheart",
+      "title": "Quest 1.3 — The Iron Warden",
+      "minLevel": 16,
+      "maxRecommendedLevel": 22,
+      "objectives": [
+        {
+          "objectiveId": "obj_boss_korrath_iron_warden",
+          "type": "defeat_area_boss",
+          "targetId": "korrath_iron_warden",
+          "areaNumber": 3,
+          "requiredCount": 1,
+          "description": "Defeat Korrath the Iron Warden in Area 3 (The Ironspire Vaults)"
+        }
+      ],
+      "introDialogueCard": {
+        "cardId": "quest_steel_watch_1_3_intro",
+        "speakerMayorId": "hilda_ironheart",
+        "speakerName": "Forge-Mayor Hilda Ironheart",
+        "speakerTitle": "Forge-Mayor",
+        "cityId": "steel_watch",
+        "lines": [
+          "Korrath has awakened in the lower depths and the anvil is cracking.",
+          "Show that ancient bucket of bolts what modern steel can do."
+        ]
+      },
+      "completionDialogueCard": {
+        "cardId": "quest_steel_watch_1_3_comp",
+        "speakerMayorId": "hilda_ironheart",
+        "speakerName": "Forge-Mayor Hilda Ironheart",
+        "speakerTitle": "Forge-Mayor",
+        "cityId": "steel_watch",
+        "lines": [
+          "Korrath dropped a shard that hums like an old Astral tuning fork.",
+          "Take it to Vance in Solstice—and don't let those Sunhaven choir-kids polish it."
+        ]
+      },
+      "reward": {
+        "xp": 2200,
+        "gold": 500,
+        "rewardItems": [
+          {
+            "definitionId": "ironspire_forged_cloak",
+            "quantity": 1
+          }
+        ],
+        "grantsLetterToSolstice": true
+      },
+      "wiki": {
+        "wikiDescription": "Quest 1.3 — The Iron Warden: Act I storyline quest in steel_watch.",
+        "lore": "Confront Korrath the Iron Warden at the heart of the Ironspire.",
+        "acquisitionSource": "Offered by Forge-Mayor Hilda Ironheart in steel_watch.",
+        "tags": [
+          "act_one_quest",
+          "steel_watch",
+          "stage_3"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "quest",
+    "id": "quest_sunhaven_1_1",
+    "name": "Quest 1.1 — Shadows on the Steps",
+    "wiki": {
+      "wikiDescription": "Quest 1.1 — Shadows on the Steps: Act I storyline quest in sunhaven.",
+      "lore": "Cleanse courtyard steps of encroaching Gloom Shades.",
+      "acquisitionSource": "Offered by High Steward Cassian Dawn in sunhaven.",
+      "tags": [
+        "act_one_quest",
+        "stage_1",
+        "sunhaven"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "questId": "quest_sunhaven_1_1",
+      "act": 1,
+      "stage": 1,
+      "cityId": "sunhaven",
+      "mayorId": "cassian_dawn",
+      "title": "Quest 1.1 — Shadows on the Steps",
+      "minLevel": 1,
+      "maxRecommendedLevel": 8,
+      "objectives": [
+        {
+          "objectiveId": "obj_clear_area_1",
+          "type": "clear_rift_area",
+          "targetId": "area_1",
+          "areaNumber": 1,
+          "requiredCount": 1,
+          "description": "Clear Area 1 (Dawnlit Courtyard)"
+        },
+        {
+          "objectiveId": "obj_defeat_gloom_shade",
+          "type": "defeat_enemy",
+          "targetId": "gloom_shade",
+          "areaNumber": 1,
+          "requiredCount": 10,
+          "description": "Defeat 10 Gloom Shades"
+        }
+      ],
+      "introDialogueCard": {
+        "cardId": "quest_sunhaven_1_1_intro",
+        "speakerMayorId": "cassian_dawn",
+        "speakerName": "High Steward Cassian Dawn",
+        "speakerTitle": "High Steward",
+        "cityId": "sunhaven",
+        "lines": [
+          "Bright morning, initiate! Even with shadows leaking out of the courtyard Gate, it's a lovely day to smite something.",
+          "Just remember to actually heal yourself if you get clipped."
+        ]
+      },
+      "completionDialogueCard": {
+        "cardId": "quest_sunhaven_1_1_comp",
+        "speakerMayorId": "cassian_dawn",
+        "speakerName": "High Steward Cassian Dawn",
+        "speakerTitle": "High Steward",
+        "cityId": "sunhaven",
+        "lines": [
+          "The courtyard steps are radiant once more.",
+          "The pilgrims can pray in peace, though the deeper cloisters remain shadowed."
+        ]
+      },
+      "reward": {
+        "xp": 350,
+        "gold": 120,
+        "rewardItems": [],
+        "grantsLetterToSolstice": false
+      },
+      "wiki": {
+        "wikiDescription": "Quest 1.1 — Shadows on the Steps: Act I storyline quest in sunhaven.",
+        "lore": "Cleanse courtyard steps of encroaching Gloom Shades.",
+        "acquisitionSource": "Offered by High Steward Cassian Dawn in sunhaven.",
+        "tags": [
+          "act_one_quest",
+          "sunhaven",
+          "stage_1"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "quest",
+    "id": "quest_sunhaven_1_2",
+    "name": "Quest 1.2 — Tide & Stone",
+    "wiki": {
+      "wikiDescription": "Quest 1.2 — Tide & Stone: Act I storyline quest in sunhaven.",
+      "lore": "Collect radiant Sun-Beads from deep cloister halls.",
+      "acquisitionSource": "Offered by High Steward Cassian Dawn in sunhaven.",
+      "tags": [
+        "act_one_quest",
+        "stage_2",
+        "sunhaven"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "questId": "quest_sunhaven_1_2",
+      "act": 1,
+      "stage": 2,
+      "cityId": "sunhaven",
+      "mayorId": "cassian_dawn",
+      "title": "Quest 1.2 — Tide & Stone",
+      "minLevel": 9,
+      "maxRecommendedLevel": 15,
+      "objectives": [
+        {
+          "objectiveId": "obj_clear_area_2",
+          "type": "clear_rift_area",
+          "targetId": "area_2",
+          "areaNumber": 2,
+          "requiredCount": 1,
+          "description": "Clear Area 2 (Sunstone Cloister)"
+        },
+        {
+          "objectiveId": "obj_collect_sun_bead",
+          "type": "collect_rift_drop",
+          "targetId": "sun_bead",
+          "areaNumber": 2,
+          "requiredCount": 6,
+          "description": "Collect 6 Sun-Beads"
+        }
+      ],
+      "introDialogueCard": {
+        "cardId": "quest_sunhaven_1_2_intro",
+        "speakerMayorId": "cassian_dawn",
+        "speakerName": "High Steward Cassian Dawn",
+        "speakerTitle": "High Steward",
+        "cityId": "sunhaven",
+        "lines": [
+          "Vesperwood's mayor told me our hymns are 'too loud for stealth.'",
+          "Naturally, I offered to sing softer while they practice dodging."
+        ]
+      },
+      "completionDialogueCard": {
+        "cardId": "quest_sunhaven_1_2_comp",
+        "speakerMayorId": "cassian_dawn",
+        "speakerName": "High Steward Cassian Dawn",
+        "speakerTitle": "High Steward",
+        "cityId": "sunhaven",
+        "lines": [
+          "The Sun-Beads radiate pure dawn energy.",
+          "Drink deep of the light—Malakor's choir sings in the lowest sanctum."
+        ]
+      },
+      "reward": {
+        "xp": 900,
+        "gold": 250,
+        "rewardItems": [
+          {
+            "definitionId": "minor_healing_elixir",
+            "quantity": 2
+          }
+        ],
+        "grantsLetterToSolstice": false
+      },
+      "wiki": {
+        "wikiDescription": "Quest 1.2 — Tide & Stone: Act I storyline quest in sunhaven.",
+        "lore": "Collect radiant Sun-Beads from deep cloister halls.",
+        "acquisitionSource": "Offered by High Steward Cassian Dawn in sunhaven.",
+        "tags": [
+          "act_one_quest",
+          "sunhaven",
+          "stage_2"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "quest",
+    "id": "quest_sunhaven_1_3",
+    "name": "Quest 1.3 — The Eclipsed Choir",
+    "wiki": {
+      "wikiDescription": "Quest 1.3 — The Eclipsed Choir: Act I storyline quest in sunhaven.",
+      "lore": "Silence Malakor and recover the humming Astral shard.",
+      "acquisitionSource": "Offered by High Steward Cassian Dawn in sunhaven.",
+      "tags": [
+        "act_one_quest",
+        "stage_3",
+        "sunhaven"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "malakor_eclipsed_choir",
+        "kind": "enemy",
+        "name": "Malakor, Eclipsed Choir"
+      }
+    ],
+    "data": {
+      "questId": "quest_sunhaven_1_3",
+      "act": 1,
+      "stage": 3,
+      "cityId": "sunhaven",
+      "mayorId": "cassian_dawn",
+      "title": "Quest 1.3 — The Eclipsed Choir",
+      "minLevel": 16,
+      "maxRecommendedLevel": 22,
+      "objectives": [
+        {
+          "objectiveId": "obj_boss_malakor_eclipsed_choir",
+          "type": "defeat_area_boss",
+          "targetId": "malakor_eclipsed_choir",
+          "areaNumber": 3,
+          "requiredCount": 1,
+          "description": "Defeat Malakor the Eclipsed Choir in Area 3 (The Dawnlit Sanctum)"
+        }
+      ],
+      "introDialogueCard": {
+        "cardId": "quest_sunhaven_1_3_intro",
+        "speakerMayorId": "cassian_dawn",
+        "speakerName": "High Steward Cassian Dawn",
+        "speakerTitle": "High Steward",
+        "cityId": "sunhaven",
+        "lines": [
+          "Malakor's darkened bells threaten to drown out the dawn hymn entirely.",
+          "Silence the choir and bring radiant peace to the sanctum."
+        ]
+      },
+      "completionDialogueCard": {
+        "cardId": "quest_sunhaven_1_3_comp",
+        "speakerMayorId": "cassian_dawn",
+        "speakerName": "High Steward Cassian Dawn",
+        "speakerTitle": "High Steward",
+        "cityId": "sunhaven",
+        "lines": [
+          "A cold Astral fragment was humming inside Malakor's bells.",
+          "Take it to Lord Chancellor Vance in Solstice—and bring snacks, the poor man looks exhausted."
+        ]
+      },
+      "reward": {
+        "xp": 2200,
+        "gold": 500,
+        "rewardItems": [
+          {
+            "definitionId": "sunhaven_dawn_shawl",
+            "quantity": 1
+          }
+        ],
+        "grantsLetterToSolstice": true
+      },
+      "wiki": {
+        "wikiDescription": "Quest 1.3 — The Eclipsed Choir: Act I storyline quest in sunhaven.",
+        "lore": "Silence Malakor and recover the humming Astral shard.",
+        "acquisitionSource": "Offered by High Steward Cassian Dawn in sunhaven.",
+        "tags": [
+          "act_one_quest",
+          "sunhaven",
+          "stage_3"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "quest",
+    "id": "quest_sunken_causeway_1",
+    "name": "Sluicegate Survey",
+    "wiki": {
+      "wikiDescription": "Sluicegate Survey: Lv 6-10 Solstice shared-zone quest.",
+      "lore": "Investigate the breached aqueducts of Sunken Causeway.",
+      "acquisitionSource": "Offered by Lord Chancellor Aurelius Vance in Solstice (Lv 6+).",
+      "tags": [
+        "lv_6_10",
+        "solstice_quest",
+        "sunken_causeway"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "questId": "quest_sunken_causeway_1",
+      "act": 1,
+      "stage": 1,
+      "cityId": "solstice",
+      "mayorId": "aurelius_vance",
+      "zoneId": "sunken_causeway",
+      "title": "Sluicegate Survey",
+      "minLevel": 6,
+      "maxRecommendedLevel": 10,
+      "objectives": [
+        {
+          "objectiveId": "obj_collect_sluice_shards",
+          "type": "collect_rift_drop",
+          "targetId": "sluice_shard",
+          "areaNumber": 1,
+          "requiredCount": 5,
+          "description": "Collect 5 Sluice Shards in Sunken Causeway"
+        }
+      ],
+      "introDialogueCard": {
+        "cardId": "quest_sunken_causeway_1_intro",
+        "speakerMayorId": "aurelius_vance",
+        "speakerName": "Lord Chancellor Aurelius Vance",
+        "speakerTitle": "Lord Chancellor",
+        "cityId": "solstice",
+        "lines": [
+          "Floodwater from the southern sluiceways is seeping into the Grand Bazaar.",
+          "Bring back Sluice Shards so our artificers can trace the breach."
+        ]
+      },
+      "completionDialogueCard": {
+        "cardId": "quest_sunken_causeway_1_comp",
+        "speakerMayorId": "aurelius_vance",
+        "speakerName": "Lord Chancellor Aurelius Vance",
+        "speakerTitle": "Lord Chancellor",
+        "cityId": "solstice",
+        "lines": [
+          "These shards pulse with Water and Earth harmonics—something is holding the gate shut.",
+          "Prepare to confront the Causeway Warden."
+        ]
+      },
+      "reward": {
+        "xp": 850,
+        "gold": 260,
+        "rewardItems": [],
+        "grantsLetterToSolstice": false
+      },
+      "wiki": {
+        "wikiDescription": "Sluicegate Survey: Lv 6-10 Solstice shared-zone quest.",
+        "lore": "Investigate the breached aqueducts of Sunken Causeway.",
+        "acquisitionSource": "Offered by Lord Chancellor Aurelius Vance in Solstice (Lv 6+).",
+        "tags": [
+          "solstice_quest",
+          "sunken_causeway",
+          "lv_6_10"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "quest",
+    "id": "quest_sunken_causeway_2",
+    "name": "Breach of the Floodworks",
+    "wiki": {
+      "wikiDescription": "Breach of the Floodworks: Lv 8-10 Solstice shared-zone quest.",
+      "lore": "Slay Thalossos, the Mire-Bell to open the descent toward Emberroot Hollows.",
+      "acquisitionSource": "Offered by Lord Chancellor Aurelius Vance in Solstice (Lv 8+).",
+      "tags": [
+        "boss",
+        "lv_6_10",
+        "solstice_quest",
+        "sunken_causeway"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "thalossos_mire_bell",
+        "kind": "enemy",
+        "name": "Thalossos, the Mire-Bell"
+      }
+    ],
+    "data": {
+      "questId": "quest_sunken_causeway_2",
+      "act": 1,
+      "stage": 2,
+      "cityId": "solstice",
+      "mayorId": "aurelius_vance",
+      "zoneId": "sunken_causeway",
+      "title": "Breach of the Floodworks",
+      "minLevel": 8,
+      "maxRecommendedLevel": 10,
+      "objectives": [
+        {
+          "objectiveId": "obj_boss_thalossos_mire_bell",
+          "type": "defeat_area_boss",
+          "targetId": "thalossos_mire_bell",
+          "areaNumber": 1,
+          "requiredCount": 1,
+          "description": "Defeat Thalossos, the Mire-Bell in Sunken Causeway"
+        }
+      ],
+      "introDialogueCard": {
+        "cardId": "quest_sunken_causeway_2_intro",
+        "speakerMayorId": "aurelius_vance",
+        "speakerName": "Lord Chancellor Aurelius Vance",
+        "speakerTitle": "Lord Chancellor",
+        "cityId": "solstice",
+        "lines": [
+          "Thalossos, the Mire-Bell has barricaded the central floodgate and threatens to drown the lower ward.",
+          "Watch for its Sluicegate Crush telegraph and break its hold."
+        ]
+      },
+      "completionDialogueCard": {
+        "cardId": "quest_sunken_causeway_2_comp",
+        "speakerMayorId": "aurelius_vance",
+        "speakerName": "Lord Chancellor Aurelius Vance",
+        "speakerTitle": "Lord Chancellor",
+        "cityId": "solstice",
+        "lines": [
+          "The waters are receding, though smoke now rises from the deeper roots below.",
+          "Rest in the Commons before descending into Emberroot Hollows."
+        ]
+      },
+      "reward": {
+        "xp": 1400,
+        "gold": 400,
+        "rewardItems": [
+          {
+            "definitionId": "minor_healing_elixir",
+            "quantity": 2
+          }
+        ],
+        "grantsLetterToSolstice": false
+      },
+      "wiki": {
+        "wikiDescription": "Breach of the Floodworks: Lv 8-10 Solstice shared-zone quest.",
+        "lore": "Slay Thalossos, the Mire-Bell to open the descent toward Emberroot Hollows.",
+        "acquisitionSource": "Offered by Lord Chancellor Aurelius Vance in Solstice (Lv 8+).",
+        "tags": [
+          "solstice_quest",
+          "sunken_causeway",
+          "boss",
+          "lv_6_10"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "quest",
+    "id": "quest_vesperwood_1_1",
+    "name": "Quest 1.1 — Rustle in the Canopy",
+    "wiki": {
+      "wikiDescription": "Quest 1.1 — Rustle in the Canopy: Act I storyline quest in vesperwood.",
+      "lore": "Scout out disturbed boughs and pacify Zephyr Sprites.",
+      "acquisitionSource": "Offered by Warden-Mayor Sylvan Reed in vesperwood.",
+      "tags": [
+        "act_one_quest",
+        "stage_1",
+        "vesperwood"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "questId": "quest_vesperwood_1_1",
+      "act": 1,
+      "stage": 1,
+      "cityId": "vesperwood",
+      "mayorId": "sylvan_reed",
+      "title": "Quest 1.1 — Rustle in the Canopy",
+      "minLevel": 1,
+      "maxRecommendedLevel": 8,
+      "objectives": [
+        {
+          "objectiveId": "obj_clear_area_1",
+          "type": "clear_rift_area",
+          "targetId": "area_1",
+          "areaNumber": 1,
+          "requiredCount": 1,
+          "description": "Clear Area 1 (Whispering Boughs)"
+        },
+        {
+          "objectiveId": "obj_defeat_zephyr_sprite",
+          "type": "defeat_enemy",
+          "targetId": "zephyr_sprite",
+          "areaNumber": 1,
+          "requiredCount": 10,
+          "description": "Defeat 10 Zephyr Sprites"
+        }
+      ],
+      "introDialogueCard": {
+        "cardId": "quest_vesperwood_1_1_intro",
+        "speakerMayorId": "sylvan_reed",
+        "speakerName": "Warden-Mayor Sylvan Reed",
+        "speakerTitle": "Warden-Mayor",
+        "cityId": "vesperwood",
+        "lines": [
+          "Don't jump—I've been standing behind you for three minutes.",
+          "The canopy Gate's acting up, and Steel Watch offered to 'fix it with a hammer.' Go scout it before they flatten a tree."
+        ]
+      },
+      "completionDialogueCard": {
+        "cardId": "quest_vesperwood_1_1_comp",
+        "speakerMayorId": "sylvan_reed",
+        "speakerName": "Warden-Mayor Sylvan Reed",
+        "speakerTitle": "Warden-Mayor",
+        "cityId": "vesperwood",
+        "lines": [
+          "The boughs are settled for now, but the wind carries strange omens.",
+          "Clean your blades and prepare for the trail ahead."
+        ]
+      },
+      "reward": {
+        "xp": 350,
+        "gold": 120,
+        "rewardItems": [],
+        "grantsLetterToSolstice": false
+      },
+      "wiki": {
+        "wikiDescription": "Quest 1.1 — Rustle in the Canopy: Act I storyline quest in vesperwood.",
+        "lore": "Scout out disturbed boughs and pacify Zephyr Sprites.",
+        "acquisitionSource": "Offered by Warden-Mayor Sylvan Reed in vesperwood.",
+        "tags": [
+          "act_one_quest",
+          "vesperwood",
+          "stage_1"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "quest",
+    "id": "quest_vesperwood_1_2",
+    "name": "Quest 1.2 — Briar & Frost",
+    "wiki": {
+      "wikiDescription": "Quest 1.2 — Briar & Frost: Act I storyline quest in vesperwood.",
+      "lore": "Traverse Mossglen Trail and collect high-canopy Gale Plumes.",
+      "acquisitionSource": "Offered by Warden-Mayor Sylvan Reed in vesperwood.",
+      "tags": [
+        "act_one_quest",
+        "stage_2",
+        "vesperwood"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "questId": "quest_vesperwood_1_2",
+      "act": 1,
+      "stage": 2,
+      "cityId": "vesperwood",
+      "mayorId": "sylvan_reed",
+      "title": "Quest 1.2 — Briar & Frost",
+      "minLevel": 9,
+      "maxRecommendedLevel": 15,
+      "objectives": [
+        {
+          "objectiveId": "obj_clear_area_2",
+          "type": "clear_rift_area",
+          "targetId": "area_2",
+          "areaNumber": 2,
+          "requiredCount": 1,
+          "description": "Clear Area 2 (Mossglen Trail)"
+        },
+        {
+          "objectiveId": "obj_collect_gale_plume",
+          "type": "collect_rift_drop",
+          "targetId": "gale_plume",
+          "areaNumber": 2,
+          "requiredCount": 6,
+          "description": "Collect 6 Gale Plumes"
+        }
+      ],
+      "introDialogueCard": {
+        "cardId": "quest_vesperwood_1_2_intro",
+        "speakerMayorId": "sylvan_reed",
+        "speakerName": "Warden-Mayor Sylvan Reed",
+        "speakerTitle": "Warden-Mayor",
+        "cityId": "vesperwood",
+        "lines": [
+          "Arcanists in Runewick think math explains the wind.",
+          "Let them calculate why a Briar Stalker just chewed through their courier's satchel."
+        ]
+      },
+      "completionDialogueCard": {
+        "cardId": "quest_vesperwood_1_2_comp",
+        "speakerMayorId": "sylvan_reed",
+        "speakerName": "Warden-Mayor Sylvan Reed",
+        "speakerTitle": "Warden-Mayor",
+        "cityId": "vesperwood",
+        "lines": [
+          "Six Gale Plumes in hand. The canopy winds are stabilizing.",
+          "Stay light on your feet—Sylvara nests just above."
+        ]
+      },
+      "reward": {
+        "xp": 900,
+        "gold": 250,
+        "rewardItems": [
+          {
+            "definitionId": "minor_healing_elixir",
+            "quantity": 2
+          }
+        ],
+        "grantsLetterToSolstice": false
+      },
+      "wiki": {
+        "wikiDescription": "Quest 1.2 — Briar & Frost: Act I storyline quest in vesperwood.",
+        "lore": "Traverse Mossglen Trail and collect high-canopy Gale Plumes.",
+        "acquisitionSource": "Offered by Warden-Mayor Sylvan Reed in vesperwood.",
+        "tags": [
+          "act_one_quest",
+          "vesperwood",
+          "stage_2"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "quest",
+    "id": "quest_vesperwood_1_3",
+    "name": "Quest 1.3 — Matriarch of the Gale",
+    "wiki": {
+      "wikiDescription": "Quest 1.3 — Matriarch of the Gale: Act I storyline quest in vesperwood.",
+      "lore": "Defeat Sylvara in the apex canopy of Vesperwood.",
+      "acquisitionSource": "Offered by Warden-Mayor Sylvan Reed in vesperwood.",
+      "tags": [
+        "act_one_quest",
+        "stage_3",
+        "vesperwood"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "sylvara_gale_matriarch",
+        "kind": "enemy",
+        "name": "Sylvara, Gale Matriarch"
+      }
+    ],
+    "data": {
+      "questId": "quest_vesperwood_1_3",
+      "act": 1,
+      "stage": 3,
+      "cityId": "vesperwood",
+      "mayorId": "sylvan_reed",
+      "title": "Quest 1.3 — Matriarch of the Gale",
+      "minLevel": 16,
+      "maxRecommendedLevel": 22,
+      "objectives": [
+        {
+          "objectiveId": "obj_boss_sylvara_gale_matriarch",
+          "type": "defeat_area_boss",
+          "targetId": "sylvara_gale_matriarch",
+          "areaNumber": 3,
+          "requiredCount": 1,
+          "description": "Defeat Sylvara the Gale Matriarch in Area 3 (The Galehollow Canopy)"
+        }
+      ],
+      "introDialogueCard": {
+        "cardId": "quest_vesperwood_1_3_intro",
+        "speakerMayorId": "sylvan_reed",
+        "speakerName": "Warden-Mayor Sylvan Reed",
+        "speakerTitle": "Warden-Mayor",
+        "cityId": "vesperwood",
+        "lines": [
+          "Sylvara's tempest threatens to tear the boughs apart.",
+          "Take to the high canopy and bring down the storm."
+        ]
+      },
+      "completionDialogueCard": {
+        "cardId": "quest_vesperwood_1_3_comp",
+        "speakerMayorId": "sylvan_reed",
+        "speakerName": "Warden-Mayor Sylvan Reed",
+        "speakerTitle": "Warden-Mayor",
+        "cityId": "vesperwood",
+        "lines": [
+          "Found a glowing Astral splinter in Sylvara's nest.",
+          "Head to Solstice and hand it to Chancellor Vance—try not to wake him if he's still drafting trade treaties."
+        ]
+      },
+      "reward": {
+        "xp": 2200,
+        "gold": 500,
+        "rewardItems": [
+          {
+            "definitionId": "galehollow_leaf_mantle",
+            "quantity": 1
+          }
+        ],
+        "grantsLetterToSolstice": true
+      },
+      "wiki": {
+        "wikiDescription": "Quest 1.3 — Matriarch of the Gale: Act I storyline quest in vesperwood.",
+        "lore": "Defeat Sylvara in the apex canopy of Vesperwood.",
+        "acquisitionSource": "Offered by Warden-Mayor Sylvan Reed in vesperwood.",
+        "tags": [
+          "act_one_quest",
+          "vesperwood",
+          "stage_3"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <title>Lumendelve Codex — Official Game Wiki &amp; Database</title>
+  <meta
+    name="description"
+    content="Explore the Lumendelve Codex: playable classes, combat glyphs, rift enemies, gear sets, zones, quests, and deterministic drop tables."
+  />
+  <meta name="theme-color" content="#0e0b0a" />
+  <meta property="og:title" content="Lumendelve Codex — Game Wiki &amp; Database" />
+  <meta
+    property="og:description"
+    content="Search and browse every class, glyph, enemy, gear piece, quest, landmark, and rift mechanic in Lumendelve."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://lumendelve.com/wiki/" />
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=JetBrains+Mono:wght@500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+  />
+  <link rel="stylesheet" href="wiki.css?v=20261125" />
+</head>
+<body>
+  <a class="skip-link" href="#wiki-main">Skip to wiki content</a>
+
+  <header class="wiki-header">
+    <div class="header-inner">
+      <div class="header-left">
+        <button
+          id="sidebar-toggle"
+          class="sidebar-toggle"
+          type="button"
+          aria-label="Open category navigation"
+          aria-controls="wiki-sidebar"
+          aria-expanded="false"
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true">
+            <path d="M4 7h16" />
+            <path d="M4 12h16" />
+            <path d="M4 17h16" />
+          </svg>
+          <span class="sidebar-toggle-label">Codex</span>
+        </button>
+
+        <a class="brand" href="../" aria-label="Lumendelve main site">
+          <span class="brand-mark" aria-hidden="true">
+            <img src="../favicon.svg" alt="" width="28" height="28" />
+          </span>
+          <span class="brand-text">LUMENDELVE</span>
+        </a>
+
+        <a class="wiki-home-link" href="#/">Wiki</a>
+      </div>
+
+      <form id="header-search-form" class="header-search" role="search" aria-label="Search the wiki">
+        <span class="search-icon" aria-hidden="true">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="7" />
+            <path d="m20 20-3.5-3.5" />
+          </svg>
+        </span>
+        <input
+          id="header-search-input"
+          class="header-search-input"
+          type="search"
+          name="q"
+          placeholder="Search codex… (press /)"
+          autocomplete="off"
+          spellcheck="false"
+          aria-label="Search codex entries"
+        />
+        <button
+          id="header-search-clear"
+          class="header-search-clear"
+          type="button"
+          aria-label="Clear search"
+          hidden
+        >
+          &times;
+        </button>
+        <kbd class="search-kbd" aria-hidden="true">/</kbd>
+      </form>
+
+      <div class="header-right">
+        <a class="back-site-link" href="../">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="m15 18-6-6 6-6" />
+          </svg>
+          <span>Back to Site</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="wiki-shell">
+    <div id="sidebar-backdrop" class="sidebar-backdrop" hidden></div>
+
+    <aside id="wiki-sidebar" class="wiki-sidebar" aria-label="Codex categories">
+      <div class="sidebar-head">
+        <span class="sidebar-title">Codex Index</span>
+        <button id="sidebar-close" class="sidebar-close" type="button" aria-label="Close category navigation">
+          &times;
+        </button>
+      </div>
+      <nav id="sidebar-nav" class="sidebar-nav" aria-label="Category links">
+        <div class="sidebar-loading">Loading categories…</div>
+      </nav>
+    </aside>
+
+    <main id="wiki-main" class="wiki-main" tabindex="-1">
+      <div id="wiki-view" class="wiki-view" aria-live="polite">
+        <div class="loading-panel ink-card">
+          <span class="loading-sigil" aria-hidden="true"></span>
+          <p>Awakening the Lumendelve Codex…</p>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <footer class="wiki-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="../favicon.svg" alt="" width="22" height="22" aria-hidden="true" />
+        <div>
+          <p class="footer-title">LUMENDELVE CODEX</p>
+          <p id="footer-meta-text" class="footer-status">Static Game Database</p>
+        </div>
+      </div>
+
+      <div class="footer-actions">
+        <a class="footer-link" href="#/">Codex Home</a>
+        <a class="footer-link" href="#/search">Search Index</a>
+        <a class="footer-link" href="../">Back to Main Site</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="wiki.js?v=20261125" defer></script>
+</body>
+</html>

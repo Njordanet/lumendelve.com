@@ -1,0 +1,198 @@
+[
+  {
+    "kind": "class",
+    "id": "acolyte",
+    "name": "Acolyte",
+    "wiki": {
+      "wikiDescription": "Devoted conduit of celestial light and restorative tides protecting Sunhaven and supporting allies.",
+      "lore": "Guardians of Sunhaven dawnlit sanctum, acolytes bridge radiant energy and restorative surges to mend wounds and purge shadows.",
+      "acquisitionSource": "Default unlocked starter class in Sunhaven.",
+      "tags": [
+        "healer",
+        "light",
+        "starter_class",
+        "sunhaven",
+        "support"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "id": "acolyte",
+      "displayName": "Acolyte",
+      "role": "Light & Support",
+      "homeCity": "sunhaven",
+      "branches": [
+        "luminar",
+        "astralyst"
+      ],
+      "baseHp": 115,
+      "baseSpeed": 95,
+      "physAtk": 80,
+      "physDef": 90,
+      "elemAtk": 75,
+      "elemDef": 95,
+      "specAtk": 115,
+      "specDef": 110,
+      "statTotal": 660,
+      "wiki": {
+        "wikiDescription": "Devoted conduit of celestial light and restorative tides protecting Sunhaven and supporting allies.",
+        "lore": "Guardians of Sunhaven dawnlit sanctum, acolytes bridge radiant energy and restorative surges to mend wounds and purge shadows.",
+        "acquisitionSource": "Default unlocked starter class in Sunhaven.",
+        "tags": [
+          "starter_class",
+          "support",
+          "light",
+          "healer",
+          "sunhaven"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "class",
+    "id": "arcanist",
+    "name": "Arcanist",
+    "wiki": {
+      "wikiDescription": "Master of magic forces and psychic resonance channeling raw prismatic energy in Runewick.",
+      "lore": "Scholars of Runewick crystalline spires, arcanists weave magic matrices and psychic spikes to overwhelm rift anomalies.",
+      "acquisitionSource": "Default unlocked starter class in Runewick.",
+      "tags": [
+        "caster",
+        "magic",
+        "psychic",
+        "runewick",
+        "starter_class"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "id": "arcanist",
+      "displayName": "Arcanist",
+      "role": "Magic & Psychic Caster",
+      "homeCity": "runewick",
+      "branches": [
+        "prismancer",
+        "mindweaver"
+      ],
+      "baseHp": 100,
+      "baseSpeed": 100,
+      "physAtk": 60,
+      "physDef": 75,
+      "elemAtk": 120,
+      "elemDef": 100,
+      "specAtk": 110,
+      "specDef": 95,
+      "statTotal": 660,
+      "wiki": {
+        "wikiDescription": "Master of magic forces and psychic resonance channeling raw prismatic energy in Runewick.",
+        "lore": "Scholars of Runewick crystalline spires, arcanists weave magic matrices and psychic spikes to overwhelm rift anomalies.",
+        "acquisitionSource": "Default unlocked starter class in Runewick.",
+        "tags": [
+          "starter_class",
+          "caster",
+          "magic",
+          "psychic",
+          "runewick"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "class",
+    "id": "scout",
+    "name": "Scout",
+    "wiki": {
+      "wikiDescription": "Agile skirmisher and marksman navigating the high canopies of Vesperwood with unmatched swiftness.",
+      "lore": "Trained among the whispering boughs of Vesperwood, scouts harness wind currents and swift strikes to fell enemies before being seen.",
+      "acquisitionSource": "Default unlocked starter class in Vesperwood.",
+      "tags": [
+        "agility",
+        "ranged",
+        "speed",
+        "starter_class",
+        "vesperwood"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "id": "scout",
+      "displayName": "Scout",
+      "role": "Agility / Speed DPS",
+      "homeCity": "vesperwood",
+      "branches": [
+        "zephyr",
+        "wayfinder"
+      ],
+      "baseHp": 105,
+      "baseSpeed": 125,
+      "physAtk": 115,
+      "physDef": 80,
+      "elemAtk": 85,
+      "elemDef": 80,
+      "specAtk": 65,
+      "specDef": 85,
+      "statTotal": 635,
+      "wiki": {
+        "wikiDescription": "Agile skirmisher and marksman navigating the high canopies of Vesperwood with unmatched swiftness.",
+        "lore": "Trained among the whispering boughs of Vesperwood, scouts harness wind currents and swift strikes to fell enemies before being seen.",
+        "acquisitionSource": "Default unlocked starter class in Vesperwood.",
+        "tags": [
+          "starter_class",
+          "ranged",
+          "agility",
+          "speed",
+          "vesperwood"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "class",
+    "id": "squire",
+    "name": "Squire",
+    "wiki": {
+      "wikiDescription": "Stalwart frontline combatant defending Steel Watch with heavy armor and commanding physical prowess.",
+      "lore": "Forged in the shadow of the Ironspire Vaults, squires endure grueling discipline to hold the vanguard against rift horrors.",
+      "acquisitionSource": "Default unlocked starter class in Steel Watch.",
+      "tags": [
+        "melee",
+        "physical",
+        "starter_class",
+        "steel_watch",
+        "tank"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "id": "squire",
+      "displayName": "Squire",
+      "role": "Frontline Melee",
+      "homeCity": "steel_watch",
+      "branches": [
+        "aegis",
+        "reaver"
+      ],
+      "baseHp": 140,
+      "baseSpeed": 85,
+      "physAtk": 110,
+      "physDef": 115,
+      "elemAtk": 60,
+      "elemDef": 80,
+      "specAtk": 60,
+      "specDef": 90,
+      "statTotal": 600,
+      "wiki": {
+        "wikiDescription": "Stalwart frontline combatant defending Steel Watch with heavy armor and commanding physical prowess.",
+        "lore": "Forged in the shadow of the Ironspire Vaults, squires endure grueling discipline to hold the vanguard against rift horrors.",
+        "acquisitionSource": "Default unlocked starter class in Steel Watch.",
+        "tags": [
+          "starter_class",
+          "melee",
+          "tank",
+          "physical",
+          "steel_watch"
+        ]
+      }
+    }
+  }
+]

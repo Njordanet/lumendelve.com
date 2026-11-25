@@ -1,0 +1,1448 @@
+[
+  {
+    "kind": "achievement",
+    "id": "ach_bestiary_master_20",
+    "name": "Lorekeeper of Beasts",
+    "wiki": {
+      "wikiDescription": "Raise 20 Bestiary entries to Tier 3+ (50+ kills each).",
+      "lore": "Every weakness, element, and telegraph committed to memory.",
+      "acquisitionSource": "Bestiary: 20 enemies at Tier 3+.",
+      "tags": [
+        "achievement",
+        "bestiary",
+        "collection"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_bestiary_master_20",
+      "name": "Lorekeeper of Beasts",
+      "category": "collection",
+      "targetCount": 20,
+      "points": 35,
+      "titleReward": {
+        "titleId": "title_lorekeeper",
+        "displayTitle": "Lorekeeper",
+        "grantsCombatStats": false
+      },
+      "wiki": {
+        "wikiDescription": "Raise 20 Bestiary entries to Tier 3+ (50+ kills each).",
+        "lore": "Every weakness, element, and telegraph committed to memory.",
+        "acquisitionSource": "Bestiary: 20 enemies at Tier 3+.",
+        "tags": [
+          "achievement",
+          "collection",
+          "collection",
+          "bestiary"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_bestiary_master_5",
+    "name": "Field Naturalist",
+    "wiki": {
+      "wikiDescription": "Raise 5 Bestiary entries to Tier 3+ (50+ kills each).",
+      "lore": "Knowing a creature’s cadence is half the victory.",
+      "acquisitionSource": "Bestiary: 5 enemies at Tier 3+.",
+      "tags": [
+        "achievement",
+        "bestiary",
+        "collection"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_bestiary_master_5",
+      "name": "Field Naturalist",
+      "category": "collection",
+      "targetCount": 5,
+      "points": 15,
+      "wiki": {
+        "wikiDescription": "Raise 5 Bestiary entries to Tier 3+ (50+ kills each).",
+        "lore": "Knowing a creature’s cadence is half the victory.",
+        "acquisitionSource": "Bestiary: 5 enemies at Tier 3+.",
+        "tags": [
+          "achievement",
+          "collection",
+          "collection",
+          "bestiary"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_boss_slayer_5",
+    "name": "Realm Challenger",
+    "wiki": {
+      "wikiDescription": "Defeat 5 Realm Bosses.",
+      "lore": "Five fallen wardens prove you can command every depth.",
+      "acquisitionSource": "Combat: defeat 5 Bosses.",
+      "tags": [
+        "achievement",
+        "boss",
+        "combat"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_boss_slayer_5",
+      "name": "Realm Challenger",
+      "category": "combat",
+      "targetCount": 5,
+      "points": 20,
+      "wiki": {
+        "wikiDescription": "Defeat 5 Realm Bosses.",
+        "lore": "Five fallen wardens prove you can command every depth.",
+        "acquisitionSource": "Combat: defeat 5 Bosses.",
+        "tags": [
+          "achievement",
+          "combat",
+          "combat",
+          "boss"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_bounty_10",
+    "name": "Contract Regular",
+    "wiki": {
+      "wikiDescription": "Complete 10 daily or weekly bounties.",
+      "lore": "Guild quartermasters keep your requisitions at the top of the stack.",
+      "acquisitionSource": "Bounties: claim 10 bounties.",
+      "tags": [
+        "achievement",
+        "bounty",
+        "forge"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_bounty_10",
+      "name": "Contract Regular",
+      "category": "forge",
+      "targetCount": 10,
+      "points": 15,
+      "wiki": {
+        "wikiDescription": "Complete 10 daily or weekly bounties.",
+        "lore": "Guild quartermasters keep your requisitions at the top of the stack.",
+        "acquisitionSource": "Bounties: claim 10 bounties.",
+        "tags": [
+          "achievement",
+          "forge",
+          "forge",
+          "bounty"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_collection_150",
+    "name": "Encyclopedia of Lumen",
+    "wiki": {
+      "wikiDescription": "Unlock 150 entries in the Collection Log.",
+      "lore": "Little across the seven zones remains uncatalogued.",
+      "acquisitionSource": "Collection: 150 discovered entries.",
+      "tags": [
+        "achievement",
+        "codex",
+        "collection"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_collection_150",
+      "name": "Encyclopedia of Lumen",
+      "category": "collection",
+      "targetCount": 150,
+      "points": 40,
+      "wiki": {
+        "wikiDescription": "Unlock 150 entries in the Collection Log.",
+        "lore": "Little across the seven zones remains uncatalogued.",
+        "acquisitionSource": "Collection: 150 discovered entries.",
+        "tags": [
+          "achievement",
+          "collection",
+          "collection",
+          "codex"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_collection_25",
+    "name": "Field Notebook",
+    "wiki": {
+      "wikiDescription": "Unlock 25 entries in the Collection Log.",
+      "lore": "Sketches of beasts, blades, and sigils fill your first journal.",
+      "acquisitionSource": "Collection: 25 discovered entries.",
+      "tags": [
+        "achievement",
+        "codex",
+        "collection"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_collection_25",
+      "name": "Field Notebook",
+      "category": "collection",
+      "targetCount": 25,
+      "points": 10,
+      "wiki": {
+        "wikiDescription": "Unlock 25 entries in the Collection Log.",
+        "lore": "Sketches of beasts, blades, and sigils fill your first journal.",
+        "acquisitionSource": "Collection: 25 discovered entries.",
+        "tags": [
+          "achievement",
+          "collection",
+          "collection",
+          "codex"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_collection_75",
+    "name": "Grand Archivist",
+    "wiki": {
+      "wikiDescription": "Unlock 75 entries in the Collection Log.",
+      "lore": "Curators in Solstice consult your notes on rare Rift relics.",
+      "acquisitionSource": "Collection: 75 discovered entries.",
+      "tags": [
+        "achievement",
+        "codex",
+        "collection"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_collection_75",
+      "name": "Grand Archivist",
+      "category": "collection",
+      "targetCount": 75,
+      "points": 25,
+      "titleReward": {
+        "titleId": "title_grand_archivist",
+        "displayTitle": "Grand Archivist",
+        "grantsCombatStats": false
+      },
+      "wiki": {
+        "wikiDescription": "Unlock 75 entries in the Collection Log.",
+        "lore": "Curators in Solstice consult your notes on rare Rift relics.",
+        "acquisitionSource": "Collection: 75 discovered entries.",
+        "tags": [
+          "achievement",
+          "collection",
+          "collection",
+          "codex"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_elite_hunter_10",
+    "name": "Affix Breaker",
+    "wiki": {
+      "wikiDescription": "Defeat 10 Elite guardians in Rift delves.",
+      "lore": "Vampiric or thorned, every guardian falls to sharp focus.",
+      "acquisitionSource": "Combat: defeat 10 Elites.",
+      "tags": [
+        "achievement",
+        "combat",
+        "elite"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_elite_hunter_10",
+      "name": "Affix Breaker",
+      "category": "combat",
+      "targetCount": 10,
+      "points": 20,
+      "wiki": {
+        "wikiDescription": "Defeat 10 Elite guardians in Rift delves.",
+        "lore": "Vampiric or thorned, every guardian falls to sharp focus.",
+        "acquisitionSource": "Combat: defeat 10 Elites.",
+        "tags": [
+          "achievement",
+          "combat",
+          "combat",
+          "elite"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_featured_rift_1",
+    "name": "Daily Spotlight",
+    "wiki": {
+      "wikiDescription": "Clear a Daily Featured Rift.",
+      "lore": "Following the Solstice bulletin brings rich spoils.",
+      "acquisitionSource": "Delve: clear 1 Featured Rift.",
+      "tags": [
+        "achievement",
+        "exploration",
+        "featured_rift"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_featured_rift_1",
+      "name": "Daily Spotlight",
+      "category": "exploration",
+      "targetCount": 1,
+      "points": 10,
+      "wiki": {
+        "wikiDescription": "Clear a Daily Featured Rift.",
+        "lore": "Following the Solstice bulletin brings rich spoils.",
+        "acquisitionSource": "Delve: clear 1 Featured Rift.",
+        "tags": [
+          "achievement",
+          "exploration",
+          "exploration",
+          "featured_rift"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_featured_rift_7",
+    "name": "Solstice Herald",
+    "wiki": {
+      "wikiDescription": "Clear 7 Daily Featured Rifts.",
+      "lore": "Seven daily surges mastered under shifting Rift rules.",
+      "acquisitionSource": "Delve: clear 7 Featured Rifts.",
+      "tags": [
+        "achievement",
+        "exploration",
+        "featured_rift"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_featured_rift_7",
+      "name": "Solstice Herald",
+      "category": "exploration",
+      "targetCount": 7,
+      "points": 25,
+      "titleReward": {
+        "titleId": "title_solstice_herald",
+        "displayTitle": "Solstice Herald",
+        "grantsCombatStats": false
+      },
+      "wiki": {
+        "wikiDescription": "Clear 7 Daily Featured Rifts.",
+        "lore": "Seven daily surges mastered under shifting Rift rules.",
+        "acquisitionSource": "Delve: clear 7 Featured Rifts.",
+        "tags": [
+          "achievement",
+          "exploration",
+          "exploration",
+          "featured_rift"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_first_blood",
+    "name": "First Delve Skirmish",
+    "wiki": {
+      "wikiDescription": "Defeat your first enemy inside a Rift delve.",
+      "lore": "Every veteran delver remembers their first spark-bound foe.",
+      "acquisitionSource": "Combat: defeat 1 enemy.",
+      "tags": [
+        "achievement",
+        "combat",
+        "starter"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_first_blood",
+      "name": "First Delve Skirmish",
+      "category": "combat",
+      "targetCount": 1,
+      "points": 5,
+      "wiki": {
+        "wikiDescription": "Defeat your first enemy inside a Rift delve.",
+        "lore": "Every veteran delver remembers their first spark-bound foe.",
+        "acquisitionSource": "Combat: defeat 1 enemy.",
+        "tags": [
+          "achievement",
+          "combat",
+          "combat",
+          "starter"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_first_clear",
+    "name": "Out of the Shaft",
+    "wiki": {
+      "wikiDescription": "Complete your first Rift delve.",
+      "lore": "Stepping back into sunlight with a cleared seal marks a true delver.",
+      "acquisitionSource": "Delve: complete 1 Rift.",
+      "tags": [
+        "achievement",
+        "delve",
+        "exploration"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_first_clear",
+      "name": "Out of the Shaft",
+      "category": "exploration",
+      "targetCount": 1,
+      "points": 10,
+      "wiki": {
+        "wikiDescription": "Complete your first Rift delve.",
+        "lore": "Stepping back into sunlight with a cleared seal marks a true delver.",
+        "acquisitionSource": "Delve: complete 1 Rift.",
+        "tags": [
+          "achievement",
+          "exploration",
+          "exploration",
+          "delve"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_first_upgrade",
+    "name": "Sparks on the Anvil",
+    "wiki": {
+      "wikiDescription": "Upgrade any piece of gear at the Forge.",
+      "lore": "The first hammer strike sets a weapon on its true edge.",
+      "acquisitionSource": "Forge: complete 1 upgrade.",
+      "tags": [
+        "achievement",
+        "forge",
+        "upgrade"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_first_upgrade",
+      "name": "Sparks on the Anvil",
+      "category": "forge",
+      "targetCount": 1,
+      "points": 5,
+      "wiki": {
+        "wikiDescription": "Upgrade any piece of gear at the Forge.",
+        "lore": "The first hammer strike sets a weapon on its true edge.",
+        "acquisitionSource": "Forge: complete 1 upgrade.",
+        "tags": [
+          "achievement",
+          "forge",
+          "forge",
+          "upgrade"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_full_zone_set",
+    "name": "Complete Regalia",
+    "wiki": {
+      "wikiDescription": "Complete a full 5-piece zone gear set in your Collection Log.",
+      "lore": "All five pieces aligned hum with resonant set magic.",
+      "acquisitionSource": "Collection: complete any 5-piece zone set.",
+      "tags": [
+        "achievement",
+        "collection",
+        "gear_set"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_full_zone_set",
+      "name": "Complete Regalia",
+      "category": "collection",
+      "targetCount": 1,
+      "points": 25,
+      "titleReward": {
+        "titleId": "title_setbearer",
+        "displayTitle": "Setbearer",
+        "grantsCombatStats": false
+      },
+      "wiki": {
+        "wikiDescription": "Complete a full 5-piece zone gear set in your Collection Log.",
+        "lore": "All five pieces aligned hum with resonant set magic.",
+        "acquisitionSource": "Collection: complete any 5-piece zone set.",
+        "tags": [
+          "achievement",
+          "collection",
+          "collection",
+          "gear_set"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_hero_lv10",
+    "name": "Tidewall Veteran",
+    "wiki": {
+      "wikiDescription": "Reach Hero Level 10.",
+      "lore": "Ten levels of hardened steel and keen Rift intuition.",
+      "acquisitionSource": "Progression: reach Lv 10.",
+      "tags": [
+        "achievement",
+        "collection",
+        "level_10"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_hero_lv10",
+      "name": "Tidewall Veteran",
+      "category": "collection",
+      "targetCount": 10,
+      "points": 15,
+      "wiki": {
+        "wikiDescription": "Reach Hero Level 10.",
+        "lore": "Ten levels of hardened steel and keen Rift intuition.",
+        "acquisitionSource": "Progression: reach Lv 10.",
+        "tags": [
+          "achievement",
+          "collection",
+          "collection",
+          "level_10"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_hero_lv15",
+    "name": "Emberroot Ascendant",
+    "wiki": {
+      "wikiDescription": "Reach Hero Level 15.",
+      "lore": "Ready to brave the shattered relays of the deep Lumenworks.",
+      "acquisitionSource": "Progression: reach Lv 15.",
+      "tags": [
+        "achievement",
+        "collection",
+        "level_15"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_hero_lv15",
+      "name": "Emberroot Ascendant",
+      "category": "collection",
+      "targetCount": 15,
+      "points": 20,
+      "wiki": {
+        "wikiDescription": "Reach Hero Level 15.",
+        "lore": "Ready to brave the shattered relays of the deep Lumenworks.",
+        "acquisitionSource": "Progression: reach Lv 15.",
+        "tags": [
+          "achievement",
+          "collection",
+          "collection",
+          "level_15"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_hero_lv20",
+    "name": "Sovereign Champion",
+    "wiki": {
+      "wikiDescription": "Reach the Lv 20 cap on any hero.",
+      "lore": "Standing at the pinnacle of Lv 20 mastery across all realms.",
+      "acquisitionSource": "Progression: reach Lv 20.",
+      "tags": [
+        "achievement",
+        "collection",
+        "level_20"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_hero_lv20",
+      "name": "Sovereign Champion",
+      "category": "collection",
+      "targetCount": 20,
+      "points": 35,
+      "titleReward": {
+        "titleId": "title_sovereign_champion",
+        "displayTitle": "Sovereign Champion",
+        "grantsCombatStats": false
+      },
+      "wiki": {
+        "wikiDescription": "Reach the Lv 20 cap on any hero.",
+        "lore": "Standing at the pinnacle of Lv 20 mastery across all realms.",
+        "acquisitionSource": "Progression: reach Lv 20.",
+        "tags": [
+          "achievement",
+          "collection",
+          "collection",
+          "level_20"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_hero_lv5",
+    "name": "Threshold of Solstice",
+    "wiki": {
+      "wikiDescription": "Reach Hero Level 5.",
+      "lore": "Your home realm is behind you; the Solstice Spire awaits.",
+      "acquisitionSource": "Progression: reach Lv 5.",
+      "tags": [
+        "achievement",
+        "collection",
+        "level_5"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_hero_lv5",
+      "name": "Threshold of Solstice",
+      "category": "collection",
+      "targetCount": 5,
+      "points": 10,
+      "wiki": {
+        "wikiDescription": "Reach Hero Level 5.",
+        "lore": "Your home realm is behind you; the Solstice Spire awaits.",
+        "acquisitionSource": "Progression: reach Lv 5.",
+        "tags": [
+          "achievement",
+          "collection",
+          "collection",
+          "level_5"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_landmark_scholar_10",
+    "name": "Relic Witness",
+    "wiki": {
+      "wikiDescription": "Interact with 10 story Landmarks inside Rift chambers.",
+      "lore": "Plaques, shrines, and sunken bells preserve the story of every realm.",
+      "acquisitionSource": "Delve: interact with 10 Landmarks.",
+      "tags": [
+        "achievement",
+        "exploration",
+        "landmark"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_landmark_scholar_10",
+      "name": "Relic Witness",
+      "category": "exploration",
+      "targetCount": 10,
+      "points": 15,
+      "wiki": {
+        "wikiDescription": "Interact with 10 story Landmarks inside Rift chambers.",
+        "lore": "Plaques, shrines, and sunken bells preserve the story of every realm.",
+        "acquisitionSource": "Delve: interact with 10 Landmarks.",
+        "tags": [
+          "achievement",
+          "exploration",
+          "exploration",
+          "landmark"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_lumenworks_architect",
+    "name": "Architect Unmade",
+    "wiki": {
+      "wikiDescription": "Defeat the Lumenworks boss inside Shattered Lumenworks.",
+      "lore": "Commemorates silencing the runaway central conduit.",
+      "acquisitionSource": "Shattered Lumenworks Boss Clear.",
+      "tags": [
+        "achievement",
+        "boss",
+        "combat",
+        "shattered_lumenworks"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_lumenworks_architect",
+      "name": "Architect Unmade",
+      "category": "combat",
+      "targetCount": 1,
+      "points": 25,
+      "titleReward": {
+        "titleId": "title_circuit_breaker",
+        "displayTitle": "Circuit Breaker",
+        "grantsCombatStats": false
+      },
+      "wiki": {
+        "wikiDescription": "Defeat the Lumenworks boss inside Shattered Lumenworks.",
+        "lore": "Commemorates silencing the runaway central conduit.",
+        "acquisitionSource": "Shattered Lumenworks Boss Clear.",
+        "tags": [
+          "achievement",
+          "combat",
+          "combat",
+          "shattered_lumenworks",
+          "boss"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_map_100_10",
+    "name": "Master Cartographer",
+    "wiki": {
+      "wikiDescription": "Achieve 100% map completion in 10 Rift delves.",
+      "lore": "Your survey ink maps corridors even the old guilds forgot.",
+      "acquisitionSource": "Delve: reach 100% map completion 10 times.",
+      "tags": [
+        "achievement",
+        "exploration",
+        "map_completion"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_map_100_10",
+      "name": "Master Cartographer",
+      "category": "exploration",
+      "targetCount": 10,
+      "points": 30,
+      "titleReward": {
+        "titleId": "title_master_cartographer",
+        "displayTitle": "Master Cartographer",
+        "grantsCombatStats": false
+      },
+      "wiki": {
+        "wikiDescription": "Achieve 100% map completion in 10 Rift delves.",
+        "lore": "Your survey ink maps corridors even the old guilds forgot.",
+        "acquisitionSource": "Delve: reach 100% map completion 10 times.",
+        "tags": [
+          "achievement",
+          "exploration",
+          "exploration",
+          "map_completion"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_map_100_first",
+    "name": "No Stone Unturned",
+    "wiki": {
+      "wikiDescription": "Achieve 100% map completion in a single Rift delve.",
+      "lore": "Every side chamber and quiet alcove charted end to end.",
+      "acquisitionSource": "Delve: reach 100% map completion.",
+      "tags": [
+        "achievement",
+        "exploration",
+        "map_completion"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_map_100_first",
+      "name": "No Stone Unturned",
+      "category": "exploration",
+      "targetCount": 1,
+      "points": 15,
+      "wiki": {
+        "wikiDescription": "Achieve 100% map completion in a single Rift delve.",
+        "lore": "Every side chamber and quiet alcove charted end to end.",
+        "acquisitionSource": "Delve: reach 100% map completion.",
+        "tags": [
+          "achievement",
+          "exploration",
+          "exploration",
+          "map_completion"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_perfect_block_1",
+    "name": "Shield Wall Timing",
+    "wiki": {
+      "wikiDescription": "Land a Perfect Block against an enemy attack or boss telegraph.",
+      "lore": "A raised guard at the exact heartbeat turns ruin into momentum.",
+      "acquisitionSource": "Combat: execute 1 Perfect Block.",
+      "tags": [
+        "achievement",
+        "combat",
+        "perfect_block"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_perfect_block_1",
+      "name": "Shield Wall Timing",
+      "category": "combat",
+      "targetCount": 1,
+      "points": 10,
+      "wiki": {
+        "wikiDescription": "Land a Perfect Block against an enemy attack or boss telegraph.",
+        "lore": "A raised guard at the exact heartbeat turns ruin into momentum.",
+        "acquisitionSource": "Combat: execute 1 Perfect Block.",
+        "tags": [
+          "achievement",
+          "combat",
+          "combat",
+          "perfect_block"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_perfect_block_100",
+    "name": "Unbreakable Aegis",
+    "wiki": {
+      "wikiDescription": "Execute 100 Perfect Blocks across your career.",
+      "lore": "Legend speaks of guards who walked through storms unscratched.",
+      "acquisitionSource": "Combat: execute 100 Perfect Blocks.",
+      "tags": [
+        "achievement",
+        "combat",
+        "perfect_block"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_perfect_block_100",
+      "name": "Unbreakable Aegis",
+      "category": "combat",
+      "targetCount": 100,
+      "points": 35,
+      "titleReward": {
+        "titleId": "title_unbreakable_aegis",
+        "displayTitle": "Unbreakable Aegis",
+        "grantsCombatStats": false
+      },
+      "wiki": {
+        "wikiDescription": "Execute 100 Perfect Blocks across your career.",
+        "lore": "Legend speaks of guards who walked through storms unscratched.",
+        "acquisitionSource": "Combat: execute 100 Perfect Blocks.",
+        "tags": [
+          "achievement",
+          "combat",
+          "combat",
+          "perfect_block"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_perfect_block_25",
+    "name": "Iron Reflex",
+    "wiki": {
+      "wikiDescription": "Execute 25 Perfect Blocks in Rift combat.",
+      "lore": "Calm breath and steady steel blunt even telegraphed slams.",
+      "acquisitionSource": "Combat: execute 25 Perfect Blocks.",
+      "tags": [
+        "achievement",
+        "combat",
+        "perfect_block"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_perfect_block_25",
+      "name": "Iron Reflex",
+      "category": "combat",
+      "targetCount": 25,
+      "points": 20,
+      "titleReward": {
+        "titleId": "title_iron_reflex",
+        "displayTitle": "Iron Reflex",
+        "grantsCombatStats": false
+      },
+      "wiki": {
+        "wikiDescription": "Execute 25 Perfect Blocks in Rift combat.",
+        "lore": "Calm breath and steady steel blunt even telegraphed slams.",
+        "acquisitionSource": "Combat: execute 25 Perfect Blocks.",
+        "tags": [
+          "achievement",
+          "combat",
+          "combat",
+          "perfect_block"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_reroll_1",
+    "name": "Second Edge",
+    "wiki": {
+      "wikiDescription": "Reroll a gear affix using Rune Dust.",
+      "lore": "Careful etching swaps an unwanted trait for sharper fortune.",
+      "acquisitionSource": "Forge: reroll 1 affix.",
+      "tags": [
+        "achievement",
+        "affix",
+        "forge"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_reroll_1",
+      "name": "Second Edge",
+      "category": "forge",
+      "targetCount": 1,
+      "points": 10,
+      "wiki": {
+        "wikiDescription": "Reroll a gear affix using Rune Dust.",
+        "lore": "Careful etching swaps an unwanted trait for sharper fortune.",
+        "acquisitionSource": "Forge: reroll 1 affix.",
+        "tags": [
+          "achievement",
+          "forge",
+          "forge",
+          "affix"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_reroll_15",
+    "name": "Runesmith",
+    "wiki": {
+      "wikiDescription": "Reroll 15 gear affixes at the Forge.",
+      "lore": "Mastery of rune inlays turns good steel into bespoke armaments.",
+      "acquisitionSource": "Forge: reroll 15 affixes.",
+      "tags": [
+        "achievement",
+        "affix",
+        "forge"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_reroll_15",
+      "name": "Runesmith",
+      "category": "forge",
+      "targetCount": 15,
+      "points": 20,
+      "titleReward": {
+        "titleId": "title_runesmith",
+        "displayTitle": "Runesmith",
+        "grantsCombatStats": false
+      },
+      "wiki": {
+        "wikiDescription": "Reroll 15 gear affixes at the Forge.",
+        "lore": "Mastery of rune inlays turns good steel into bespoke armaments.",
+        "acquisitionSource": "Forge: reroll 15 affixes.",
+        "tags": [
+          "achievement",
+          "forge",
+          "forge",
+          "affix"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_s_grade_run",
+    "name": "Flawless Clear",
+    "wiki": {
+      "wikiDescription": "Earn an S-Rank grade upon completing a Rift delve.",
+      "lore": "Fast turns, clean defense, and full exploration earn top marks.",
+      "acquisitionSource": "Delve: finish with Run Grade S.",
+      "tags": [
+        "achievement",
+        "combat",
+        "run_grade"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_s_grade_run",
+      "name": "Flawless Clear",
+      "category": "combat",
+      "targetCount": 1,
+      "points": 25,
+      "titleReward": {
+        "titleId": "title_flawless_tactician",
+        "displayTitle": "Flawless Tactician",
+        "grantsCombatStats": false
+      },
+      "wiki": {
+        "wikiDescription": "Earn an S-Rank grade upon completing a Rift delve.",
+        "lore": "Fast turns, clean defense, and full exploration earn top marks.",
+        "acquisitionSource": "Delve: finish with Run Grade S.",
+        "tags": [
+          "achievement",
+          "combat",
+          "combat",
+          "run_grade"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_salvage_10",
+    "name": "Dust Collector",
+    "wiki": {
+      "wikiDescription": "Salvage 10 items into Upgrade Dust and materials.",
+      "lore": "Old blades feed tomorrow’s masterworks.",
+      "acquisitionSource": "Forge: salvage 10 items.",
+      "tags": [
+        "achievement",
+        "forge",
+        "salvage"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_salvage_10",
+      "name": "Dust Collector",
+      "category": "forge",
+      "targetCount": 10,
+      "points": 10,
+      "wiki": {
+        "wikiDescription": "Salvage 10 items into Upgrade Dust and materials.",
+        "lore": "Old blades feed tomorrow’s masterworks.",
+        "acquisitionSource": "Forge: salvage 10 items.",
+        "tags": [
+          "achievement",
+          "forge",
+          "forge",
+          "salvage"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_salvage_100",
+    "name": "Smelter Baron",
+    "wiki": {
+      "wikiDescription": "Salvage 100 items at the Forge.",
+      "lore": "Your crucible never cools between expeditions.",
+      "acquisitionSource": "Forge: salvage 100 items.",
+      "tags": [
+        "achievement",
+        "forge",
+        "salvage"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_salvage_100",
+      "name": "Smelter Baron",
+      "category": "forge",
+      "targetCount": 100,
+      "points": 20,
+      "wiki": {
+        "wikiDescription": "Salvage 100 items at the Forge.",
+        "lore": "Your crucible never cools between expeditions.",
+        "acquisitionSource": "Forge: salvage 100 items.",
+        "tags": [
+          "achievement",
+          "forge",
+          "forge",
+          "salvage"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_secret_finder_1",
+    "name": "False Wall",
+    "wiki": {
+      "wikiDescription": "Reveal your first Secret Wall chamber.",
+      "lore": "A faint draft through cracked mortar always points somewhere good.",
+      "acquisitionSource": "Delve: uncover 1 Secret Wall.",
+      "tags": [
+        "achievement",
+        "exploration",
+        "secrets"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_secret_finder_1",
+      "name": "False Wall",
+      "category": "exploration",
+      "targetCount": 1,
+      "points": 10,
+      "wiki": {
+        "wikiDescription": "Reveal your first Secret Wall chamber.",
+        "lore": "A faint draft through cracked mortar always points somewhere good.",
+        "acquisitionSource": "Delve: uncover 1 Secret Wall.",
+        "tags": [
+          "achievement",
+          "exploration",
+          "exploration",
+          "secrets"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_secret_finder_15",
+    "name": "Whispering Masonry",
+    "wiki": {
+      "wikiDescription": "Reveal 15 Secret Wall chambers across your delves.",
+      "lore": "No disguised arch escapes your keen eye.",
+      "acquisitionSource": "Delve: uncover 15 Secret Walls.",
+      "tags": [
+        "achievement",
+        "exploration",
+        "secrets"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_secret_finder_15",
+      "name": "Whispering Masonry",
+      "category": "exploration",
+      "targetCount": 15,
+      "points": 20,
+      "wiki": {
+        "wikiDescription": "Reveal 15 Secret Wall chambers across your delves.",
+        "lore": "No disguised arch escapes your keen eye.",
+        "acquisitionSource": "Delve: uncover 15 Secret Walls.",
+        "tags": [
+          "achievement",
+          "exploration",
+          "exploration",
+          "secrets"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_slayer_100",
+    "name": "Rift Hunter",
+    "wiki": {
+      "wikiDescription": "Defeat 100 Rift enemies.",
+      "lore": "A hundred notches along the blade keep the corridors open.",
+      "acquisitionSource": "Combat: defeat 100 enemies.",
+      "tags": [
+        "achievement",
+        "combat",
+        "slayer"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_slayer_100",
+      "name": "Rift Hunter",
+      "category": "combat",
+      "targetCount": 100,
+      "points": 15,
+      "titleReward": {
+        "titleId": "title_rift_slayer",
+        "displayTitle": "Rift Slayer",
+        "grantsCombatStats": false
+      },
+      "wiki": {
+        "wikiDescription": "Defeat 100 Rift enemies.",
+        "lore": "A hundred notches along the blade keep the corridors open.",
+        "acquisitionSource": "Combat: defeat 100 enemies.",
+        "tags": [
+          "achievement",
+          "combat",
+          "combat",
+          "slayer"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_slayer_500",
+    "name": "Scourge of the Vaults",
+    "wiki": {
+      "wikiDescription": "Defeat 500 Rift enemies across all zones.",
+      "lore": "Even abyssal wardens retreat when your banner enters the hall.",
+      "acquisitionSource": "Combat: defeat 500 enemies.",
+      "tags": [
+        "achievement",
+        "combat",
+        "slayer"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_slayer_500",
+      "name": "Scourge of the Vaults",
+      "category": "combat",
+      "targetCount": 500,
+      "points": 30,
+      "titleReward": {
+        "titleId": "title_vault_scourge",
+        "displayTitle": "Scourge of the Vaults",
+        "grantsCombatStats": false
+      },
+      "wiki": {
+        "wikiDescription": "Defeat 500 Rift enemies across all zones.",
+        "lore": "Even abyssal wardens retreat when your banner enters the hall.",
+        "acquisitionSource": "Combat: defeat 500 enemies.",
+        "tags": [
+          "achievement",
+          "combat",
+          "combat",
+          "slayer"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_tier3_clear",
+    "name": "Tier 3 Tactician",
+    "wiki": {
+      "wikiDescription": "Clear any Rift at Tier 3 or higher.",
+      "lore": "Tier 3 introduces relentless enemy glyph rotations.",
+      "acquisitionSource": "Delve: clear Rift Tier 3+.",
+      "tags": [
+        "achievement",
+        "combat",
+        "tier_3"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_tier3_clear",
+      "name": "Tier 3 Tactician",
+      "category": "combat",
+      "targetCount": 1,
+      "points": 20,
+      "wiki": {
+        "wikiDescription": "Clear any Rift at Tier 3 or higher.",
+        "lore": "Tier 3 introduces relentless enemy glyph rotations.",
+        "acquisitionSource": "Delve: clear Rift Tier 3+.",
+        "tags": [
+          "achievement",
+          "combat",
+          "combat",
+          "tier_3"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_tier5_clear",
+    "name": "Apex Delver",
+    "wiki": {
+      "wikiDescription": "Clear any Rift at Tier 5.",
+      "lore": "Double-affixed elites and lethal swells could not stop your ascent.",
+      "acquisitionSource": "Delve: clear Rift Tier 5.",
+      "tags": [
+        "achievement",
+        "combat",
+        "tier_5"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_tier5_clear",
+      "name": "Apex Delver",
+      "category": "combat",
+      "targetCount": 1,
+      "points": 40,
+      "titleReward": {
+        "titleId": "title_apex_delver",
+        "displayTitle": "Apex Delver",
+        "grantsCombatStats": false
+      },
+      "wiki": {
+        "wikiDescription": "Clear any Rift at Tier 5.",
+        "lore": "Double-affixed elites and lethal swells could not stop your ascent.",
+        "acquisitionSource": "Delve: clear Rift Tier 5.",
+        "tags": [
+          "achievement",
+          "combat",
+          "combat",
+          "tier_5"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_upgrade_plus10",
+    "name": "Blazing Forgemaster",
+    "wiki": {
+      "wikiDescription": "Upgrade a piece of gear all the way to +10.",
+      "lore": "Few smiths ever coax a +10 blaze without faltering at the anvil.",
+      "acquisitionSource": "Forge: reach +10 on any item.",
+      "tags": [
+        "achievement",
+        "forge",
+        "plus_10",
+        "upgrade"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_upgrade_plus10",
+      "name": "Blazing Forgemaster",
+      "category": "forge",
+      "targetCount": 10,
+      "points": 40,
+      "titleReward": {
+        "titleId": "title_blazing_forgemaster",
+        "displayTitle": "Blazing Forgemaster",
+        "grantsCombatStats": false
+      },
+      "wiki": {
+        "wikiDescription": "Upgrade a piece of gear all the way to +10.",
+        "lore": "Few smiths ever coax a +10 blaze without faltering at the anvil.",
+        "acquisitionSource": "Forge: reach +10 on any item.",
+        "tags": [
+          "achievement",
+          "forge",
+          "forge",
+          "upgrade",
+          "plus_10"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_upgrade_plus5",
+    "name": "Shimmering Temper",
+    "wiki": {
+      "wikiDescription": "Upgrade a piece of gear to +5.",
+      "lore": "At +5, lumen veins begin to shimmer along the fuller.",
+      "acquisitionSource": "Forge: reach +5 on any item.",
+      "tags": [
+        "achievement",
+        "forge",
+        "plus_5",
+        "upgrade"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_upgrade_plus5",
+      "name": "Shimmering Temper",
+      "category": "forge",
+      "targetCount": 5,
+      "points": 20,
+      "wiki": {
+        "wikiDescription": "Upgrade a piece of gear to +5.",
+        "lore": "At +5, lumen veins begin to shimmer along the fuller.",
+        "acquisitionSource": "Forge: reach +5 on any item.",
+        "tags": [
+          "achievement",
+          "forge",
+          "forge",
+          "upgrade",
+          "plus_5"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_vault_breaker_1",
+    "name": "First Vault Unlocked",
+    "wiki": {
+      "wikiDescription": "Open 1 Sealed Vault using a Lumen Key.",
+      "lore": "Heavy lockbolts yield when the right Lumen Key turns.",
+      "acquisitionSource": "Delve: open 1 Sealed Vault.",
+      "tags": [
+        "achievement",
+        "exploration",
+        "vault"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_vault_breaker_1",
+      "name": "First Vault Unlocked",
+      "category": "exploration",
+      "targetCount": 1,
+      "points": 15,
+      "wiki": {
+        "wikiDescription": "Open 1 Sealed Vault using a Lumen Key.",
+        "lore": "Heavy lockbolts yield when the right Lumen Key turns.",
+        "acquisitionSource": "Delve: open 1 Sealed Vault.",
+        "tags": [
+          "achievement",
+          "exploration",
+          "exploration",
+          "vault"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "achievement",
+    "id": "ach_vault_breaker_10",
+    "name": "Vaultbreaker",
+    "wiki": {
+      "wikiDescription": "Open 10 Sealed Vaults using Lumen Keys.",
+      "lore": "Ten ancient strongboxes stripped of their guarded treasure.",
+      "acquisitionSource": "Delve: open 10 Sealed Vaults.",
+      "tags": [
+        "achievement",
+        "exploration",
+        "vault"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "achievementId": "ach_vault_breaker_10",
+      "name": "Vaultbreaker",
+      "category": "exploration",
+      "targetCount": 10,
+      "points": 25,
+      "titleReward": {
+        "titleId": "title_vaultbreaker",
+        "displayTitle": "Vaultbreaker",
+        "grantsCombatStats": false
+      },
+      "wiki": {
+        "wikiDescription": "Open 10 Sealed Vaults using Lumen Keys.",
+        "lore": "Ten ancient strongboxes stripped of their guarded treasure.",
+        "acquisitionSource": "Delve: open 10 Sealed Vaults.",
+        "tags": [
+          "achievement",
+          "exploration",
+          "exploration",
+          "vault"
+        ]
+      }
+    }
+  }
+]

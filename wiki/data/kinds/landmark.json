@@ -1,0 +1,821 @@
+[
+  {
+    "kind": "landmark",
+    "id": "lm_causeway_lantern_barge",
+    "name": "Foundered Lantern Barge",
+    "wiki": {
+      "wikiDescription": "A flat-bottomed canal skiff wedged against stone piers with a dry brazier aboard.",
+      "lore": "Solstice ferrymen kept dry tinder sealed in pitch for stranded patrols.",
+      "acquisitionSource": "Hand-authored room landmark in sunken causeway.",
+      "tags": [
+        "landmark",
+        "shrine_boon",
+        "sunken_causeway"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "sunken_causeway",
+        "kind": "zone",
+        "name": "Sunken Causeway"
+      }
+    ],
+    "data": {
+      "landmarkId": "lm_causeway_lantern_barge",
+      "name": "Foundered Lantern Barge",
+      "biome": "sunken_causeway",
+      "interactionKind": "shrine_boon",
+      "emitsSignalGlow": true,
+      "wiki": {
+        "wikiDescription": "A flat-bottomed canal skiff wedged against stone piers with a dry brazier aboard.",
+        "lore": "Solstice ferrymen kept dry tinder sealed in pitch for stranded patrols.",
+        "acquisitionSource": "Hand-authored room landmark in sunken causeway.",
+        "tags": [
+          "landmark",
+          "sunken_causeway",
+          "shrine_boon"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "landmark",
+    "id": "lm_causeway_lockkeeper_winch",
+    "name": "Rusted Lockkeeper's Winch",
+    "wiki": {
+      "wikiDescription": "Seized iron capstan concealing a waterproof tin of coin and salvage dust.",
+      "lore": "Whoever cranked the last sluice shut locked their own paybox beneath the gearwheel.",
+      "acquisitionSource": "Hand-authored room landmark in sunken causeway.",
+      "tags": [
+        "cache",
+        "landmark",
+        "sunken_causeway"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "sunken_causeway",
+        "kind": "zone",
+        "name": "Sunken Causeway"
+      }
+    ],
+    "data": {
+      "landmarkId": "lm_causeway_lockkeeper_winch",
+      "name": "Rusted Lockkeeper's Winch",
+      "biome": "sunken_causeway",
+      "interactionKind": "cache",
+      "emitsSignalGlow": true,
+      "wiki": {
+        "wikiDescription": "Seized iron capstan concealing a waterproof tin of coin and salvage dust.",
+        "lore": "Whoever cranked the last sluice shut locked their own paybox beneath the gearwheel.",
+        "acquisitionSource": "Hand-authored room landmark in sunken causeway.",
+        "tags": [
+          "landmark",
+          "sunken_causeway",
+          "cache"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "landmark",
+    "id": "lm_causeway_sluice_obelisk",
+    "name": "Weeping Sluice Obelisk",
+    "wiki": {
+      "wikiDescription": "Carved depth gauge marking flood crests across the old Solstice aqueduct.",
+      "lore": "Guild masons chiselled high-water notches here before abandoning the lower gates.",
+      "acquisitionSource": "Hand-authored room landmark in sunken causeway.",
+      "tags": [
+        "landmark",
+        "lore_plaque",
+        "sunken_causeway"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "sunken_causeway",
+        "kind": "zone",
+        "name": "Sunken Causeway"
+      }
+    ],
+    "data": {
+      "landmarkId": "lm_causeway_sluice_obelisk",
+      "name": "Weeping Sluice Obelisk",
+      "biome": "sunken_causeway",
+      "interactionKind": "lore_plaque",
+      "emitsSignalGlow": false,
+      "wiki": {
+        "wikiDescription": "Carved depth gauge marking flood crests across the old Solstice aqueduct.",
+        "lore": "Guild masons chiselled high-water notches here before abandoning the lower gates.",
+        "acquisitionSource": "Hand-authored room landmark in sunken causeway.",
+        "tags": [
+          "landmark",
+          "sunken_causeway",
+          "lore_plaque"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "landmark",
+    "id": "lm_dawnlit_drowned_bell_tower",
+    "name": "Drowned Bell Tower",
+    "wiki": {
+      "wikiDescription": "A sunken bronze carillon half-submerged in still cathedral water.",
+      "lore": "Even underwater, low tides coax a faint bronze toll from the cracked clapper.",
+      "acquisitionSource": "Hand-authored room landmark in dawnlit sanctum.",
+      "tags": [
+        "dawnlit_sanctum",
+        "landmark",
+        "scenic"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "dawnlit_sanctum",
+        "kind": "zone",
+        "name": "The Dawnlit Sanctum"
+      }
+    ],
+    "data": {
+      "landmarkId": "lm_dawnlit_drowned_bell_tower",
+      "name": "Drowned Bell Tower",
+      "biome": "dawnlit_sanctum",
+      "interactionKind": "scenic",
+      "emitsSignalGlow": false,
+      "wiki": {
+        "wikiDescription": "A sunken bronze carillon half-submerged in still cathedral water.",
+        "lore": "Even underwater, low tides coax a faint bronze toll from the cracked clapper.",
+        "acquisitionSource": "Hand-authored room landmark in dawnlit sanctum.",
+        "tags": [
+          "landmark",
+          "dawnlit_sanctum",
+          "scenic"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "landmark",
+    "id": "lm_dawnlit_tidepool_font",
+    "name": "Sunlit Tidepool Font",
+    "wiki": {
+      "wikiDescription": "Shallow marble basin fed by clear spring seepage catching dawn rays.",
+      "lore": "Sunhaven initiates washed away shadow-chill here prior to night vigils.",
+      "acquisitionSource": "Hand-authored room landmark in dawnlit sanctum.",
+      "tags": [
+        "dawnlit_sanctum",
+        "landmark",
+        "shrine_boon"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "dawnlit_sanctum",
+        "kind": "zone",
+        "name": "The Dawnlit Sanctum"
+      }
+    ],
+    "data": {
+      "landmarkId": "lm_dawnlit_tidepool_font",
+      "name": "Sunlit Tidepool Font",
+      "biome": "dawnlit_sanctum",
+      "interactionKind": "shrine_boon",
+      "emitsSignalGlow": true,
+      "wiki": {
+        "wikiDescription": "Shallow marble basin fed by clear spring seepage catching dawn rays.",
+        "lore": "Sunhaven initiates washed away shadow-chill here prior to night vigils.",
+        "acquisitionSource": "Hand-authored room landmark in dawnlit sanctum.",
+        "tags": [
+          "landmark",
+          "dawnlit_sanctum",
+          "shrine_boon"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "landmark",
+    "id": "lm_dawnlit_vesper_cenotaph",
+    "name": "Weeping Choir Cenotaph",
+    "wiki": {
+      "wikiDescription": "Salt-streaked choir stone etched with the verses of the Fourth Tide.",
+      "lore": "The final stanza breaks off mid-word where floodwaters swallowed the nave.",
+      "acquisitionSource": "Hand-authored room landmark in dawnlit sanctum.",
+      "tags": [
+        "dawnlit_sanctum",
+        "landmark",
+        "lore_plaque"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "dawnlit_sanctum",
+        "kind": "zone",
+        "name": "The Dawnlit Sanctum"
+      }
+    ],
+    "data": {
+      "landmarkId": "lm_dawnlit_vesper_cenotaph",
+      "name": "Weeping Choir Cenotaph",
+      "biome": "dawnlit_sanctum",
+      "interactionKind": "lore_plaque",
+      "emitsSignalGlow": false,
+      "wiki": {
+        "wikiDescription": "Salt-streaked choir stone etched with the verses of the Fourth Tide.",
+        "lore": "The final stanza breaks off mid-word where floodwaters swallowed the nave.",
+        "acquisitionSource": "Hand-authored room landmark in dawnlit sanctum.",
+        "tags": [
+          "landmark",
+          "dawnlit_sanctum",
+          "lore_plaque"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "landmark",
+    "id": "lm_emberroot_ash_cairn",
+    "name": "Basalt Trailwatch Cairn",
+    "wiki": {
+      "wikiDescription": "Stacked volcanic slabs etched with heat-vent warnings and safe ledges.",
+      "lore": "Delvers stacked one dark stone per comrade who never returned from the deep roots.",
+      "acquisitionSource": "Hand-authored room landmark in emberroot hollows.",
+      "tags": [
+        "emberroot_hollows",
+        "landmark",
+        "lore_plaque"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "emberroot_hollows",
+        "kind": "zone",
+        "name": "Emberroot Hollows"
+      }
+    ],
+    "data": {
+      "landmarkId": "lm_emberroot_ash_cairn",
+      "name": "Basalt Trailwatch Cairn",
+      "biome": "emberroot_hollows",
+      "interactionKind": "lore_plaque",
+      "emitsSignalGlow": false,
+      "wiki": {
+        "wikiDescription": "Stacked volcanic slabs etched with heat-vent warnings and safe ledges.",
+        "lore": "Delvers stacked one dark stone per comrade who never returned from the deep roots.",
+        "acquisitionSource": "Hand-authored room landmark in emberroot hollows.",
+        "tags": [
+          "landmark",
+          "emberroot_hollows",
+          "lore_plaque"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "landmark",
+    "id": "lm_emberroot_petrified_heartwood",
+    "name": "Cinder-Split Heartwood",
+    "wiki": {
+      "wikiDescription": "Glowing sapwell inside a petrified root arch that warms chilled limbs.",
+      "lore": "Before the magma surge, these roots carried starlight from the surface canopy.",
+      "acquisitionSource": "Hand-authored room landmark in emberroot hollows.",
+      "tags": [
+        "emberroot_hollows",
+        "landmark",
+        "shrine_boon"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "emberroot_hollows",
+        "kind": "zone",
+        "name": "Emberroot Hollows"
+      }
+    ],
+    "data": {
+      "landmarkId": "lm_emberroot_petrified_heartwood",
+      "name": "Cinder-Split Heartwood",
+      "biome": "emberroot_hollows",
+      "interactionKind": "shrine_boon",
+      "emitsSignalGlow": true,
+      "wiki": {
+        "wikiDescription": "Glowing sapwell inside a petrified root arch that warms chilled limbs.",
+        "lore": "Before the magma surge, these roots carried starlight from the surface canopy.",
+        "acquisitionSource": "Hand-authored room landmark in emberroot hollows.",
+        "tags": [
+          "landmark",
+          "emberroot_hollows",
+          "shrine_boon"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "landmark",
+    "id": "lm_emberroot_sap_alembic",
+    "name": "Abandoned Sap Alembic",
+    "wiki": {
+      "wikiDescription": "Copper still cooled over black basalt, its catch-flask still intact.",
+      "lore": "Alchemists fled when the ash creepers burrowed straight through their campfires.",
+      "acquisitionSource": "Hand-authored room landmark in emberroot hollows.",
+      "tags": [
+        "cache",
+        "emberroot_hollows",
+        "landmark"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "emberroot_hollows",
+        "kind": "zone",
+        "name": "Emberroot Hollows"
+      }
+    ],
+    "data": {
+      "landmarkId": "lm_emberroot_sap_alembic",
+      "name": "Abandoned Sap Alembic",
+      "biome": "emberroot_hollows",
+      "interactionKind": "cache",
+      "emitsSignalGlow": true,
+      "wiki": {
+        "wikiDescription": "Copper still cooled over black basalt, its catch-flask still intact.",
+        "lore": "Alchemists fled when the ash creepers burrowed straight through their campfires.",
+        "acquisitionSource": "Hand-authored room landmark in emberroot hollows.",
+        "tags": [
+          "landmark",
+          "emberroot_hollows",
+          "cache"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "landmark",
+    "id": "lm_galehollow_giant_stump",
+    "name": "Hollow Giant Stump",
+    "wiki": {
+      "wikiDescription": "A hollowed ironbark trunk packed with forgotten ranger bolts and dry moss.",
+      "lore": "Vesperwood scouts stashed emergency pouches inside storm-felled elders.",
+      "acquisitionSource": "Hand-authored room landmark in galehollow canopy.",
+      "tags": [
+        "cache",
+        "galehollow_canopy",
+        "landmark"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "galehollow_canopy",
+        "kind": "zone",
+        "name": "The Galehollow Canopy"
+      }
+    ],
+    "data": {
+      "landmarkId": "lm_galehollow_giant_stump",
+      "name": "Hollow Giant Stump",
+      "biome": "galehollow_canopy",
+      "interactionKind": "cache",
+      "emitsSignalGlow": true,
+      "wiki": {
+        "wikiDescription": "A hollowed ironbark trunk packed with forgotten ranger bolts and dry moss.",
+        "lore": "Vesperwood scouts stashed emergency pouches inside storm-felled elders.",
+        "acquisitionSource": "Hand-authored room landmark in galehollow canopy.",
+        "tags": [
+          "landmark",
+          "galehollow_canopy",
+          "cache"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "landmark",
+    "id": "lm_galehollow_skybridge_pylon",
+    "name": "Shattered Skybridge Pylon",
+    "wiki": {
+      "wikiDescription": "Rope-scarred cedar post bearing carved trail notches from the outer boughs.",
+      "lore": "Cut loose during the canopy breach so briar beasts could not cross toward Vesperwood.",
+      "acquisitionSource": "Hand-authored room landmark in galehollow canopy.",
+      "tags": [
+        "galehollow_canopy",
+        "landmark",
+        "lore_plaque"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "galehollow_canopy",
+        "kind": "zone",
+        "name": "The Galehollow Canopy"
+      }
+    ],
+    "data": {
+      "landmarkId": "lm_galehollow_skybridge_pylon",
+      "name": "Shattered Skybridge Pylon",
+      "biome": "galehollow_canopy",
+      "interactionKind": "lore_plaque",
+      "emitsSignalGlow": false,
+      "wiki": {
+        "wikiDescription": "Rope-scarred cedar post bearing carved trail notches from the outer boughs.",
+        "lore": "Cut loose during the canopy breach so briar beasts could not cross toward Vesperwood.",
+        "acquisitionSource": "Hand-authored room landmark in galehollow canopy.",
+        "tags": [
+          "landmark",
+          "galehollow_canopy",
+          "lore_plaque"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "landmark",
+    "id": "lm_galehollow_windchime_reliquary",
+    "name": "Bone-Reed Windchime Shrine",
+    "wiki": {
+      "wikiDescription": "Carved reed chimes humming in the canopy draft, steadying breath and pulse.",
+      "lore": "The resonance warns scouts of galehounds hours before the trees sway.",
+      "acquisitionSource": "Hand-authored room landmark in galehollow canopy.",
+      "tags": [
+        "galehollow_canopy",
+        "landmark",
+        "shrine_boon"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "galehollow_canopy",
+        "kind": "zone",
+        "name": "The Galehollow Canopy"
+      }
+    ],
+    "data": {
+      "landmarkId": "lm_galehollow_windchime_reliquary",
+      "name": "Bone-Reed Windchime Shrine",
+      "biome": "galehollow_canopy",
+      "interactionKind": "shrine_boon",
+      "emitsSignalGlow": true,
+      "wiki": {
+        "wikiDescription": "Carved reed chimes humming in the canopy draft, steadying breath and pulse.",
+        "lore": "The resonance warns scouts of galehounds hours before the trees sway.",
+        "acquisitionSource": "Hand-authored room landmark in galehollow canopy.",
+        "tags": [
+          "landmark",
+          "galehollow_canopy",
+          "shrine_boon"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "landmark",
+    "id": "lm_ironspire_collapsed_crane",
+    "name": "Collapsed Foundry Crane",
+    "wiki": {
+      "wikiDescription": "A riveted gantry beam bent into the furnace pit, suspending a half-cast anvil.",
+      "lore": "When the first iron spire sank into the Rift, its master hoist froze mid-pour.",
+      "acquisitionSource": "Hand-authored room landmark in ironspire vaults.",
+      "tags": [
+        "ironspire_vaults",
+        "landmark",
+        "scenic"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "ironspire_vaults",
+        "kind": "zone",
+        "name": "The Ironspire Vaults"
+      }
+    ],
+    "data": {
+      "landmarkId": "lm_ironspire_collapsed_crane",
+      "name": "Collapsed Foundry Crane",
+      "biome": "ironspire_vaults",
+      "interactionKind": "scenic",
+      "emitsSignalGlow": false,
+      "wiki": {
+        "wikiDescription": "A riveted gantry beam bent into the furnace pit, suspending a half-cast anvil.",
+        "lore": "When the first iron spire sank into the Rift, its master hoist froze mid-pour.",
+        "acquisitionSource": "Hand-authored room landmark in ironspire vaults.",
+        "tags": [
+          "landmark",
+          "ironspire_vaults",
+          "scenic"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "landmark",
+    "id": "lm_ironspire_foreman_plaque",
+    "name": "Foreman's Stamped Brass Plaque",
+    "wiki": {
+      "wikiDescription": "Bolted roster plate tallying the final shift of Foundry Bay Four.",
+      "lore": "Half the names were struck through with hammer blows; the rest walked into the steam.",
+      "acquisitionSource": "Hand-authored room landmark in ironspire vaults.",
+      "tags": [
+        "ironspire_vaults",
+        "landmark",
+        "lore_plaque"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "ironspire_vaults",
+        "kind": "zone",
+        "name": "The Ironspire Vaults"
+      }
+    ],
+    "data": {
+      "landmarkId": "lm_ironspire_foreman_plaque",
+      "name": "Foreman's Stamped Brass Plaque",
+      "biome": "ironspire_vaults",
+      "interactionKind": "lore_plaque",
+      "emitsSignalGlow": false,
+      "wiki": {
+        "wikiDescription": "Bolted roster plate tallying the final shift of Foundry Bay Four.",
+        "lore": "Half the names were struck through with hammer blows; the rest walked into the steam.",
+        "acquisitionSource": "Hand-authored room landmark in ironspire vaults.",
+        "tags": [
+          "landmark",
+          "ironspire_vaults",
+          "lore_plaque"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "landmark",
+    "id": "lm_ironspire_quenched_crucible",
+    "name": "Quenched Master Crucible",
+    "wiki": {
+      "wikiDescription": "Warm hearth-stone crucible whose residual lumen embers mend battle-worn delvers.",
+      "lore": "Watch-smiths blessed every crucible with tempered sparks before sealing the lower shafts.",
+      "acquisitionSource": "Hand-authored room landmark in ironspire vaults.",
+      "tags": [
+        "ironspire_vaults",
+        "landmark",
+        "shrine_boon"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "ironspire_vaults",
+        "kind": "zone",
+        "name": "The Ironspire Vaults"
+      }
+    ],
+    "data": {
+      "landmarkId": "lm_ironspire_quenched_crucible",
+      "name": "Quenched Master Crucible",
+      "biome": "ironspire_vaults",
+      "interactionKind": "shrine_boon",
+      "emitsSignalGlow": true,
+      "wiki": {
+        "wikiDescription": "Warm hearth-stone crucible whose residual lumen embers mend battle-worn delvers.",
+        "lore": "Watch-smiths blessed every crucible with tempered sparks before sealing the lower shafts.",
+        "acquisitionSource": "Hand-authored room landmark in ironspire vaults.",
+        "tags": [
+          "landmark",
+          "ironspire_vaults",
+          "shrine_boon"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "landmark",
+    "id": "lm_lumenworks_blackbox_pedestal",
+    "name": "Chief Artificer's Log Pedestal",
+    "wiki": {
+      "wikiDescription": "Engraved brass cylinder preserving the final diagnostic ledger of the Lumenworks.",
+      "lore": "Final line: \"Output exceeds containment by factor four. Seal the vault doors.\"",
+      "acquisitionSource": "Hand-authored room landmark in shattered lumenworks.",
+      "tags": [
+        "landmark",
+        "lore_plaque",
+        "shattered_lumenworks"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "shattered_lumenworks",
+        "kind": "zone",
+        "name": "Shattered Lumenworks"
+      }
+    ],
+    "data": {
+      "landmarkId": "lm_lumenworks_blackbox_pedestal",
+      "name": "Chief Artificer's Log Pedestal",
+      "biome": "shattered_lumenworks",
+      "interactionKind": "lore_plaque",
+      "emitsSignalGlow": false,
+      "wiki": {
+        "wikiDescription": "Engraved brass cylinder preserving the final diagnostic ledger of the Lumenworks.",
+        "lore": "Final line: \"Output exceeds containment by factor four. Seal the vault doors.\"",
+        "acquisitionSource": "Hand-authored room landmark in shattered lumenworks.",
+        "tags": [
+          "landmark",
+          "shattered_lumenworks",
+          "lore_plaque"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "landmark",
+    "id": "lm_lumenworks_calibration_dais",
+    "name": "Architect's Calibration Dais",
+    "wiki": {
+      "wikiDescription": "Balanced glass-and-brass platform emitting a restorative steady pulse.",
+      "lore": "Designed to stabilize artificers working near raw Rift resonators.",
+      "acquisitionSource": "Hand-authored room landmark in shattered lumenworks.",
+      "tags": [
+        "landmark",
+        "shattered_lumenworks",
+        "shrine_boon"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "shattered_lumenworks",
+        "kind": "zone",
+        "name": "Shattered Lumenworks"
+      }
+    ],
+    "data": {
+      "landmarkId": "lm_lumenworks_calibration_dais",
+      "name": "Architect's Calibration Dais",
+      "biome": "shattered_lumenworks",
+      "interactionKind": "shrine_boon",
+      "emitsSignalGlow": true,
+      "wiki": {
+        "wikiDescription": "Balanced glass-and-brass platform emitting a restorative steady pulse.",
+        "lore": "Designed to stabilize artificers working near raw Rift resonators.",
+        "acquisitionSource": "Hand-authored room landmark in shattered lumenworks.",
+        "tags": [
+          "landmark",
+          "shattered_lumenworks",
+          "shrine_boon"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "landmark",
+    "id": "lm_lumenworks_ruptured_core",
+    "name": "Ruptured Conduit Core",
+    "wiki": {
+      "wikiDescription": "Shattered brass turbine housing frozen around a silent crystalline spindle.",
+      "lore": "When the Architect overdrove the main relay, half the foundry froze in mid-rotation.",
+      "acquisitionSource": "Hand-authored room landmark in shattered lumenworks.",
+      "tags": [
+        "landmark",
+        "scenic",
+        "shattered_lumenworks"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "shattered_lumenworks",
+        "kind": "zone",
+        "name": "Shattered Lumenworks"
+      }
+    ],
+    "data": {
+      "landmarkId": "lm_lumenworks_ruptured_core",
+      "name": "Ruptured Conduit Core",
+      "biome": "shattered_lumenworks",
+      "interactionKind": "scenic",
+      "emitsSignalGlow": false,
+      "wiki": {
+        "wikiDescription": "Shattered brass turbine housing frozen around a silent crystalline spindle.",
+        "lore": "When the Architect overdrove the main relay, half the foundry froze in mid-rotation.",
+        "acquisitionSource": "Hand-authored room landmark in shattered lumenworks.",
+        "tags": [
+          "landmark",
+          "shattered_lumenworks",
+          "scenic"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "landmark",
+    "id": "lm_prism_archivist_stele",
+    "name": "Etched Refraction Stele",
+    "wiki": {
+      "wikiDescription": "Slate obelisk inscribed with index angles for every mirror hall below Runewick.",
+      "lore": "Marginalia in hasty chalk warns: \"Never align mirror four at midnight.\"",
+      "acquisitionSource": "Hand-authored room landmark in prism vaults.",
+      "tags": [
+        "landmark",
+        "lore_plaque",
+        "prism_vaults"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "prism_vaults",
+        "kind": "zone",
+        "name": "The Prism Vaults"
+      }
+    ],
+    "data": {
+      "landmarkId": "lm_prism_archivist_stele",
+      "name": "Etched Refraction Stele",
+      "biome": "prism_vaults",
+      "interactionKind": "lore_plaque",
+      "emitsSignalGlow": false,
+      "wiki": {
+        "wikiDescription": "Slate obelisk inscribed with index angles for every mirror hall below Runewick.",
+        "lore": "Marginalia in hasty chalk warns: \"Never align mirror four at midnight.\"",
+        "acquisitionSource": "Hand-authored room landmark in prism vaults.",
+        "tags": [
+          "landmark",
+          "prism_vaults",
+          "lore_plaque"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "landmark",
+    "id": "lm_prism_cracked_lens_array",
+    "name": "Cracked Lens Array",
+    "wiki": {
+      "wikiDescription": "Three tilted quartz mirrors scattering pale daylight into broken rainbows.",
+      "lore": "Runewick scholars tried to focus Rift glare until the center crystal split in two.",
+      "acquisitionSource": "Hand-authored room landmark in prism vaults.",
+      "tags": [
+        "landmark",
+        "prism_vaults",
+        "scenic"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "prism_vaults",
+        "kind": "zone",
+        "name": "The Prism Vaults"
+      }
+    ],
+    "data": {
+      "landmarkId": "lm_prism_cracked_lens_array",
+      "name": "Cracked Lens Array",
+      "biome": "prism_vaults",
+      "interactionKind": "scenic",
+      "emitsSignalGlow": false,
+      "wiki": {
+        "wikiDescription": "Three tilted quartz mirrors scattering pale daylight into broken rainbows.",
+        "lore": "Runewick scholars tried to focus Rift glare until the center crystal split in two.",
+        "acquisitionSource": "Hand-authored room landmark in prism vaults.",
+        "tags": [
+          "landmark",
+          "prism_vaults",
+          "scenic"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "landmark",
+    "id": "lm_prism_harmonic_well",
+    "name": "Harmonic Tuning Well",
+    "wiki": {
+      "wikiDescription": "A crystalline basin vibrating with clear astral overtones that restore vitality.",
+      "lore": "Apprentices tuned their focus rods beside its rim before delving deeper.",
+      "acquisitionSource": "Hand-authored room landmark in prism vaults.",
+      "tags": [
+        "landmark",
+        "prism_vaults",
+        "shrine_boon"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "prism_vaults",
+        "kind": "zone",
+        "name": "The Prism Vaults"
+      }
+    ],
+    "data": {
+      "landmarkId": "lm_prism_harmonic_well",
+      "name": "Harmonic Tuning Well",
+      "biome": "prism_vaults",
+      "interactionKind": "shrine_boon",
+      "emitsSignalGlow": true,
+      "wiki": {
+        "wikiDescription": "A crystalline basin vibrating with clear astral overtones that restore vitality.",
+        "lore": "Apprentices tuned their focus rods beside its rim before delving deeper.",
+        "acquisitionSource": "Hand-authored room landmark in prism vaults.",
+        "tags": [
+          "landmark",
+          "prism_vaults",
+          "shrine_boon"
+        ]
+      }
+    }
+  }
+]

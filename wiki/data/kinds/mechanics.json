@@ -1,0 +1,254 @@
+[
+  {
+    "kind": "mechanics",
+    "id": "loot",
+    "name": "Rift Loot & Drop Tables",
+    "wiki": {
+      "wikiDescription": "Deterministic Rift drop rates, scarcity-tuned Glyph variants, Realm Boss accessories, Lv 20 Mythic pieces, and diminishing-return Tier scaling.",
+      "lore": "The Rifts hoard memory and metal alike; only the patient see an Epic glyph glint inside an iron chest.",
+      "acquisitionSource": "Rift Combat, Treasure Chests, Elites, and Realm Bosses across Areas 1-3.",
+      "tags": [
+        "drop_tables",
+        "glyph_variants",
+        "loot",
+        "lv_1_20",
+        "mechanics"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "id": "loot",
+      "name": "Rift Loot & Drop Tables",
+      "wiki": {
+        "wikiDescription": "Deterministic Rift drop rates, scarcity-tuned Glyph variants, Realm Boss accessories, Lv 20 Mythic pieces, and diminishing-return Tier scaling.",
+        "lore": "The Rifts hoard memory and metal alike; only the patient see an Epic glyph glint inside an iron chest.",
+        "acquisitionSource": "Rift Combat, Treasure Chests, Elites, and Realm Bosses across Areas 1-3.",
+        "tags": [
+          "mechanics",
+          "loot",
+          "drop_tables",
+          "glyph_variants",
+          "lv_1_20"
+        ]
+      },
+      "baseTables": {
+        "combat": {
+          "goldRange": [
+            4,
+            8
+          ],
+          "dustRange": [
+            1,
+            3
+          ],
+          "materialRange": [
+            0,
+            1
+          ],
+          "glyphChance": 0.006,
+          "gearChance": 0.25,
+          "gearRarityWeights": {
+            "common": 82,
+            "uncommon": 17.1,
+            "rare": 0.7,
+            "epic": 0.2,
+            "mythic": 0
+          },
+          "sealedCacheChance": 0
+        },
+        "chest": {
+          "goldRange": [
+            12,
+            24
+          ],
+          "dustRange": [
+            8,
+            15
+          ],
+          "materialRange": [
+            1,
+            2
+          ],
+          "glyphChance": 0.03,
+          "gearChance": 0.4,
+          "gearRarityWeights": {
+            "common": 75,
+            "uncommon": 22.2,
+            "rare": 2.4,
+            "epic": 0.4,
+            "mythic": 0
+          },
+          "sealedCacheChance": 0
+        },
+        "elite": {
+          "goldRange": [
+            15,
+            25
+          ],
+          "dustRange": [
+            10,
+            20
+          ],
+          "materialRange": [
+            2,
+            3
+          ],
+          "glyphChance": 0.06,
+          "gearChance": 0.8,
+          "gearRarityWeights": {
+            "common": 67.7,
+            "uncommon": 29,
+            "rare": 2.894,
+            "epic": 0.406,
+            "mythic": 0
+          },
+          "sealedCacheChance": 0.05
+        },
+        "realm_boss": {
+          "goldRange": [
+            25,
+            40
+          ],
+          "dustRange": [
+            15,
+            25
+          ],
+          "materialRange": [
+            3,
+            5
+          ],
+          "glyphChance": 0.08,
+          "gearChance": 1,
+          "gearRarityWeights": {
+            "common": 57.8,
+            "uncommon": 32.1,
+            "rare": 7.8,
+            "epic": 1.9,
+            "mythic": 0.4
+          },
+          "sealedCacheChance": 0.15
+        },
+        "sealed_vault": {
+          "goldRange": [
+            18,
+            30
+          ],
+          "dustRange": [
+            12,
+            22
+          ],
+          "materialRange": [
+            2,
+            4
+          ],
+          "glyphChance": 0.05,
+          "gearChance": 0.9,
+          "gearRarityWeights": {
+            "common": 55,
+            "uncommon": 37.6,
+            "rare": 6.2,
+            "epic": 1.2,
+            "mythic": 0
+          },
+          "sealedCacheChance": 0.1
+        },
+        "map_completion": {
+          "goldRange": [
+            15,
+            25
+          ],
+          "dustRange": [
+            10,
+            18
+          ],
+          "materialRange": [
+            2,
+            3
+          ],
+          "glyphChance": 0.04,
+          "gearChance": 0.35,
+          "gearRarityWeights": {
+            "common": 78,
+            "uncommon": 20,
+            "rare": 2,
+            "epic": 0,
+            "mythic": 0
+          },
+          "sealedCacheChance": 0
+        },
+        "grade_bonus": {
+          "goldRange": [
+            10,
+            20
+          ],
+          "dustRange": [
+            8,
+            15
+          ],
+          "materialRange": [
+            1,
+            3
+          ],
+          "glyphChance": 0.03,
+          "gearChance": 0.35,
+          "gearRarityWeights": {
+            "common": 78,
+            "uncommon": 20,
+            "rare": 2,
+            "epic": 0,
+            "mythic": 0
+          },
+          "sealedCacheChance": 0
+        },
+        "quest": {
+          "goldRange": [
+            10,
+            15
+          ],
+          "dustRange": [
+            5,
+            10
+          ],
+          "materialRange": [
+            1,
+            2
+          ],
+          "glyphChance": 0,
+          "gearChance": 0,
+          "gearRarityWeights": {
+            "common": 100,
+            "uncommon": 0,
+            "rare": 0,
+            "epic": 0,
+            "mythic": 0
+          },
+          "sealedCacheChance": 0
+        },
+        "merchant": {
+          "goldRange": [
+            0,
+            0
+          ],
+          "dustRange": [
+            0,
+            0
+          ],
+          "materialRange": [
+            0,
+            0
+          ],
+          "glyphChance": 0,
+          "gearChance": 0,
+          "gearRarityWeights": {
+            "common": 100,
+            "uncommon": 0,
+            "rare": 0,
+            "epic": 0,
+            "mythic": 0
+          },
+          "sealedCacheChance": 0
+        }
+      }
+    }
+  }
+]

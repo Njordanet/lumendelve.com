@@ -1,0 +1,214 @@
+[
+  {
+    "kind": "elite_affix",
+    "id": "hasted",
+    "name": "Hasted",
+    "wiki": {
+      "wikiDescription": "Accelerated elite guardians fill their Speed Bar 20% faster.",
+      "lore": "Temporal currents eddy around elites lingering near torn Rift seams.",
+      "acquisitionSource": "Rift Tier 2+ Elite encounters",
+      "tags": [
+        "elite_affix",
+        "hasted",
+        "speed"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "id": "hasted",
+      "label": "Hasted",
+      "effectSummary": "Gains +20% Speed Bar fill rate for the encounter.",
+      "visual": "wind_trails",
+      "potency": 0.2,
+      "minRiftTier": 2,
+      "stackable": false,
+      "wiki": {
+        "wikiDescription": "Accelerated elite guardians fill their Speed Bar 20% faster.",
+        "lore": "Temporal currents eddy around elites lingering near torn Rift seams.",
+        "acquisitionSource": "Rift Tier 2+ Elite encounters",
+        "tags": [
+          "elite_affix",
+          "hasted",
+          "speed"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "elite_affix",
+    "id": "shielded",
+    "name": "Shielded",
+    "wiki": {
+      "wikiDescription": "Elite guardians open combat encased in a 25% max HP protective barrier.",
+      "lore": "Condensed Rift wards harden around high-ranking vault sentries.",
+      "acquisitionSource": "Rift Tier 2+ Elite encounters",
+      "tags": [
+        "barrier",
+        "elite_affix",
+        "shielded"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "id": "shielded",
+      "label": "Shielded",
+      "effectSummary": "Starts encounter with a 25% max HP barrier for 4 turns.",
+      "visual": "aegis_dome",
+      "potency": 0.25,
+      "minRiftTier": 2,
+      "stackable": false,
+      "wiki": {
+        "wikiDescription": "Elite guardians open combat encased in a 25% max HP protective barrier.",
+        "lore": "Condensed Rift wards harden around high-ranking vault sentries.",
+        "acquisitionSource": "Rift Tier 2+ Elite encounters",
+        "tags": [
+          "elite_affix",
+          "shielded",
+          "barrier"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "elite_affix",
+    "id": "splitting",
+    "name": "Splitting",
+    "wiki": {
+      "wikiDescription": "Below 50% HP, Splitting elites fracture off an allied biome minion.",
+      "lore": "Unstable crystal armor shatters into autonomous echoes when cracked open.",
+      "acquisitionSource": "Rift Tier 2+ Elite encounters",
+      "tags": [
+        "elite_affix",
+        "splitting",
+        "summon"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "id": "splitting",
+      "label": "Splitting",
+      "effectSummary": "Splits off a lesser biome minion once below 50% HP.",
+      "visual": "fracture_aura",
+      "potency": 0.5,
+      "hpThresholdPct": 50,
+      "callout": "Splitting! A shard breaks free!",
+      "minRiftTier": 2,
+      "stackable": false,
+      "wiki": {
+        "wikiDescription": "Below 50% HP, Splitting elites fracture off an allied biome minion.",
+        "lore": "Unstable crystal armor shatters into autonomous echoes when cracked open.",
+        "acquisitionSource": "Rift Tier 2+ Elite encounters",
+        "tags": [
+          "elite_affix",
+          "splitting",
+          "summon"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "elite_affix",
+    "id": "thorned",
+    "name": "Thorned",
+    "wiki": {
+      "wikiDescription": "Thorned elites raise spiked guard stances reflecting 20% of incoming hits.",
+      "lore": "Jagged lumen-stone spires erupt across the guardian whenever struck.",
+      "acquisitionSource": "Rift Tier 2+ Elite encounters",
+      "tags": [
+        "elite_affix",
+        "reflect",
+        "thorned"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "id": "thorned",
+      "label": "Thorned",
+      "effectSummary": "Reflects 20% of incoming direct damage back at attackers.",
+      "visual": "thorn_carapace",
+      "potency": 0.2,
+      "minRiftTier": 2,
+      "stackable": false,
+      "wiki": {
+        "wikiDescription": "Thorned elites raise spiked guard stances reflecting 20% of incoming hits.",
+        "lore": "Jagged lumen-stone spires erupt across the guardian whenever struck.",
+        "acquisitionSource": "Rift Tier 2+ Elite encounters",
+        "tags": [
+          "elite_affix",
+          "thorned",
+          "reflect"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "elite_affix",
+    "id": "vampiric",
+    "name": "Vampiric",
+    "wiki": {
+      "wikiDescription": "Vampiric elites brand their quarry and drain 20% of damage dealt back as health.",
+      "lore": "Hungry Rift parasites bind themselves to wardens, feeding on every spilled drop.",
+      "acquisitionSource": "Rift Tier 2+ Elite encounters",
+      "tags": [
+        "elite_affix",
+        "lifesteal",
+        "vampiric"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "id": "vampiric",
+      "label": "Vampiric",
+      "effectSummary": "Attacks brand targets and siphon 20% of damage dealt as HP.",
+      "visual": "crimson_brand",
+      "potency": 0.2,
+      "minRiftTier": 2,
+      "stackable": false,
+      "wiki": {
+        "wikiDescription": "Vampiric elites brand their quarry and drain 20% of damage dealt back as health.",
+        "lore": "Hungry Rift parasites bind themselves to wardens, feeding on every spilled drop.",
+        "acquisitionSource": "Rift Tier 2+ Elite encounters",
+        "tags": [
+          "elite_affix",
+          "vampiric",
+          "lifesteal"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "elite_affix",
+    "id": "volatile",
+    "name": "Volatile",
+    "wiki": {
+      "wikiDescription": "Volatile elites ignite targets with Burn and detonate stacked burns for bonus power.",
+      "lore": "Superheated cores crackle inside unstable guardians, flaring with every blow.",
+      "acquisitionSource": "Rift Tier 2+ Elite encounters",
+      "tags": [
+        "burn",
+        "elite_affix",
+        "volatile"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "id": "volatile",
+      "label": "Volatile",
+      "effectSummary": "Inflicts searing burn on hit and detonates active burn stacks.",
+      "visual": "ember_crust",
+      "potency": 0.05,
+      "minRiftTier": 2,
+      "stackable": false,
+      "wiki": {
+        "wikiDescription": "Volatile elites ignite targets with Burn and detonate stacked burns for bonus power.",
+        "lore": "Superheated cores crackle inside unstable guardians, flaring with every blow.",
+        "acquisitionSource": "Rift Tier 2+ Elite encounters",
+        "tags": [
+          "elite_affix",
+          "volatile",
+          "burn"
+        ]
+      }
+    }
+  }
+]

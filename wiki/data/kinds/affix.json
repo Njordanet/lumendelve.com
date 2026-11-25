@@ -1,0 +1,1299 @@
+[
+  {
+    "kind": "affix",
+    "id": "affix_bonus_casts",
+    "name": "of Deep Reservoir",
+    "wiki": {
+      "wikiDescription": "Grants +1 to +2 bonus Spell Casts on Gloves.",
+      "lore": "Woven conduits store extra charges in the palms.",
+      "acquisitionSource": "Uncommon, Rare, Epic, and Mythic gear drops across Lv 1–100 Rift zones and field areas.",
+      "tags": [
+        "affix",
+        "bonusCasts",
+        "lv_1_20",
+        "lv_21_100",
+        "stat_role"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "affixId": "affix_bonus_casts",
+      "name": "of Deep Reservoir",
+      "statKey": "bonusCasts",
+      "allowedSlots": [
+        "gloves"
+      ],
+      "weight": 30,
+      "tiers": [
+        {
+          "tier": 3,
+          "minItemLevel": 9,
+          "maxItemLevel": 12,
+          "minRoll": 1,
+          "maxRoll": 1
+        },
+        {
+          "tier": 4,
+          "minItemLevel": 13,
+          "maxItemLevel": 16,
+          "minRoll": 1,
+          "maxRoll": 1
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 17,
+          "maxItemLevel": 20,
+          "minRoll": 1,
+          "maxRoll": 2
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 21,
+          "maxItemLevel": 40,
+          "minRoll": 1,
+          "maxRoll": 2
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 41,
+          "maxItemLevel": 60,
+          "minRoll": 2,
+          "maxRoll": 2
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 61,
+          "maxItemLevel": 80,
+          "minRoll": 2,
+          "maxRoll": 3
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 81,
+          "maxItemLevel": 100,
+          "minRoll": 2,
+          "maxRoll": 3
+        }
+      ],
+      "wiki": {
+        "wikiDescription": "Grants +1 to +2 bonus Spell Casts on Gloves.",
+        "lore": "Woven conduits store extra charges in the palms.",
+        "acquisitionSource": "Uncommon, Rare, Epic, and Mythic gear drops across Lv 1–100 Rift zones and field areas.",
+        "tags": [
+          "affix",
+          "bonusCasts",
+          "stat_role",
+          "lv_1_20",
+          "lv_21_100"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "affix",
+    "id": "affix_crit",
+    "name": "of Keen Edge",
+    "wiki": {
+      "wikiDescription": "Raises Critical Hit Chance.",
+      "lore": "Honed along the seam where armor yields.",
+      "acquisitionSource": "Uncommon, Rare, Epic, and Mythic gear drops across Lv 1–100 Rift zones and field areas.",
+      "tags": [
+        "affix",
+        "critChance",
+        "lv_1_20",
+        "lv_21_100",
+        "stat_role"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "affixId": "affix_crit",
+      "name": "of Keen Edge",
+      "statKey": "critChance",
+      "allowedSlots": [
+        "main_hand",
+        "gloves",
+        "ring_1",
+        "ring_2"
+      ],
+      "weight": 70,
+      "tiers": [
+        {
+          "tier": 1,
+          "minItemLevel": 1,
+          "maxItemLevel": 4,
+          "minRoll": 0.01,
+          "maxRoll": 0.02
+        },
+        {
+          "tier": 2,
+          "minItemLevel": 5,
+          "maxItemLevel": 8,
+          "minRoll": 0.02,
+          "maxRoll": 0.03
+        },
+        {
+          "tier": 3,
+          "minItemLevel": 9,
+          "maxItemLevel": 12,
+          "minRoll": 0.03,
+          "maxRoll": 0.04
+        },
+        {
+          "tier": 4,
+          "minItemLevel": 13,
+          "maxItemLevel": 16,
+          "minRoll": 0.04,
+          "maxRoll": 0.06
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 17,
+          "maxItemLevel": 20,
+          "minRoll": 0.05,
+          "maxRoll": 0.07
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 21,
+          "maxItemLevel": 40,
+          "minRoll": 0.06,
+          "maxRoll": 0.08
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 41,
+          "maxItemLevel": 60,
+          "minRoll": 0.07,
+          "maxRoll": 0.1
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 61,
+          "maxItemLevel": 80,
+          "minRoll": 0.08,
+          "maxRoll": 0.12
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 81,
+          "maxItemLevel": 100,
+          "minRoll": 0.1,
+          "maxRoll": 0.14
+        }
+      ],
+      "wiki": {
+        "wikiDescription": "Raises Critical Hit Chance.",
+        "lore": "Honed along the seam where armor yields.",
+        "acquisitionSource": "Uncommon, Rare, Epic, and Mythic gear drops across Lv 1–100 Rift zones and field areas.",
+        "tags": [
+          "affix",
+          "critChance",
+          "stat_role",
+          "lv_1_20",
+          "lv_21_100"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "affix",
+    "id": "affix_dex",
+    "name": "of Precision",
+    "wiki": {
+      "wikiDescription": "Increases Dexterity, boosting Speed Bar fill, crit, dodge, accuracy, and bow/dagger attack.",
+      "lore": "Balanced to a hairbreadth for swift strikes.",
+      "acquisitionSource": "Uncommon, Rare, Epic, and Mythic gear drops across Lv 1–100 Rift zones and field areas.",
+      "tags": [
+        "affix",
+        "dex",
+        "lv_1_20",
+        "lv_21_100",
+        "stat_role"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "affixId": "affix_dex",
+      "name": "of Precision",
+      "statKey": "dex",
+      "allowedSlots": [
+        "main_hand",
+        "gloves",
+        "boots",
+        "legs",
+        "ring_1",
+        "ring_2",
+        "back"
+      ],
+      "weight": 100,
+      "tiers": [
+        {
+          "tier": 1,
+          "minItemLevel": 1,
+          "maxItemLevel": 4,
+          "minRoll": 1,
+          "maxRoll": 2
+        },
+        {
+          "tier": 2,
+          "minItemLevel": 5,
+          "maxItemLevel": 8,
+          "minRoll": 2,
+          "maxRoll": 4
+        },
+        {
+          "tier": 3,
+          "minItemLevel": 9,
+          "maxItemLevel": 12,
+          "minRoll": 4,
+          "maxRoll": 6
+        },
+        {
+          "tier": 4,
+          "minItemLevel": 13,
+          "maxItemLevel": 16,
+          "minRoll": 6,
+          "maxRoll": 9
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 17,
+          "maxItemLevel": 20,
+          "minRoll": 8,
+          "maxRoll": 12
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 21,
+          "maxItemLevel": 40,
+          "minRoll": 12,
+          "maxRoll": 18
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 41,
+          "maxItemLevel": 60,
+          "minRoll": 18,
+          "maxRoll": 26
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 61,
+          "maxItemLevel": 80,
+          "minRoll": 26,
+          "maxRoll": 36
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 81,
+          "maxItemLevel": 100,
+          "minRoll": 36,
+          "maxRoll": 50
+        }
+      ],
+      "wiki": {
+        "wikiDescription": "Increases Dexterity, boosting Speed Bar fill, crit, dodge, accuracy, and bow/dagger attack.",
+        "lore": "Balanced to a hairbreadth for swift strikes.",
+        "acquisitionSource": "Uncommon, Rare, Epic, and Mythic gear drops across Lv 1–100 Rift zones and field areas.",
+        "tags": [
+          "affix",
+          "dex",
+          "stat_role",
+          "lv_1_20",
+          "lv_21_100"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "affix",
+    "id": "affix_dodge",
+    "name": "of Evasion",
+    "wiki": {
+      "wikiDescription": "Raises Dodge Chance up to the 40% cap.",
+      "lore": "Light-threaded weave that slips past glancing strikes.",
+      "acquisitionSource": "Uncommon, Rare, Epic, and Mythic gear drops across Lv 1–100 Rift zones and field areas.",
+      "tags": [
+        "affix",
+        "dodgeChance",
+        "lv_1_20",
+        "lv_21_100",
+        "stat_role"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "affixId": "affix_dodge",
+      "name": "of Evasion",
+      "statKey": "dodgeChance",
+      "allowedSlots": [
+        "boots",
+        "legs",
+        "back",
+        "gloves"
+      ],
+      "weight": 65,
+      "tiers": [
+        {
+          "tier": 1,
+          "minItemLevel": 1,
+          "maxItemLevel": 4,
+          "minRoll": 0.01,
+          "maxRoll": 0.02
+        },
+        {
+          "tier": 2,
+          "minItemLevel": 5,
+          "maxItemLevel": 8,
+          "minRoll": 0.015,
+          "maxRoll": 0.025
+        },
+        {
+          "tier": 3,
+          "minItemLevel": 9,
+          "maxItemLevel": 12,
+          "minRoll": 0.02,
+          "maxRoll": 0.035
+        },
+        {
+          "tier": 4,
+          "minItemLevel": 13,
+          "maxItemLevel": 16,
+          "minRoll": 0.03,
+          "maxRoll": 0.045
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 17,
+          "maxItemLevel": 20,
+          "minRoll": 0.04,
+          "maxRoll": 0.06
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 21,
+          "maxItemLevel": 40,
+          "minRoll": 0.05,
+          "maxRoll": 0.07
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 41,
+          "maxItemLevel": 60,
+          "minRoll": 0.06,
+          "maxRoll": 0.085
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 61,
+          "maxItemLevel": 80,
+          "minRoll": 0.07,
+          "maxRoll": 0.1
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 81,
+          "maxItemLevel": 100,
+          "minRoll": 0.08,
+          "maxRoll": 0.12
+        }
+      ],
+      "wiki": {
+        "wikiDescription": "Raises Dodge Chance up to the 40% cap.",
+        "lore": "Light-threaded weave that slips past glancing strikes.",
+        "acquisitionSource": "Uncommon, Rare, Epic, and Mythic gear drops across Lv 1–100 Rift zones and field areas.",
+        "tags": [
+          "affix",
+          "dodgeChance",
+          "stat_role",
+          "lv_1_20",
+          "lv_21_100"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "affix",
+    "id": "affix_elem_def",
+    "name": "of Warding",
+    "wiki": {
+      "wikiDescription": "Increases Magic Defense against fire, ice, wind, and astral strikes.",
+      "lore": "Grounded with prism-dust to disperse stray arcana.",
+      "acquisitionSource": "Uncommon, Rare, Epic, and Mythic gear drops across Lv 1–100 Rift zones and field areas.",
+      "tags": [
+        "affix",
+        "elemDef",
+        "lv_1_20",
+        "lv_21_100",
+        "stat_role"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "affixId": "affix_elem_def",
+      "name": "of Warding",
+      "statKey": "elemDef",
+      "allowedSlots": [
+        "helmet",
+        "shoulders",
+        "chest",
+        "legs",
+        "off_hand",
+        "neck",
+        "back"
+      ],
+      "weight": 80,
+      "tiers": [
+        {
+          "tier": 1,
+          "minItemLevel": 1,
+          "maxItemLevel": 4,
+          "minRoll": 3,
+          "maxRoll": 6
+        },
+        {
+          "tier": 2,
+          "minItemLevel": 5,
+          "maxItemLevel": 8,
+          "minRoll": 6,
+          "maxRoll": 10
+        },
+        {
+          "tier": 3,
+          "minItemLevel": 9,
+          "maxItemLevel": 12,
+          "minRoll": 10,
+          "maxRoll": 16
+        },
+        {
+          "tier": 4,
+          "minItemLevel": 13,
+          "maxItemLevel": 16,
+          "minRoll": 15,
+          "maxRoll": 22
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 17,
+          "maxItemLevel": 20,
+          "minRoll": 20,
+          "maxRoll": 30
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 21,
+          "maxItemLevel": 40,
+          "minRoll": 30,
+          "maxRoll": 48
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 41,
+          "maxItemLevel": 60,
+          "minRoll": 50,
+          "maxRoll": 78
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 61,
+          "maxItemLevel": 80,
+          "minRoll": 80,
+          "maxRoll": 120
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 81,
+          "maxItemLevel": 100,
+          "minRoll": 125,
+          "maxRoll": 180
+        }
+      ],
+      "wiki": {
+        "wikiDescription": "Increases Magic Defense against fire, ice, wind, and astral strikes.",
+        "lore": "Grounded with prism-dust to disperse stray arcana.",
+        "acquisitionSource": "Uncommon, Rare, Epic, and Mythic gear drops across Lv 1–100 Rift zones and field areas.",
+        "tags": [
+          "affix",
+          "elemDef",
+          "stat_role",
+          "lv_1_20",
+          "lv_21_100"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "affix",
+    "id": "affix_heal_power",
+    "name": "of Grace",
+    "wiki": {
+      "wikiDescription": "Increases Healing Power on restoration glyphs.",
+      "lore": "Warm Dawnlit solder mends torn resolve.",
+      "acquisitionSource": "Uncommon, Rare, Epic, and Mythic gear drops across Lv 1–100 Rift zones and field areas.",
+      "tags": [
+        "affix",
+        "healPowerBonus",
+        "lv_1_20",
+        "lv_21_100",
+        "stat_role"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "affixId": "affix_heal_power",
+      "name": "of Grace",
+      "statKey": "healPowerBonus",
+      "allowedSlots": [
+        "main_hand",
+        "off_hand",
+        "neck",
+        "chest"
+      ],
+      "weight": 60,
+      "tiers": [
+        {
+          "tier": 1,
+          "minItemLevel": 1,
+          "maxItemLevel": 4,
+          "minRoll": 0.03,
+          "maxRoll": 0.05
+        },
+        {
+          "tier": 2,
+          "minItemLevel": 5,
+          "maxItemLevel": 8,
+          "minRoll": 0.05,
+          "maxRoll": 0.08
+        },
+        {
+          "tier": 3,
+          "minItemLevel": 9,
+          "maxItemLevel": 12,
+          "minRoll": 0.07,
+          "maxRoll": 0.11
+        },
+        {
+          "tier": 4,
+          "minItemLevel": 13,
+          "maxItemLevel": 16,
+          "minRoll": 0.1,
+          "maxRoll": 0.14
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 17,
+          "maxItemLevel": 20,
+          "minRoll": 0.12,
+          "maxRoll": 0.18
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 21,
+          "maxItemLevel": 40,
+          "minRoll": 0.15,
+          "maxRoll": 0.22
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 41,
+          "maxItemLevel": 60,
+          "minRoll": 0.18,
+          "maxRoll": 0.27
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 61,
+          "maxItemLevel": 80,
+          "minRoll": 0.22,
+          "maxRoll": 0.32
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 81,
+          "maxItemLevel": 100,
+          "minRoll": 0.26,
+          "maxRoll": 0.38
+        }
+      ],
+      "wiki": {
+        "wikiDescription": "Increases Healing Power on restoration glyphs.",
+        "lore": "Warm Dawnlit solder mends torn resolve.",
+        "acquisitionSource": "Uncommon, Rare, Epic, and Mythic gear drops across Lv 1–100 Rift zones and field areas.",
+        "tags": [
+          "affix",
+          "healPowerBonus",
+          "stat_role",
+          "lv_1_20",
+          "lv_21_100"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "affix",
+    "id": "affix_hp",
+    "name": "of Endurance",
+    "wiki": {
+      "wikiDescription": "Increases Maximum HP directly.",
+      "lore": "A steady pulse sealed inside the lining.",
+      "acquisitionSource": "Uncommon, Rare, Epic, and Mythic gear drops across Lv 1–100 Rift zones and field areas.",
+      "tags": [
+        "affix",
+        "hp",
+        "lv_1_20",
+        "lv_21_100",
+        "stat_role"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "affixId": "affix_hp",
+      "name": "of Endurance",
+      "statKey": "hp",
+      "allowedSlots": [
+        "main_hand",
+        "off_hand",
+        "helmet",
+        "shoulders",
+        "chest",
+        "gloves",
+        "legs",
+        "boots",
+        "neck",
+        "ring_1",
+        "ring_2",
+        "back"
+      ],
+      "weight": 85,
+      "tiers": [
+        {
+          "tier": 1,
+          "minItemLevel": 1,
+          "maxItemLevel": 4,
+          "minRoll": 12,
+          "maxRoll": 24
+        },
+        {
+          "tier": 2,
+          "minItemLevel": 5,
+          "maxItemLevel": 8,
+          "minRoll": 24,
+          "maxRoll": 42
+        },
+        {
+          "tier": 3,
+          "minItemLevel": 9,
+          "maxItemLevel": 12,
+          "minRoll": 40,
+          "maxRoll": 68
+        },
+        {
+          "tier": 4,
+          "minItemLevel": 13,
+          "maxItemLevel": 16,
+          "minRoll": 65,
+          "maxRoll": 100
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 17,
+          "maxItemLevel": 20,
+          "minRoll": 95,
+          "maxRoll": 145
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 21,
+          "maxItemLevel": 40,
+          "minRoll": 140,
+          "maxRoll": 220
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 41,
+          "maxItemLevel": 60,
+          "minRoll": 230,
+          "maxRoll": 360
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 61,
+          "maxItemLevel": 80,
+          "minRoll": 370,
+          "maxRoll": 560
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 81,
+          "maxItemLevel": 100,
+          "minRoll": 580,
+          "maxRoll": 840
+        }
+      ],
+      "wiki": {
+        "wikiDescription": "Increases Maximum HP directly.",
+        "lore": "A steady pulse sealed inside the lining.",
+        "acquisitionSource": "Uncommon, Rare, Epic, and Mythic gear drops across Lv 1–100 Rift zones and field areas.",
+        "tags": [
+          "affix",
+          "hp",
+          "stat_role",
+          "lv_1_20",
+          "lv_21_100"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "affix",
+    "id": "affix_int",
+    "name": "of Insight",
+    "wiki": {
+      "wikiDescription": "Increases Intelligence, boosting magic attack, magic defense, healing power, and bonus spell casts.",
+      "lore": "Etched with fine lumen filaments that clarify thought.",
+      "acquisitionSource": "Uncommon, Rare, Epic, and Mythic gear drops across Lv 1–100 Rift zones and field areas.",
+      "tags": [
+        "affix",
+        "int",
+        "lv_1_20",
+        "lv_21_100",
+        "stat_role"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "affixId": "affix_int",
+      "name": "of Insight",
+      "statKey": "int",
+      "allowedSlots": [
+        "main_hand",
+        "off_hand",
+        "helmet",
+        "gloves",
+        "chest",
+        "ring_1",
+        "ring_2",
+        "neck"
+      ],
+      "weight": 100,
+      "tiers": [
+        {
+          "tier": 1,
+          "minItemLevel": 1,
+          "maxItemLevel": 4,
+          "minRoll": 1,
+          "maxRoll": 2
+        },
+        {
+          "tier": 2,
+          "minItemLevel": 5,
+          "maxItemLevel": 8,
+          "minRoll": 2,
+          "maxRoll": 4
+        },
+        {
+          "tier": 3,
+          "minItemLevel": 9,
+          "maxItemLevel": 12,
+          "minRoll": 4,
+          "maxRoll": 6
+        },
+        {
+          "tier": 4,
+          "minItemLevel": 13,
+          "maxItemLevel": 16,
+          "minRoll": 6,
+          "maxRoll": 9
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 17,
+          "maxItemLevel": 20,
+          "minRoll": 8,
+          "maxRoll": 12
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 21,
+          "maxItemLevel": 40,
+          "minRoll": 12,
+          "maxRoll": 18
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 41,
+          "maxItemLevel": 60,
+          "minRoll": 18,
+          "maxRoll": 26
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 61,
+          "maxItemLevel": 80,
+          "minRoll": 26,
+          "maxRoll": 36
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 81,
+          "maxItemLevel": 100,
+          "minRoll": 36,
+          "maxRoll": 50
+        }
+      ],
+      "wiki": {
+        "wikiDescription": "Increases Intelligence, boosting magic attack, magic defense, healing power, and bonus spell casts.",
+        "lore": "Etched with fine lumen filaments that clarify thought.",
+        "acquisitionSource": "Uncommon, Rare, Epic, and Mythic gear drops across Lv 1–100 Rift zones and field areas.",
+        "tags": [
+          "affix",
+          "int",
+          "stat_role",
+          "lv_1_20",
+          "lv_21_100"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "affix",
+    "id": "affix_phys_def",
+    "name": "of Ironhide",
+    "wiki": {
+      "wikiDescription": "Increases Physical Defense against blades, claws, and crushing blows.",
+      "lore": "Double-riveted plates built to turn iron.",
+      "acquisitionSource": "Uncommon, Rare, Epic, and Mythic gear drops across Lv 1–100 Rift zones and field areas.",
+      "tags": [
+        "affix",
+        "lv_1_20",
+        "lv_21_100",
+        "physDef",
+        "stat_role"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "affixId": "affix_phys_def",
+      "name": "of Ironhide",
+      "statKey": "physDef",
+      "allowedSlots": [
+        "helmet",
+        "shoulders",
+        "chest",
+        "legs",
+        "boots",
+        "off_hand",
+        "back"
+      ],
+      "weight": 80,
+      "tiers": [
+        {
+          "tier": 1,
+          "minItemLevel": 1,
+          "maxItemLevel": 4,
+          "minRoll": 3,
+          "maxRoll": 6
+        },
+        {
+          "tier": 2,
+          "minItemLevel": 5,
+          "maxItemLevel": 8,
+          "minRoll": 6,
+          "maxRoll": 10
+        },
+        {
+          "tier": 3,
+          "minItemLevel": 9,
+          "maxItemLevel": 12,
+          "minRoll": 10,
+          "maxRoll": 16
+        },
+        {
+          "tier": 4,
+          "minItemLevel": 13,
+          "maxItemLevel": 16,
+          "minRoll": 15,
+          "maxRoll": 22
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 17,
+          "maxItemLevel": 20,
+          "minRoll": 20,
+          "maxRoll": 30
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 21,
+          "maxItemLevel": 40,
+          "minRoll": 30,
+          "maxRoll": 48
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 41,
+          "maxItemLevel": 60,
+          "minRoll": 50,
+          "maxRoll": 78
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 61,
+          "maxItemLevel": 80,
+          "minRoll": 80,
+          "maxRoll": 120
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 81,
+          "maxItemLevel": 100,
+          "minRoll": 125,
+          "maxRoll": 180
+        }
+      ],
+      "wiki": {
+        "wikiDescription": "Increases Physical Defense against blades, claws, and crushing blows.",
+        "lore": "Double-riveted plates built to turn iron.",
+        "acquisitionSource": "Uncommon, Rare, Epic, and Mythic gear drops across Lv 1–100 Rift zones and field areas.",
+        "tags": [
+          "affix",
+          "physDef",
+          "stat_role",
+          "lv_1_20",
+          "lv_21_100"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "affix",
+    "id": "affix_speed",
+    "name": "of Alacrity",
+    "wiki": {
+      "wikiDescription": "Increases Speed, accelerating Speed Bar turn frequency.",
+      "lore": "Wind-charmed rivets lighten every stride.",
+      "acquisitionSource": "Uncommon, Rare, Epic, and Mythic gear drops across Lv 1–100 Rift zones and field areas.",
+      "tags": [
+        "affix",
+        "lv_1_20",
+        "lv_21_100",
+        "speed",
+        "stat_role"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "affixId": "affix_speed",
+      "name": "of Alacrity",
+      "statKey": "speed",
+      "allowedSlots": [
+        "boots",
+        "back",
+        "gloves",
+        "main_hand"
+      ],
+      "weight": 75,
+      "tiers": [
+        {
+          "tier": 1,
+          "minItemLevel": 1,
+          "maxItemLevel": 4,
+          "minRoll": 2,
+          "maxRoll": 4
+        },
+        {
+          "tier": 2,
+          "minItemLevel": 5,
+          "maxItemLevel": 8,
+          "minRoll": 4,
+          "maxRoll": 7
+        },
+        {
+          "tier": 3,
+          "minItemLevel": 9,
+          "maxItemLevel": 12,
+          "minRoll": 6,
+          "maxRoll": 10
+        },
+        {
+          "tier": 4,
+          "minItemLevel": 13,
+          "maxItemLevel": 16,
+          "minRoll": 9,
+          "maxRoll": 13
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 17,
+          "maxItemLevel": 20,
+          "minRoll": 12,
+          "maxRoll": 16
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 21,
+          "maxItemLevel": 40,
+          "minRoll": 16,
+          "maxRoll": 22
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 41,
+          "maxItemLevel": 60,
+          "minRoll": 22,
+          "maxRoll": 30
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 61,
+          "maxItemLevel": 80,
+          "minRoll": 30,
+          "maxRoll": 40
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 81,
+          "maxItemLevel": 100,
+          "minRoll": 40,
+          "maxRoll": 52
+        }
+      ],
+      "wiki": {
+        "wikiDescription": "Increases Speed, accelerating Speed Bar turn frequency.",
+        "lore": "Wind-charmed rivets lighten every stride.",
+        "acquisitionSource": "Uncommon, Rare, Epic, and Mythic gear drops across Lv 1–100 Rift zones and field areas.",
+        "tags": [
+          "affix",
+          "speed",
+          "stat_role",
+          "lv_1_20",
+          "lv_21_100"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "affix",
+    "id": "affix_sta",
+    "name": "of Vitality",
+    "wiki": {
+      "wikiDescription": "Increases Stamina, raising Max HP and physical defense.",
+      "lore": "Tempered in steady hearthfire to endure long delves.",
+      "acquisitionSource": "Uncommon, Rare, Epic, and Mythic gear drops across Lv 1–100 Rift zones and field areas.",
+      "tags": [
+        "affix",
+        "lv_1_20",
+        "lv_21_100",
+        "sta",
+        "stat_role"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "affixId": "affix_sta",
+      "name": "of Vitality",
+      "statKey": "sta",
+      "allowedSlots": [
+        "helmet",
+        "shoulders",
+        "chest",
+        "legs",
+        "boots",
+        "off_hand",
+        "neck",
+        "back"
+      ],
+      "weight": 100,
+      "tiers": [
+        {
+          "tier": 1,
+          "minItemLevel": 1,
+          "maxItemLevel": 4,
+          "minRoll": 1,
+          "maxRoll": 2
+        },
+        {
+          "tier": 2,
+          "minItemLevel": 5,
+          "maxItemLevel": 8,
+          "minRoll": 2,
+          "maxRoll": 4
+        },
+        {
+          "tier": 3,
+          "minItemLevel": 9,
+          "maxItemLevel": 12,
+          "minRoll": 4,
+          "maxRoll": 6
+        },
+        {
+          "tier": 4,
+          "minItemLevel": 13,
+          "maxItemLevel": 16,
+          "minRoll": 6,
+          "maxRoll": 8
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 17,
+          "maxItemLevel": 20,
+          "minRoll": 8,
+          "maxRoll": 11
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 21,
+          "maxItemLevel": 40,
+          "minRoll": 11,
+          "maxRoll": 17
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 41,
+          "maxItemLevel": 60,
+          "minRoll": 17,
+          "maxRoll": 24
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 61,
+          "maxItemLevel": 80,
+          "minRoll": 24,
+          "maxRoll": 34
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 81,
+          "maxItemLevel": 100,
+          "minRoll": 34,
+          "maxRoll": 46
+        }
+      ],
+      "wiki": {
+        "wikiDescription": "Increases Stamina, raising Max HP and physical defense.",
+        "lore": "Tempered in steady hearthfire to endure long delves.",
+        "acquisitionSource": "Uncommon, Rare, Epic, and Mythic gear drops across Lv 1–100 Rift zones and field areas.",
+        "tags": [
+          "affix",
+          "sta",
+          "stat_role",
+          "lv_1_20",
+          "lv_21_100"
+        ]
+      }
+    }
+  },
+  {
+    "kind": "affix",
+    "id": "affix_str",
+    "name": "of Might",
+    "wiki": {
+      "wikiDescription": "Increases Strength, boosting physical attack and physical defense.",
+      "lore": "Forged under heavy hammers that remember every blow.",
+      "acquisitionSource": "Uncommon, Rare, Epic, and Mythic gear drops across Lv 1–100 Rift zones and field areas.",
+      "tags": [
+        "affix",
+        "lv_1_20",
+        "lv_21_100",
+        "stat_role",
+        "str"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "affixId": "affix_str",
+      "name": "of Might",
+      "statKey": "str",
+      "allowedSlots": [
+        "main_hand",
+        "off_hand",
+        "helmet",
+        "shoulders",
+        "chest",
+        "gloves",
+        "ring_1",
+        "ring_2",
+        "neck"
+      ],
+      "weight": 100,
+      "tiers": [
+        {
+          "tier": 1,
+          "minItemLevel": 1,
+          "maxItemLevel": 4,
+          "minRoll": 1,
+          "maxRoll": 2
+        },
+        {
+          "tier": 2,
+          "minItemLevel": 5,
+          "maxItemLevel": 8,
+          "minRoll": 2,
+          "maxRoll": 4
+        },
+        {
+          "tier": 3,
+          "minItemLevel": 9,
+          "maxItemLevel": 12,
+          "minRoll": 4,
+          "maxRoll": 6
+        },
+        {
+          "tier": 4,
+          "minItemLevel": 13,
+          "maxItemLevel": 16,
+          "minRoll": 6,
+          "maxRoll": 9
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 17,
+          "maxItemLevel": 20,
+          "minRoll": 8,
+          "maxRoll": 12
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 21,
+          "maxItemLevel": 40,
+          "minRoll": 12,
+          "maxRoll": 18
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 41,
+          "maxItemLevel": 60,
+          "minRoll": 18,
+          "maxRoll": 26
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 61,
+          "maxItemLevel": 80,
+          "minRoll": 26,
+          "maxRoll": 36
+        },
+        {
+          "tier": 5,
+          "minItemLevel": 81,
+          "maxItemLevel": 100,
+          "minRoll": 36,
+          "maxRoll": 50
+        }
+      ],
+      "wiki": {
+        "wikiDescription": "Increases Strength, boosting physical attack and physical defense.",
+        "lore": "Forged under heavy hammers that remember every blow.",
+        "acquisitionSource": "Uncommon, Rare, Epic, and Mythic gear drops across Lv 1–100 Rift zones and field areas.",
+        "tags": [
+          "affix",
+          "str",
+          "stat_role",
+          "lv_1_20",
+          "lv_21_100"
+        ]
+      }
+    }
+  }
+]

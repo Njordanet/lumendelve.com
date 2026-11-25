@@ -1,0 +1,720 @@
+[
+  {
+    "kind": "zone",
+    "id": "dawnlit_sanctum",
+    "name": "The Dawnlit Sanctum",
+    "wiki": {
+      "wikiDescription": "Lv 1-5 Acolyte home Rift in Sunhaven, pairing radiant light and tidal water duels.",
+      "lore": "Sea-washed cathedral halls illuminated by stained-glass rays and echoing dawn bells.",
+      "acquisitionSource": "Sunhaven Lumen Gate (Acolyte starter home zone).",
+      "tags": [
+        "dawnlit_sanctum",
+        "home_zone",
+        "lv_1_5",
+        "sunhaven",
+        "zone"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "dune_scarab",
+        "kind": "enemy",
+        "name": "Dune Scarab"
+      },
+      {
+        "id": "large_dune_scarab",
+        "kind": "enemy",
+        "name": "Large Dune Scarab"
+      },
+      {
+        "id": "large_mirage_seraph",
+        "kind": "enemy",
+        "name": "Large Mirage Seraph"
+      },
+      {
+        "id": "large_shoal_snapper",
+        "kind": "enemy",
+        "name": "Large Shoal Snapper"
+      },
+      {
+        "id": "malakor_eclipsed_choir",
+        "kind": "enemy",
+        "name": "Malakor, Eclipsed Choir"
+      },
+      {
+        "id": "mirage_seraph",
+        "kind": "enemy",
+        "name": "Mirage Seraph"
+      },
+      {
+        "id": "shoal_snapper",
+        "kind": "enemy",
+        "name": "Shoal Snapper"
+      }
+    ],
+    "data": {
+      "zoneId": "dawnlit_sanctum",
+      "name": "The Dawnlit Sanctum",
+      "cityHub": "sunhaven",
+      "biome": "dawnlit_sanctum",
+      "levelMin": 1,
+      "levelMax": 5,
+      "mobIds": [
+        "dune_scarab",
+        "shoal_snapper",
+        "mirage_seraph"
+      ],
+      "eliteIds": [
+        "large_dune_scarab",
+        "large_shoal_snapper",
+        "large_mirage_seraph"
+      ],
+      "bossId": "malakor_eclipsed_choir",
+      "mobLevelRange": [
+        1,
+        5
+      ],
+      "prefabSetId": "prefab_dawnlit_sanctum",
+      "unlock": {
+        "kind": "starter_home",
+        "baseClass": "acolyte"
+      },
+      "wiki": {
+        "wikiDescription": "Lv 1-5 Acolyte home Rift in Sunhaven, pairing radiant light and tidal water duels.",
+        "lore": "Sea-washed cathedral halls illuminated by stained-glass rays and echoing dawn bells.",
+        "acquisitionSource": "Sunhaven Lumen Gate (Acolyte starter home zone).",
+        "tags": [
+          "zone",
+          "home_zone",
+          "sunhaven",
+          "dawnlit_sanctum",
+          "lv_1_5"
+        ]
+      },
+      "trashIds": [
+        "small_dune_scarab",
+        "small_shoal_snapper",
+        "small_mirage_seraph",
+        "choir_mote",
+        "sanctum_crab",
+        "drowned_novice"
+      ]
+    }
+  },
+  {
+    "kind": "zone",
+    "id": "emberroot_hollows",
+    "name": "Emberroot Hollows",
+    "wiki": {
+      "wikiDescription": "Lv 11-15 shared Solstice volcanic root cavern testing Fire and Earth counters.",
+      "lore": "Basalt caverns threaded with smoldering world-tree roots drawing heat from magma vents.",
+      "acquisitionSource": "Solstice Lumen Gate (Unlocks at Lv 11 after clearing Sunken Causeway).",
+      "tags": [
+        "emberroot_hollows",
+        "lv_11_15",
+        "shared_zone",
+        "solstice",
+        "zone"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "charwood_idol",
+        "kind": "enemy",
+        "name": "Charwood Idol"
+      },
+      {
+        "id": "cinderhorn_stag",
+        "kind": "enemy",
+        "name": "Cinderhorn Stag"
+      },
+      {
+        "id": "ignivar_hollow_elder",
+        "kind": "enemy",
+        "name": "Ignivar, Hollow-Heart Elder"
+      },
+      {
+        "id": "large_charwood_idol",
+        "kind": "enemy",
+        "name": "Large Charwood Idol"
+      },
+      {
+        "id": "large_cinderhorn_stag",
+        "kind": "enemy",
+        "name": "Large Cinderhorn Stag"
+      },
+      {
+        "id": "large_rootcap_brute",
+        "kind": "enemy",
+        "name": "Large Rootcap Brute"
+      },
+      {
+        "id": "rootcap_brute",
+        "kind": "enemy",
+        "name": "Rootcap Brute"
+      }
+    ],
+    "data": {
+      "zoneId": "emberroot_hollows",
+      "name": "Emberroot Hollows",
+      "cityHub": "solstice",
+      "biome": "emberroot_hollows",
+      "levelMin": 11,
+      "levelMax": 15,
+      "mobIds": [
+        "charwood_idol",
+        "cinderhorn_stag",
+        "rootcap_brute"
+      ],
+      "eliteIds": [
+        "large_charwood_idol",
+        "large_cinderhorn_stag",
+        "large_rootcap_brute"
+      ],
+      "bossId": "ignivar_hollow_elder",
+      "mobLevelRange": [
+        11,
+        15
+      ],
+      "prefabSetId": "prefab_emberroot_hollows",
+      "unlock": {
+        "kind": "min_level",
+        "minLevel": 11,
+        "prerequisiteZoneId": "sunken_causeway"
+      },
+      "wiki": {
+        "wikiDescription": "Lv 11-15 shared Solstice volcanic root cavern testing Fire and Earth counters.",
+        "lore": "Basalt caverns threaded with smoldering world-tree roots drawing heat from magma vents.",
+        "acquisitionSource": "Solstice Lumen Gate (Unlocks at Lv 11 after clearing Sunken Causeway).",
+        "tags": [
+          "zone",
+          "shared_zone",
+          "solstice",
+          "emberroot_hollows",
+          "lv_11_15"
+        ]
+      },
+      "trashIds": [
+        "small_charwood_idol",
+        "small_cinderhorn_stag",
+        "small_rootcap_brute",
+        "ember_wasp",
+        "ash_pup",
+        "pyre_sentinel"
+      ]
+    }
+  },
+  {
+    "kind": "zone",
+    "id": "galehollow_canopy",
+    "name": "The Galehollow Canopy",
+    "wiki": {
+      "wikiDescription": "Lv 1-5 Scout home Rift above Vesperwood, highlighting wind, earth, and ice speed interplay.",
+      "lore": "Windswept treetop bridges suspended across colossal hollow oaks.",
+      "acquisitionSource": "Vesperwood Lumen Gate (Scout starter home zone).",
+      "tags": [
+        "galehollow_canopy",
+        "home_zone",
+        "lv_1_5",
+        "vesperwood",
+        "zone"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "bramble_boarlet",
+        "kind": "enemy",
+        "name": "Bramble Boarlet"
+      },
+      {
+        "id": "dew_mote",
+        "kind": "enemy",
+        "name": "Dew Mote"
+      },
+      {
+        "id": "galedart_hawk",
+        "kind": "enemy",
+        "name": "Galedart Hawk"
+      },
+      {
+        "id": "large_bramble_boarlet",
+        "kind": "enemy",
+        "name": "Large Bramble Boarlet"
+      },
+      {
+        "id": "large_dew_mote",
+        "kind": "enemy",
+        "name": "Large Dew Mote"
+      },
+      {
+        "id": "large_galedart_hawk",
+        "kind": "enemy",
+        "name": "Large Galedart Hawk"
+      },
+      {
+        "id": "sylvara_gale_matriarch",
+        "kind": "enemy",
+        "name": "Sylvara, Gale Matriarch"
+      }
+    ],
+    "data": {
+      "zoneId": "galehollow_canopy",
+      "name": "The Galehollow Canopy",
+      "cityHub": "vesperwood",
+      "biome": "galehollow_canopy",
+      "levelMin": 1,
+      "levelMax": 5,
+      "mobIds": [
+        "dew_mote",
+        "bramble_boarlet",
+        "galedart_hawk"
+      ],
+      "eliteIds": [
+        "large_dew_mote",
+        "large_bramble_boarlet",
+        "large_galedart_hawk"
+      ],
+      "bossId": "sylvara_gale_matriarch",
+      "mobLevelRange": [
+        1,
+        5
+      ],
+      "prefabSetId": "prefab_galehollow_canopy",
+      "unlock": {
+        "kind": "starter_home",
+        "baseClass": "scout"
+      },
+      "wiki": {
+        "wikiDescription": "Lv 1-5 Scout home Rift above Vesperwood, highlighting wind, earth, and ice speed interplay.",
+        "lore": "Windswept treetop bridges suspended across colossal hollow oaks.",
+        "acquisitionSource": "Vesperwood Lumen Gate (Scout starter home zone).",
+        "tags": [
+          "zone",
+          "home_zone",
+          "vesperwood",
+          "galehollow_canopy",
+          "lv_1_5"
+        ]
+      },
+      "trashIds": [
+        "small_dew_mote",
+        "small_bramble_boarlet",
+        "small_galedart_hawk",
+        "thorn_gnat",
+        "bramble_cub",
+        "gust_wisp"
+      ]
+    }
+  },
+  {
+    "kind": "zone",
+    "id": "ironspire_vaults",
+    "name": "The Ironspire Vaults",
+    "wiki": {
+      "wikiDescription": "Lv 1-5 Squire home Rift beneath Steel Watch, teaching physical, earth, and fire matchups.",
+      "lore": "Collapsed foundry vaults where ancient smelters still hiss beneath iron-braced arches.",
+      "acquisitionSource": "Steel Watch Lumen Gate (Squire starter home zone).",
+      "tags": [
+        "home_zone",
+        "ironspire_vaults",
+        "lv_1_5",
+        "steel_watch",
+        "zone"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "bellows_warden",
+        "kind": "enemy",
+        "name": "Bellows Warden"
+      },
+      {
+        "id": "korrath_iron_warden",
+        "kind": "enemy",
+        "name": "Korrath, Iron Warden"
+      },
+      {
+        "id": "large_bellows_warden",
+        "kind": "enemy",
+        "name": "Large Bellows Warden"
+      },
+      {
+        "id": "large_scrap_skitter",
+        "kind": "enemy",
+        "name": "Large Scrap Skitter"
+      },
+      {
+        "id": "large_slag_hopper",
+        "kind": "enemy",
+        "name": "Large Slag Hopper"
+      },
+      {
+        "id": "scrap_skitter",
+        "kind": "enemy",
+        "name": "Scrap Skitter"
+      },
+      {
+        "id": "slag_hopper",
+        "kind": "enemy",
+        "name": "Slag Hopper"
+      }
+    ],
+    "data": {
+      "zoneId": "ironspire_vaults",
+      "name": "The Ironspire Vaults",
+      "cityHub": "steel_watch",
+      "biome": "ironspire_vaults",
+      "levelMin": 1,
+      "levelMax": 5,
+      "mobIds": [
+        "scrap_skitter",
+        "slag_hopper",
+        "bellows_warden"
+      ],
+      "eliteIds": [
+        "large_scrap_skitter",
+        "large_slag_hopper",
+        "large_bellows_warden"
+      ],
+      "bossId": "korrath_iron_warden",
+      "mobLevelRange": [
+        1,
+        5
+      ],
+      "prefabSetId": "prefab_ironspire_vaults",
+      "unlock": {
+        "kind": "starter_home",
+        "baseClass": "squire"
+      },
+      "wiki": {
+        "wikiDescription": "Lv 1-5 Squire home Rift beneath Steel Watch, teaching physical, earth, and fire matchups.",
+        "lore": "Collapsed foundry vaults where ancient smelters still hiss beneath iron-braced arches.",
+        "acquisitionSource": "Steel Watch Lumen Gate (Squire starter home zone).",
+        "tags": [
+          "zone",
+          "home_zone",
+          "steel_watch",
+          "ironspire_vaults",
+          "lv_1_5"
+        ]
+      },
+      "trashIds": [
+        "small_scrap_skitter",
+        "small_slag_hopper",
+        "small_bellows_warden",
+        "cinder_mite",
+        "slag_rat",
+        "kiln_scavenger"
+      ]
+    }
+  },
+  {
+    "kind": "zone",
+    "id": "prism_vaults",
+    "name": "The Prism Vaults",
+    "wiki": {
+      "wikiDescription": "Lv 1-5 Arcanist home Rift beneath Runewick, spotlighting magic and special defense breaks.",
+      "lore": "Refractive crystal archives where fractured mirrors split ambient mana into living constructs.",
+      "acquisitionSource": "Runewick Lumen Gate (Arcanist starter home zone).",
+      "tags": [
+        "home_zone",
+        "lv_1_5",
+        "prism_vaults",
+        "runewick",
+        "zone"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "glyph_hound",
+        "kind": "enemy",
+        "name": "Glyph Hound"
+      },
+      {
+        "id": "large_glyph_hound",
+        "kind": "enemy",
+        "name": "Large Glyph Hound"
+      },
+      {
+        "id": "large_quartz_weaver",
+        "kind": "enemy",
+        "name": "Large Quartz Weaver"
+      },
+      {
+        "id": "large_refraction_wisp",
+        "kind": "enemy",
+        "name": "Large Refraction Wisp"
+      },
+      {
+        "id": "quartz_weaver",
+        "kind": "enemy",
+        "name": "Quartz Weaver"
+      },
+      {
+        "id": "refraction_wisp",
+        "kind": "enemy",
+        "name": "Refraction Wisp"
+      },
+      {
+        "id": "vaelkor_shattered_warden",
+        "kind": "enemy",
+        "name": "Vaelkor, Shattered Warden"
+      }
+    ],
+    "data": {
+      "zoneId": "prism_vaults",
+      "name": "The Prism Vaults",
+      "cityHub": "runewick",
+      "biome": "prism_vaults",
+      "levelMin": 1,
+      "levelMax": 5,
+      "mobIds": [
+        "quartz_weaver",
+        "refraction_wisp",
+        "glyph_hound"
+      ],
+      "eliteIds": [
+        "large_quartz_weaver",
+        "large_refraction_wisp",
+        "large_glyph_hound"
+      ],
+      "bossId": "vaelkor_shattered_warden",
+      "mobLevelRange": [
+        1,
+        5
+      ],
+      "prefabSetId": "prefab_prism_vaults",
+      "unlock": {
+        "kind": "starter_home",
+        "baseClass": "arcanist"
+      },
+      "wiki": {
+        "wikiDescription": "Lv 1-5 Arcanist home Rift beneath Runewick, spotlighting magic and special defense breaks.",
+        "lore": "Refractive crystal archives where fractured mirrors split ambient mana into living constructs.",
+        "acquisitionSource": "Runewick Lumen Gate (Arcanist starter home zone).",
+        "tags": [
+          "zone",
+          "home_zone",
+          "runewick",
+          "prism_vaults",
+          "lv_1_5"
+        ]
+      },
+      "trashIds": [
+        "small_quartz_weaver",
+        "small_refraction_wisp",
+        "small_glyph_hound",
+        "glint_mote",
+        "crystal_scuttler",
+        "vault_initiate"
+      ]
+    }
+  },
+  {
+    "kind": "zone",
+    "id": "shattered_lumenworks",
+    "name": "Shattered Lumenworks",
+    "wiki": {
+      "wikiDescription": "Lv 16-20 capstone Solstice Rift pitting Light and Dark conduits against delvers.",
+      "lore": "Fractured clockwork conduits humming with unstable Rift light above Solstice core.",
+      "acquisitionSource": "Solstice Lumen Gate (Unlocks at Lv 16 after clearing Emberroot Hollows).",
+      "tags": [
+        "capstone",
+        "lv_16_20",
+        "shared_zone",
+        "shattered_lumenworks",
+        "solstice",
+        "zone"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "aether_gyro",
+        "kind": "enemy",
+        "name": "Aether Gyro"
+      },
+      {
+        "id": "conduit_leech",
+        "kind": "enemy",
+        "name": "Conduit Leech"
+      },
+      {
+        "id": "flux_sentinel",
+        "kind": "enemy",
+        "name": "Flux Sentinel"
+      },
+      {
+        "id": "large_aether_gyro",
+        "kind": "enemy",
+        "name": "Large Aether Gyro"
+      },
+      {
+        "id": "large_conduit_leech",
+        "kind": "enemy",
+        "name": "Large Conduit Leech"
+      },
+      {
+        "id": "large_flux_sentinel",
+        "kind": "enemy",
+        "name": "Large Flux Sentinel"
+      },
+      {
+        "id": "vesperon_overclocked_archon",
+        "kind": "enemy",
+        "name": "Vesperon, Overclocked Archon"
+      }
+    ],
+    "data": {
+      "zoneId": "shattered_lumenworks",
+      "name": "Shattered Lumenworks",
+      "cityHub": "solstice",
+      "biome": "shattered_lumenworks",
+      "levelMin": 16,
+      "levelMax": 20,
+      "mobIds": [
+        "aether_gyro",
+        "conduit_leech",
+        "flux_sentinel"
+      ],
+      "eliteIds": [
+        "large_aether_gyro",
+        "large_conduit_leech",
+        "large_flux_sentinel"
+      ],
+      "bossId": "vesperon_overclocked_archon",
+      "mobLevelRange": [
+        16,
+        20
+      ],
+      "prefabSetId": "prefab_shattered_lumenworks",
+      "unlock": {
+        "kind": "min_level",
+        "minLevel": 16,
+        "prerequisiteZoneId": "emberroot_hollows"
+      },
+      "wiki": {
+        "wikiDescription": "Lv 16-20 capstone Solstice Rift pitting Light and Dark conduits against delvers.",
+        "lore": "Fractured clockwork conduits humming with unstable Rift light above Solstice core.",
+        "acquisitionSource": "Solstice Lumen Gate (Unlocks at Lv 16 after clearing Emberroot Hollows).",
+        "tags": [
+          "zone",
+          "shared_zone",
+          "capstone",
+          "solstice",
+          "shattered_lumenworks",
+          "lv_16_20"
+        ]
+      },
+      "trashIds": [
+        "small_aether_gyro",
+        "small_conduit_leech",
+        "small_flux_sentinel",
+        "arc_mote",
+        "gear_tick",
+        "void_sweeper"
+      ]
+    }
+  },
+  {
+    "kind": "zone",
+    "id": "sunken_causeway",
+    "name": "Sunken Causeway",
+    "wiki": {
+      "wikiDescription": "Lv 6-10 first shared Solstice Rift featuring Water and Earth aquatic ruins.",
+      "lore": "Flooded flagstones and breached sluiceways built to carry meltwater south of Solstice.",
+      "acquisitionSource": "Solstice Lumen Gate (Unlocks at Lv 6).",
+      "tags": [
+        "lv_6_10",
+        "shared_zone",
+        "solstice",
+        "sunken_causeway",
+        "zone"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "barnacle_hulk",
+        "kind": "enemy",
+        "name": "Barnacle Hulk"
+      },
+      {
+        "id": "drowned_cantor",
+        "kind": "enemy",
+        "name": "Drowned Cantor"
+      },
+      {
+        "id": "large_barnacle_hulk",
+        "kind": "enemy",
+        "name": "Large Barnacle Hulk"
+      },
+      {
+        "id": "large_drowned_cantor",
+        "kind": "enemy",
+        "name": "Large Drowned Cantor"
+      },
+      {
+        "id": "large_mire_newt",
+        "kind": "enemy",
+        "name": "Large Mire Newt"
+      },
+      {
+        "id": "mire_newt",
+        "kind": "enemy",
+        "name": "Mire Newt"
+      },
+      {
+        "id": "thalossos_mire_bell",
+        "kind": "enemy",
+        "name": "Thalossos, the Mire-Bell"
+      }
+    ],
+    "data": {
+      "zoneId": "sunken_causeway",
+      "name": "Sunken Causeway",
+      "cityHub": "solstice",
+      "biome": "sunken_causeway",
+      "levelMin": 6,
+      "levelMax": 10,
+      "mobIds": [
+        "mire_newt",
+        "barnacle_hulk",
+        "drowned_cantor"
+      ],
+      "eliteIds": [
+        "large_mire_newt",
+        "large_barnacle_hulk",
+        "large_drowned_cantor"
+      ],
+      "bossId": "thalossos_mire_bell",
+      "mobLevelRange": [
+        6,
+        10
+      ],
+      "prefabSetId": "prefab_sunken_causeway",
+      "unlock": {
+        "kind": "min_level",
+        "minLevel": 6
+      },
+      "wiki": {
+        "wikiDescription": "Lv 6-10 first shared Solstice Rift featuring Water and Earth aquatic ruins.",
+        "lore": "Flooded flagstones and breached sluiceways built to carry meltwater south of Solstice.",
+        "acquisitionSource": "Solstice Lumen Gate (Unlocks at Lv 6).",
+        "tags": [
+          "zone",
+          "shared_zone",
+          "solstice",
+          "sunken_causeway",
+          "lv_6_10"
+        ]
+      },
+      "trashIds": [
+        "small_mire_newt",
+        "small_barnacle_hulk",
+        "small_drowned_cantor",
+        "brine_flea",
+        "silt_newt",
+        "flood_bell_acolyte"
+      ]
+    }
+  }
+]

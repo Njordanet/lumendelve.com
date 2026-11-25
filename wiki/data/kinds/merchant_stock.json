@@ -1,0 +1,647 @@
+[
+  {
+    "kind": "merchant_stock",
+    "id": "stock_arm_acolyte_shawl",
+    "name": "Arm Acolyte Shawl",
+    "wiki": {
+      "wikiDescription": "NPC merchant listing offering acolyte_vestment (common armor) for 60 gold in sunhaven.",
+      "lore": "Stocked by local merchants across sunhaven to support adventurers venturing into rifts.",
+      "acquisitionSource": "Purchasable from NPC merchants in sunhaven for 60 gold.",
+      "tags": [
+        "armor",
+        "common",
+        "merchant_stock",
+        "sunhaven"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "listingId": "stock_arm_acolyte_shawl",
+      "cityId": "sunhaven",
+      "definitionId": "acolyte_vestment",
+      "category": "armor",
+      "rarity": "common",
+      "unitPriceGold": 60,
+      "usableOffline": true
+    }
+  },
+  {
+    "kind": "merchant_stock",
+    "id": "stock_arm_arcanist_vestment",
+    "name": "Arm Arcanist Vestment",
+    "wiki": {
+      "wikiDescription": "NPC merchant listing offering arcanist_vestment (common armor) for 60 gold in runewick.",
+      "lore": "Stocked by local merchants across runewick to support adventurers venturing into rifts.",
+      "acquisitionSource": "Purchasable from NPC merchants in runewick for 60 gold.",
+      "tags": [
+        "armor",
+        "common",
+        "merchant_stock",
+        "runewick"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "listingId": "stock_arm_arcanist_vestment",
+      "cityId": "runewick",
+      "definitionId": "arcanist_vestment",
+      "category": "armor",
+      "rarity": "common",
+      "unitPriceGold": 60,
+      "usableOffline": true
+    }
+  },
+  {
+    "kind": "merchant_stock",
+    "id": "stock_arm_scout_tunic",
+    "name": "Arm Scout Tunic",
+    "wiki": {
+      "wikiDescription": "NPC merchant listing offering scout_tunic (common armor) for 60 gold in vesperwood.",
+      "lore": "Stocked by local merchants across vesperwood to support adventurers venturing into rifts.",
+      "acquisitionSource": "Purchasable from NPC merchants in vesperwood for 60 gold.",
+      "tags": [
+        "armor",
+        "common",
+        "merchant_stock",
+        "vesperwood"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "listingId": "stock_arm_scout_tunic",
+      "cityId": "vesperwood",
+      "definitionId": "scout_tunic",
+      "category": "armor",
+      "rarity": "common",
+      "unitPriceGold": 60,
+      "usableOffline": true
+    }
+  },
+  {
+    "kind": "merchant_stock",
+    "id": "stock_arm_squire_hauberk",
+    "name": "Arm Squire Hauberk",
+    "wiki": {
+      "wikiDescription": "NPC merchant listing offering squire_hauberk (common armor) for 60 gold in steel_watch.",
+      "lore": "Stocked by local merchants across steel_watch to support adventurers venturing into rifts.",
+      "acquisitionSource": "Purchasable from NPC merchants in steel_watch for 60 gold.",
+      "tags": [
+        "armor",
+        "common",
+        "merchant_stock",
+        "steel_watch"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "listingId": "stock_arm_squire_hauberk",
+      "cityId": "steel_watch",
+      "definitionId": "squire_hauberk",
+      "category": "armor",
+      "rarity": "common",
+      "unitPriceGold": 60,
+      "usableOffline": true
+    }
+  },
+  {
+    "kind": "merchant_stock",
+    "id": "stock_dye_runewick",
+    "name": "Dye Runewick",
+    "wiki": {
+      "wikiDescription": "NPC merchant listing offering dye_runewick_prism (common dye) for 50 gold in runewick.",
+      "lore": "Stocked by local merchants across runewick to support adventurers venturing into rifts.",
+      "acquisitionSource": "Purchasable from NPC merchants in runewick for 50 gold.",
+      "tags": [
+        "common",
+        "dye",
+        "merchant_stock",
+        "runewick"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "listingId": "stock_dye_runewick",
+      "cityId": "runewick",
+      "definitionId": "dye_runewick_prism",
+      "category": "dye",
+      "rarity": "common",
+      "dyeTier": "basic_city_dye",
+      "unitPriceGold": 50,
+      "usableOffline": true
+    }
+  },
+  {
+    "kind": "merchant_stock",
+    "id": "stock_dye_solstice",
+    "name": "Dye Solstice",
+    "wiki": {
+      "wikiDescription": "NPC merchant listing offering dye_solstice_gold (uncommon dye) for 75 gold in solstice.",
+      "lore": "Stocked by local merchants across solstice to support adventurers venturing into rifts.",
+      "acquisitionSource": "Purchasable from NPC merchants in solstice for 75 gold.",
+      "tags": [
+        "dye",
+        "merchant_stock",
+        "solstice",
+        "uncommon"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "listingId": "stock_dye_solstice",
+      "cityId": "solstice",
+      "definitionId": "dye_solstice_gold",
+      "category": "dye",
+      "rarity": "uncommon",
+      "dyeTier": "basic_city_dye",
+      "unitPriceGold": 75,
+      "usableOffline": true
+    }
+  },
+  {
+    "kind": "merchant_stock",
+    "id": "stock_dye_steel_watch",
+    "name": "Dye Steel Watch",
+    "wiki": {
+      "wikiDescription": "NPC merchant listing offering dye_steel_watch_iron (common dye) for 50 gold in steel_watch.",
+      "lore": "Stocked by local merchants across steel_watch to support adventurers venturing into rifts.",
+      "acquisitionSource": "Purchasable from NPC merchants in steel_watch for 50 gold.",
+      "tags": [
+        "common",
+        "dye",
+        "merchant_stock",
+        "steel_watch"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "listingId": "stock_dye_steel_watch",
+      "cityId": "steel_watch",
+      "definitionId": "dye_steel_watch_iron",
+      "category": "dye",
+      "rarity": "common",
+      "dyeTier": "basic_city_dye",
+      "unitPriceGold": 50,
+      "usableOffline": true
+    }
+  },
+  {
+    "kind": "merchant_stock",
+    "id": "stock_dye_sunhaven",
+    "name": "Dye Sunhaven",
+    "wiki": {
+      "wikiDescription": "NPC merchant listing offering dye_sunhaven_dawn (common dye) for 50 gold in sunhaven.",
+      "lore": "Stocked by local merchants across sunhaven to support adventurers venturing into rifts.",
+      "acquisitionSource": "Purchasable from NPC merchants in sunhaven for 50 gold.",
+      "tags": [
+        "common",
+        "dye",
+        "merchant_stock",
+        "sunhaven"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "listingId": "stock_dye_sunhaven",
+      "cityId": "sunhaven",
+      "definitionId": "dye_sunhaven_dawn",
+      "category": "dye",
+      "rarity": "common",
+      "dyeTier": "basic_city_dye",
+      "unitPriceGold": 50,
+      "usableOffline": true
+    }
+  },
+  {
+    "kind": "merchant_stock",
+    "id": "stock_dye_vesperwood",
+    "name": "Dye Vesperwood",
+    "wiki": {
+      "wikiDescription": "NPC merchant listing offering dye_vesperwood_canopy (common dye) for 50 gold in vesperwood.",
+      "lore": "Stocked by local merchants across vesperwood to support adventurers venturing into rifts.",
+      "acquisitionSource": "Purchasable from NPC merchants in vesperwood for 50 gold.",
+      "tags": [
+        "common",
+        "dye",
+        "merchant_stock",
+        "vesperwood"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "listingId": "stock_dye_vesperwood",
+      "cityId": "vesperwood",
+      "definitionId": "dye_vesperwood_canopy",
+      "category": "dye",
+      "rarity": "common",
+      "dyeTier": "basic_city_dye",
+      "unitPriceGold": 50,
+      "usableOffline": true
+    }
+  },
+  {
+    "kind": "merchant_stock",
+    "id": "stock_elixir_minor_cast",
+    "name": "Elixir Minor Cast",
+    "wiki": {
+      "wikiDescription": "NPC merchant listing offering minor_cast_draught (common elixir) for 30 gold in all_cities.",
+      "lore": "Stocked by local merchants across all major cities to support adventurers venturing into rifts.",
+      "acquisitionSource": "Purchasable from NPC merchants in all_cities for 30 gold.",
+      "tags": [
+        "all_cities",
+        "common",
+        "elixir",
+        "merchant_stock"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "listingId": "stock_elixir_minor_cast",
+      "cityId": "all_cities",
+      "definitionId": "minor_cast_draught",
+      "category": "elixir",
+      "rarity": "common",
+      "unitPriceGold": 30,
+      "usableOffline": true
+    }
+  },
+  {
+    "kind": "merchant_stock",
+    "id": "stock_elixir_minor_heal",
+    "name": "Elixir Minor Heal",
+    "wiki": {
+      "wikiDescription": "NPC merchant listing offering minor_healing_elixir (common elixir) for 25 gold in all_cities.",
+      "lore": "Stocked by local merchants across all major cities to support adventurers venturing into rifts.",
+      "acquisitionSource": "Purchasable from NPC merchants in all_cities for 25 gold.",
+      "tags": [
+        "all_cities",
+        "common",
+        "elixir",
+        "merchant_stock"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "listingId": "stock_elixir_minor_heal",
+      "cityId": "all_cities",
+      "definitionId": "minor_healing_elixir",
+      "category": "elixir",
+      "rarity": "common",
+      "unitPriceGold": 25,
+      "usableOffline": true
+    }
+  },
+  {
+    "kind": "merchant_stock",
+    "id": "stock_elixir_minor_purify",
+    "name": "Elixir Minor Purify",
+    "wiki": {
+      "wikiDescription": "NPC merchant listing offering minor_purify_tonic (uncommon elixir) for 50 gold in all_cities.",
+      "lore": "Stocked by local merchants across all major cities to support adventurers venturing into rifts.",
+      "acquisitionSource": "Purchasable from NPC merchants in all_cities for 50 gold.",
+      "tags": [
+        "all_cities",
+        "elixir",
+        "merchant_stock",
+        "uncommon"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "listingId": "stock_elixir_minor_purify",
+      "cityId": "all_cities",
+      "definitionId": "minor_purify_tonic",
+      "category": "elixir",
+      "rarity": "uncommon",
+      "unitPriceGold": 50,
+      "usableOffline": true
+    }
+  },
+  {
+    "kind": "merchant_stock",
+    "id": "stock_elixir_minor_vitality",
+    "name": "Elixir Minor Vitality",
+    "wiki": {
+      "wikiDescription": "NPC merchant listing offering minor_vitality_elixir (uncommon elixir) for 60 gold in all_cities.",
+      "lore": "Stocked by local merchants across all major cities to support adventurers venturing into rifts.",
+      "acquisitionSource": "Purchasable from NPC merchants in all_cities for 60 gold.",
+      "tags": [
+        "all_cities",
+        "elixir",
+        "merchant_stock",
+        "uncommon"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "listingId": "stock_elixir_minor_vitality",
+      "cityId": "all_cities",
+      "definitionId": "minor_vitality_elixir",
+      "category": "elixir",
+      "rarity": "uncommon",
+      "unitPriceGold": 60,
+      "usableOffline": true
+    }
+  },
+  {
+    "kind": "merchant_stock",
+    "id": "stock_fcs_novice_prism",
+    "name": "Fcs Novice Prism",
+    "wiki": {
+      "wikiDescription": "NPC merchant listing offering initiate_focus (common focus) for 50 gold in runewick.",
+      "lore": "Stocked by local merchants across runewick to support adventurers venturing into rifts.",
+      "acquisitionSource": "Purchasable from NPC merchants in runewick for 50 gold.",
+      "tags": [
+        "common",
+        "focus",
+        "merchant_stock",
+        "runewick"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "listingId": "stock_fcs_novice_prism",
+      "cityId": "runewick",
+      "definitionId": "initiate_focus",
+      "category": "focus",
+      "rarity": "common",
+      "unitPriceGold": 50,
+      "usableOffline": true
+    }
+  },
+  {
+    "kind": "merchant_stock",
+    "id": "stock_glyph_ember_bolt",
+    "name": "Glyph Ember Bolt",
+    "wiki": {
+      "wikiDescription": "NPC merchant listing offering ember_bolt (common glyph) for 40 gold in runewick.",
+      "lore": "Stocked by local merchants across runewick to support adventurers venturing into rifts.",
+      "acquisitionSource": "Purchasable from NPC merchants in runewick for 40 gold.",
+      "tags": [
+        "common",
+        "glyph",
+        "merchant_stock",
+        "runewick"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "ember_bolt",
+        "kind": "glyph",
+        "name": "Ember Bolt"
+      }
+    ],
+    "data": {
+      "listingId": "stock_glyph_ember_bolt",
+      "cityId": "runewick",
+      "definitionId": "ember_bolt",
+      "category": "glyph",
+      "rarity": "common",
+      "glyphRank": 1,
+      "unitPriceGold": 40,
+      "usableOffline": true
+    }
+  },
+  {
+    "kind": "merchant_stock",
+    "id": "stock_glyph_heavy_slash",
+    "name": "Glyph Heavy Slash",
+    "wiki": {
+      "wikiDescription": "NPC merchant listing offering heavy_slash (common glyph) for 40 gold in steel_watch.",
+      "lore": "Stocked by local merchants across steel_watch to support adventurers venturing into rifts.",
+      "acquisitionSource": "Purchasable from NPC merchants in steel_watch for 40 gold.",
+      "tags": [
+        "common",
+        "glyph",
+        "merchant_stock",
+        "steel_watch"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "heavy_slash",
+        "kind": "glyph",
+        "name": "Heavy Slash"
+      }
+    ],
+    "data": {
+      "listingId": "stock_glyph_heavy_slash",
+      "cityId": "steel_watch",
+      "definitionId": "heavy_slash",
+      "category": "glyph",
+      "rarity": "common",
+      "glyphRank": 1,
+      "unitPriceGold": 40,
+      "usableOffline": true
+    }
+  },
+  {
+    "kind": "merchant_stock",
+    "id": "stock_glyph_light_smite",
+    "name": "Glyph Light Smite",
+    "wiki": {
+      "wikiDescription": "NPC merchant listing offering light_smite (common glyph) for 40 gold in sunhaven.",
+      "lore": "Stocked by local merchants across sunhaven to support adventurers venturing into rifts.",
+      "acquisitionSource": "Purchasable from NPC merchants in sunhaven for 40 gold.",
+      "tags": [
+        "common",
+        "glyph",
+        "merchant_stock",
+        "sunhaven"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "light_smite",
+        "kind": "glyph",
+        "name": "Light Smite"
+      }
+    ],
+    "data": {
+      "listingId": "stock_glyph_light_smite",
+      "cityId": "sunhaven",
+      "definitionId": "light_smite",
+      "category": "glyph",
+      "rarity": "common",
+      "glyphRank": 1,
+      "unitPriceGold": 40,
+      "usableOffline": true
+    }
+  },
+  {
+    "kind": "merchant_stock",
+    "id": "stock_glyph_quick_cut",
+    "name": "Glyph Quick Cut",
+    "wiki": {
+      "wikiDescription": "NPC merchant listing offering quick_cut (common glyph) for 40 gold in vesperwood.",
+      "lore": "Stocked by local merchants across vesperwood to support adventurers venturing into rifts.",
+      "acquisitionSource": "Purchasable from NPC merchants in vesperwood for 40 gold.",
+      "tags": [
+        "common",
+        "glyph",
+        "merchant_stock",
+        "vesperwood"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "quick_cut",
+        "kind": "glyph",
+        "name": "Quick Cut"
+      }
+    ],
+    "data": {
+      "listingId": "stock_glyph_quick_cut",
+      "cityId": "vesperwood",
+      "definitionId": "quick_cut",
+      "category": "glyph",
+      "rarity": "common",
+      "glyphRank": 1,
+      "unitPriceGold": 40,
+      "usableOffline": true
+    }
+  },
+  {
+    "kind": "merchant_stock",
+    "id": "stock_glyph_spark_jolt",
+    "name": "Glyph Spark Jolt",
+    "wiki": {
+      "wikiDescription": "NPC merchant listing offering spark_jolt (common glyph) for 40 gold in all_cities.",
+      "lore": "Stocked by local merchants across all major cities to support adventurers venturing into rifts.",
+      "acquisitionSource": "Purchasable from NPC merchants in all_cities for 40 gold.",
+      "tags": [
+        "all_cities",
+        "common",
+        "glyph",
+        "merchant_stock"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "spark_jolt",
+        "kind": "glyph",
+        "name": "Spark Jolt"
+      }
+    ],
+    "data": {
+      "listingId": "stock_glyph_spark_jolt",
+      "cityId": "all_cities",
+      "definitionId": "spark_jolt",
+      "category": "glyph",
+      "rarity": "common",
+      "glyphRank": 1,
+      "unitPriceGold": 40,
+      "usableOffline": true
+    }
+  },
+  {
+    "kind": "merchant_stock",
+    "id": "stock_glyph_stone_piercer",
+    "name": "Glyph Stone Piercer",
+    "wiki": {
+      "wikiDescription": "NPC merchant listing offering stone_piercer (uncommon glyph) for 75 gold in all_cities.",
+      "lore": "Stocked by local merchants across all major cities to support adventurers venturing into rifts.",
+      "acquisitionSource": "Purchasable from NPC merchants in all_cities for 75 gold.",
+      "tags": [
+        "all_cities",
+        "glyph",
+        "merchant_stock",
+        "uncommon"
+      ]
+    },
+    "resolvedLinks": [
+      {
+        "id": "stone_piercer",
+        "kind": "glyph",
+        "name": "Stone Piercer"
+      }
+    ],
+    "data": {
+      "listingId": "stock_glyph_stone_piercer",
+      "cityId": "all_cities",
+      "definitionId": "stone_piercer",
+      "category": "glyph",
+      "rarity": "uncommon",
+      "glyphRank": 1,
+      "unitPriceGold": 75,
+      "usableOffline": true
+    }
+  },
+  {
+    "kind": "merchant_stock",
+    "id": "stock_wpn_cedar_shortbow",
+    "name": "Wpn Cedar Shortbow",
+    "wiki": {
+      "wikiDescription": "NPC merchant listing offering trainee_bow (common weapon) for 50 gold in vesperwood.",
+      "lore": "Stocked by local merchants across vesperwood to support adventurers venturing into rifts.",
+      "acquisitionSource": "Purchasable from NPC merchants in vesperwood for 50 gold.",
+      "tags": [
+        "common",
+        "merchant_stock",
+        "vesperwood",
+        "weapon"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "listingId": "stock_wpn_cedar_shortbow",
+      "cityId": "vesperwood",
+      "definitionId": "trainee_bow",
+      "category": "weapon",
+      "rarity": "common",
+      "unitPriceGold": 50,
+      "usableOffline": true
+    }
+  },
+  {
+    "kind": "merchant_stock",
+    "id": "stock_wpn_iron_broadsword",
+    "name": "Wpn Iron Broadsword",
+    "wiki": {
+      "wikiDescription": "NPC merchant listing offering apprentice_sword (common weapon) for 50 gold in steel_watch.",
+      "lore": "Stocked by local merchants across steel_watch to support adventurers venturing into rifts.",
+      "acquisitionSource": "Purchasable from NPC merchants in steel_watch for 50 gold.",
+      "tags": [
+        "common",
+        "merchant_stock",
+        "steel_watch",
+        "weapon"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "listingId": "stock_wpn_iron_broadsword",
+      "cityId": "steel_watch",
+      "definitionId": "apprentice_sword",
+      "category": "weapon",
+      "rarity": "common",
+      "unitPriceGold": 50,
+      "usableOffline": true
+    }
+  },
+  {
+    "kind": "merchant_stock",
+    "id": "stock_wpn_sunforged_mace",
+    "name": "Wpn Sunforged Mace",
+    "wiki": {
+      "wikiDescription": "NPC merchant listing offering acolyte_mace (common weapon) for 50 gold in sunhaven.",
+      "lore": "Stocked by local merchants across sunhaven to support adventurers venturing into rifts.",
+      "acquisitionSource": "Purchasable from NPC merchants in sunhaven for 50 gold.",
+      "tags": [
+        "common",
+        "merchant_stock",
+        "sunhaven",
+        "weapon"
+      ]
+    },
+    "resolvedLinks": [],
+    "data": {
+      "listingId": "stock_wpn_sunforged_mace",
+      "cityId": "sunhaven",
+      "definitionId": "acolyte_mace",
+      "category": "weapon",
+      "rarity": "common",
+      "unitPriceGold": 50,
+      "usableOffline": true
+    }
+  }
+]
